@@ -1,0 +1,7 @@
+h1 Pokemon#show
+p Find me in app/views/pokemon/show.slim
+
+table.table.table-hover
+  - @pokemon.as_json.each do |key, value|
+    tr
+        td = "#{key}: #{value}"
