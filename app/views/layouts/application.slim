@@ -1,7 +1,7 @@
 doctype html
 html
   head
-    title Pokelingual
+    title Pokélingual
 
     meta content=("text/html; charset=UTF-8") http-equiv="Content-Type"
     meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -13,5 +13,8 @@ html
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
 
   body
+    nav.navbar.navbar-expand-sm.navbar-dark.bg-primary.p-0
+      a.navbar-brand.ml-2.ml-sm-3.mr-2 href="/" Pokélingual
+      span.mr-auto.text-white style="margin-top:2px" alpha
     div.container.animated.fadeIn.faster
       = yield
