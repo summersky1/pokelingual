@@ -1,8 +1,12 @@
-h1 Pokemon#home
-p Find me in app/views/pokemon/home.slim
-
-table.table.table-hover
-  - @pokemon_list.as_json.each do |pokemon|
-    tr
-      - pokemon.each do |key, value|
-        td = "#{key}: #{value}"
+h1.mt-2 Random Pokemon
+div.row
+  - @pokemon_list.each do |pokemon|
+    div.col-md-6.col-xl-4.mb-2
+      div.media.pokemon-card.bg-white-hover.shadow.my-lg-2.my-1.hand-cursor[
+          onclick="document.location = '/pokemon/#{pokemon.id}'"
+        ]
+        img.pokemon-image.ml-1 src="#{pokemon_thumbnail_image_url(pokemon.id)}"
+        div.media-body.pt-3.pb-1.px-1
+          div = pokemon.name_english
+          div = pokemon.name_japanese
+          div = pokemon.name_romaji
