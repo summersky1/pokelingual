@@ -1,7 +1,6 @@
-h1 Pokemon#show
-p Find me in app/views/pokemon/show.slim
+= image_tag(pokemon_large_image_url(@pokemon.id))
 
 table.table.table-hover
   - @pokemon.as_json.each do |key, value|
     tr
-        td = "#{key}: #{value}"
+      td = "#{key}: #{value}"
