@@ -12,9 +12,13 @@ html
     = stylesheet_link_tag 'application', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
 
-  body
+  body.sticky-footer
     nav.navbar.navbar-expand-sm.navbar-dark.bg-primary.p-0
       a.navbar-brand.ml-2.ml-sm-3.mr-2 href="/" Pokélingual
       span.mr-auto.text-white style="margin-top:2px" alpha
+
     div.container.animated.fadeIn.faster
       = yield
+
+    footer.footer.mt-auto.py-2.bg-primary.text-center
+      = "Developed by AJ"
