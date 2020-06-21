@@ -2,7 +2,7 @@ require 'csv'
 
 Pokemon.delete_all
 
-CSV.foreach('lib/pokemon.csv') do |row|
+CSV.foreach('lib/datasets/pokemon.csv', headers: true) do |row|
   Pokemon.create({
     id: row[0],
     name_english: row[1],
