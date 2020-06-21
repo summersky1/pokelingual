@@ -6,7 +6,10 @@ div.row
           onclick="document.location = '/pokemon/#{pokemon.id}'"
         ]
         img.pokemon-image.ml-1 src="#{pokemon_thumbnail_image_url(pokemon.id)}"
-        div.media-body.pt-3.pb-1.px-1
+        div.media-body.pt-sm-3.pt-2.pb-1.px-2
           div = pokemon.name_english
           div = pokemon.name_japanese
-          div = pokemon.name_romaji
+          div.mb-1 = pokemon.name_romaji
+          img.mr-1.pokemon-type src="/assets/type_#{pokemon.types[0].id}.svg"
+          - if pokemon.types[1].present?
+            img.pokemon-type src="/assets/type_#{pokemon.types[1].id}.svg"

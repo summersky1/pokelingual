@@ -21,6 +21,9 @@
   .pokemon-image {
     width: 130px;
   }
+  .pokemon-type {
+    width: 24px;
+  }
 }
 
 @include media-breakpoint-up(sm) {
@@ -29,5 +32,8 @@
   }
   .pokemon-image {
     width: 180px;
+  }
+  .pokemon-type {
+    width: 32px;
   }
 }
