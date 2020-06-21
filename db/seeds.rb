@@ -11,12 +11,14 @@ end
 
 Pokemon.delete_all
 CSV.foreach('lib/datasets/pokemon.csv', headers: true) do |row|
-  Pokemon.create({
+  pokemon = Pokemon.create({
     id: row[0],
     name_english: row[1],
     name_japanese: row[2],
     name_romaji: row[3]
   })
+  pokemon.types << (Type.find_by_english(row[4]))
+  pokemon.types << (Type.find_by_english(row[5])) if row[5].present?
 end
 
 puts "Finished seeding Pokemon data!"
