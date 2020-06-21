@@ -10,12 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_19_171248) do
+ActiveRecord::Schema.define(version: 2020_06_21_133857) do
 
   create_table "pokemons", force: :cascade do |t|
     t.string "name_english"
     t.string "name_japanese"
     t.string "name_romaji"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "types", force: :cascade do |t|
+    t.string "english"
+    t.string "japanese"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
