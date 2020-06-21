@@ -1,7 +1,15 @@
 require 'csv'
 
-Pokemon.delete_all
+Type.delete_all
+CSV.foreach('lib/datasets/types.csv', headers: true) do |row|
+  Type.create({
+    id: row[0],
+    english: row[1],
+    japanese: row[2],
+  })
+end
 
+Pokemon.delete_all
 CSV.foreach('lib/datasets/pokemon.csv', headers: true) do |row|
   Pokemon.create({
     id: row[0],
