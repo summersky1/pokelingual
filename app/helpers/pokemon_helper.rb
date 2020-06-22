@@ -10,6 +10,6 @@ module PokemonHelper
   end
 
   def type_image_url(type_id)
-    url = "/assets/type_#{type_id}.svg"
+    url = image_path("type_#{type_id}.svg")
   end
 end
