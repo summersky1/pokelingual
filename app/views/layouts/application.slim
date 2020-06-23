@@ -13,12 +13,12 @@ html
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
 
   body.sticky-footer
-    nav.navbar.navbar-expand-sm.navbar-dark.bg-primary.p-0
+    nav.navbar.navbar-expand-sm.navbar-dark.bg-danger.p-0
       a.navbar-brand.ml-2.ml-sm-3.mr-2 href="/" Pokélingual
       span.mr-auto.text-white style="margin-top:2px" alpha
 
     div.container.animated.fadeIn.faster
       = yield
 
-    footer.footer.mt-auto.py-2.bg-primary.text-center
+    footer.footer.mt-auto.py-2.bg-danger.text-center
       div.text-light = "Developed by AJ"
