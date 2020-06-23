@@ -5,8 +5,9 @@ div.row
       div.media.pokemon-card.bg-white-hover.shadow.my-lg-2.my-1.hand-cursor[
           onclick="document.location = '/pokemon/#{pokemon.id}'"
         ]
-        img.pokemon-image.ml-1 src= pokemon_thumbnail_image_url(pokemon.id)
-        div.media-body.pt-sm-3.pt-2.pb-1.px-2
+        img.pokemon-image src= pokemon_thumbnail_image_url(pokemon.id)
+        div.vertical-line.align-self-center.mx-2
+        div.media-body.pt-3.pb-1.px-2
           div = pokemon.name_english
           div = pokemon.name_japanese
           div.mb-1 = pokemon.name_romaji
