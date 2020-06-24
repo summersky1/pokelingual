@@ -20,18 +20,20 @@
 
 @include media-breakpoint-down(sm) {
   .pokemon-card {
-    height: 140px;
+    height: 142px;
   }
   .pokemon-image {
-    width: 140px;
+    width: 142px;
   }
   .vertical-line {
-    height: 120px;
+    height: 122px;
   }
   .pokemon-type {
     width: 26px;
   }
-
+  .font-size-14 {
+    font-size: 14px;
+  }
 }
 
 @include media-breakpoint-up(sm) {
@@ -46,5 +48,8 @@
   }
   .pokemon-type {
     width: 32px;
+  }
+  .font-size-18 {
+    font-size: 18px;
   }
 }
