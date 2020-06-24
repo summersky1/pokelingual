@@ -5,7 +5,7 @@ div.row
       div.media.pokemon-card.bg-white-hover.shadow.my-lg-2.my-1.hand-cursor[
           onclick="document.location = '/pokemon/#{pokemon.id}'"
         ]
-        img.pokemon-image src= pokemon_thumbnail_image_url(pokemon.id)
+        img.pokemon-image.ml-4.ml-sm-5.ml-md-2.ml-lg-5.ml-xl-3 src= pokemon_thumbnail_image_url(pokemon.id)
         div.vertical-line.align-self-center.mx-2
         div.media-body.pt-sm-3.pt-2.pb-1.px-1
           div.font-size-14 = "##{pokemon.id}"
