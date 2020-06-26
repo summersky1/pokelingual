@@ -9,6 +9,8 @@ CSV.foreach('lib/datasets/types.csv', headers: true) do |row|
   })
 end
 
+PokemonType.delete_all
+
 Pokemon.delete_all
 CSV.foreach('lib/datasets/pokemon.csv', headers: true) do |row|
   pokemon = Pokemon.create({
