@@ -18,6 +18,11 @@
   border-left: 1px solid rgba(0,0,0,0.15);
 }
 
+.attribute-name {
+  width: 140px;
+  font-weight: bold;
+}
+
 @include media-breakpoint-down(sm) {
   .pokemon-card {
     height: 142px;

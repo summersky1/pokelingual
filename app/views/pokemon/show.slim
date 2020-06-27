@@ -1,6 +1,18 @@
-= image_tag(pokemon_large_image_url(@pokemon.id))
-
-table.table.table-hover
-  - @pokemon.as_json.each do |key, value|
-    tr
-      td = "#{key}: #{value}"
+div.row.mt-2
+  div.col-lg-6.text-center
+    img src= pokemon_large_image_url(@pokemon.id)
+  div.col-lg-6
+    table.table.border-bottom.table-hover
+      tr
+        td.attribute-name = "National dex: "
+        td = "##{@pokemon.id}"
+      tr
+        td.attribute-name = "English: "
+        td = @pokemon.name_english
+      tr
+        td.attribute-name = "Japanese: "
+        td = @pokemon.name_japanese
+      tr
+        td.attribute-name = "Romaji: "
+        td = @pokemon.name_romaji
+      
