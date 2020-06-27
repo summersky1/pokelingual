@@ -2,7 +2,7 @@ div.row.mt-2
   div.col-lg-6.text-center.mb-2
     img.show-pokemon-image src= pokemon_large_image_url(@pokemon.id)
   div.col-lg-6
-    table.table.border-bottom.table-hover
+    table.table.border-bottom.table-hover.mb-0
       tr
         td.attribute-name = "National dex: "
         td = "##{@pokemon.id}"
@@ -27,4 +27,13 @@ div.row.mt-2
               img.show-pokemon-type src= type_image_url(@pokemon.types[1].id)
               div = @pokemon.types[1].english
               div.mt-n1 = @pokemon.types[1].japanese
-      
+
+table.table.border-bottom.table-hover
+  tr
+    td 
+      div
+        span.font-weight-bold = "日本語名の由来："
+        = @pokemon.name_origin_japanese
+      div
+        span.font-weight-bold = "英語名の由来："
+        = @pokemon.name_origin_japanese_for_english
