@@ -15,4 +15,10 @@ div.row.mt-2
       tr
         td.attribute-name = "Romaji: "
         td = @pokemon.name_romaji
+      tr
+        td.attribute-name = "Types: "
+        td
+          img src= type_image_url(@pokemon.types[0].id)
+          - if @pokemon.types[1].present?
+            img.ml-3 src= type_image_url(@pokemon.types[1].id)
       
