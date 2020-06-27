@@ -16,9 +16,15 @@ div.row.mt-2
         td.attribute-name = "Romaji: "
         td = @pokemon.name_romaji
       tr
-        td.attribute-name = "Types: "
+        td.attribute-name = "Type(s): "
         td
-          img src= type_image_url(@pokemon.types[0].id)
+          figure.figure.text-center.mb-0
+            img src= type_image_url(@pokemon.types[0].id)
+            div = @pokemon.types[0].english
+            div.mt-n1 = @pokemon.types[0].japanese
           - if @pokemon.types[1].present?
-            img.ml-3 src= type_image_url(@pokemon.types[1].id)
+            figure.figure.text-center.mb-0.ml-3
+              img src= type_image_url(@pokemon.types[1].id)
+              div = @pokemon.types[1].english
+              div.mt-n1 = @pokemon.types[1].japanese
       
