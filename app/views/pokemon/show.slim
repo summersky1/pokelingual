@@ -30,6 +30,10 @@ div.row.mt-2
 
 table.table.border-bottom.table-hover
   tr
+    td
+      span.font-weight-bold = "English name origin: "
+      = @pokemon.name_origin_english
+  tr
     td 
       div
         span.font-weight-bold = "日本語名の由来："

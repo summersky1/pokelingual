@@ -1,0 +1,891 @@
+#,Name,Origins
+1,Bulbasaur,bulb - a type of plant; -saur - Greek suffix meaning ‘lizard’;
+2,Ivysaur,ivy - a plant; -saur - Greek suffix meaning ‘lizard’;
+3,Venusaur,"venus - from Venus Flytrap, a meat-eating plant; -saur - Greek suffix meaning ‘lizard’;"
+4,Charmander,char - to burn or singe; salamander - lizard-like amphibian (also a mythical fire-dwelling creature);
+5,Charmeleon,char - to burn or singe; chameleon - a species of lizard;
+6,Charizard,char - to burn or singe; lizard - a reptile;
+7,Squirtle,squirt - to shoot water; turtle - water-based reptile;
+8,Wartortle,war - epic battle; tortoise - large reptile with a protective shell; turtle - water-based reptile
+9,Blastoise,blast - an explosion; tortoise - large reptile with a protective shell;
+10,Caterpie,caterpillar - a species of insect;
+11,Metapod,metamorphosis - a transformation; pod - a cocoon;
+12,Butterfree,"butterfly - a species of flying insect; free - without limit, now it’s able to fly;"
+13,Weedle,worm - an invertebrate; needle - sharp implement;
+14,Kakuna,cocoon - a pupal casing made by some insects;
+15,Beedrill,bee - a species of flying insect; drill - pointed tool;
+16,Pidgey,pigeon - a species of bird;
+17,Pidgeotto,pigeon - a species of bird;
+18,Pidgeot,pigeon - a species of bird;
+19,Rattata,rat - a rodent mammal; rat-a-tat-tat - repeated fast knocking sound;
+20,Raticate,rat - a rodent mammal; eradicate - to exterminate;
+21,Spearow,spear - pointed weapon; sparrow - a species of bird;
+22,Fearow,fear - to be scared of; sparrow - a species of bird;
+23,Ekans,snake - a species of reptile; ‘ekans’ spelled backwards is ‘snake’;
+24,Arbok,cobra - a type of snake; ‘arbok’ spelled backwards is ‘kobra’;
+25,Pikachu,pikapika - Japanese for a ‘sparkle’ sound; chu - Japanese for a ‘squeak’ sound;
+26,Raichu,rai - Japanese for ‘thunder’; chu - Japanese for ‘squeak’;
+27,Sandshrew,sand - fine debris of rocks; shrew - a rodent;
+28,Sandslash,sand - fine debris of rocks; slash - to swipe;
+29,Nidoran♀,nidoru - Japanese for ‘needle’; rhino - large African mammal; ♀ - female symbol
+30,Nidorina,nidoru - Japanese for ‘needle’; rhino - large African mammal; -a - female suffix
+31,Nidoqueen,nidoru - Japanese for ‘needle’; queen - female royalty;
+32,Nidoran♂,nidoru - Japanese for ‘needle’; rhino - large African mammal; ♂ - male symbol
+33,Nidorino,nidoru - Japanese for ‘needle’; rhino - large African mammal; -o - male suffix
+34,Nidoking,nidoru - Japanese for ‘needle’; king - male royalty;
+35,Clefairy,"clef - musical symbol; fairy - imp, sprite;"
+36,Clefable,"clef - musical symbol; fable - story, fairytale;"
+37,Vulpix,vulpine - of or relating to foxes; six - its number of tails;
+38,Ninetales,nine - its number of tails; tales - corruption of ‘tails’;
+39,Jigglypuff,"jiggle - to shake; puff - inflated, cloud-shaped;"
+40,Wigglytuff,wiggle - to shake; tough - hard;
+41,Zubat,zubatto - Japanese for a sound of something being hit; bat - cave-dwelling flying mammal;
+42,Golbat,gollop - to eat or drink quickly; bat - cave-dwelling flying mammal;
+43,Oddish,Odd - Strange or weird; radish - vegetable;
+44,Gloom,gloom - depression; bloom - blossoming;
+45,Vileplume,vile - nasty; plume - cluster of showy flowers/petals;
+46,Paras,parasite - insect/bacterium that feeds off another animal;
+47,Parasect,parasite - insect/bacterium that feeds off another animal; insect - a bug;
+48,Venonat,venom - poison; gnat - a species of insect;
+49,Venomoth,venom - poison; moth - a species of insect;
+50,Diglett,dig - remove/excavate earth; -lett - suffix meaning ‘small’;
+51,Dugtrio,dug - removed/excavated earth; trio - group of three things;
+52,Meowth,meow - the sound a cat makes;
+53,Persian,persian - a long-haired breed of cat;
+54,Psyduck,psychic - supernatural; duck - a species of bird;
+55,Golduck,gold - a color (oddly this applies to Psyduck more); duck - a species of bird;
+56,Mankey,"monkey - a species of primate; manky - inferior, worthless;"
+57,Primeape,"prime - superior; primate - set of mammals including monkeys, apes, etc; ape - a species of primate"
+58,Growlithe,growl - gruff noise made by dogs; lithe - gracefully slender;
+59,Arcanine,"arcane - ancient, mysterious; canine - of or relating to dogs;"
+60,Poliwag,polliwog - a tadpole; baby frog/toad; wag - tail movement;
+61,Poliwhirl,polliwog - a tadpole; baby frog/toad; whirl - circular pattern;
+62,Poliwrath,polliwog - a tadpole; baby frog/toad; wrath - anger;
+63,Abra,"abracadabra - magical word, sometimes used with ‘alakazam’;"
+64,Kadabra,"abracadabra - magical word, sometimes used with ‘alakazam’;"
+65,Alakazam,"alakazam - magical word, sometimes used with ‘abracadabra’;"
+66,Machop,"macho - strong, muscular; chop - A karate chop;"
+67,Machoke,"macho - strong, muscular; choke - To strangle;"
+68,Machamp,"macho - strong, muscular; champ - A winner;"
+69,Bellsprout,"bell - ringing device (shape); sprout - grow, bloom;"
+70,Weepinbell,"weeping - sad, drooping; bell - ringing device (shape);"
+71,Victreebel,victory - a win achieved over someone; tree - large plant with a trunk; bell - ringing device (shape)
+72,Tentacool,"tentacle - the ‘limb’ of a sea creature; cool - low temperature, impressive;"
+73,Tentacruel,tentacle - the ‘limb’ of a sea creature; cruel - mean;
+74,Geodude,geo- - of or relating to the Earth; dude - person (usually male);
+75,Graveler,gravel - small rocks/pebbles;
+76,Golem,golem - stone figure from Jewish folklore;
+77,Ponyta,pony - a small horse; ponytail - a hairstyle that resembles a pony’s tail;
+78,Rapidash,rapid - fast; ash - remains of a fire; dash - move quickly
+79,Slowpoke,slow - not fast; slowpoke - nickname for a slow person;
+80,Slowbro,"slow - not fast; bro - friend, pal;"
+81,Magnemite,magnet - attracting object; mite - small thing;
+82,Magneton,magnet - attracting object; ton - large or heavy object;
+83,Farfetch'd,"far-fetched - improbable, unlikely;"
+84,Doduo,dodo - extinct bird; duo - group of two;
+85,Dodrio,dodo - extinct bird; trio - group of three;
+86,Seel,seal - aquatic mammal;
+87,Dewgong,dugong - aquatic mammal; dew - moisture often found on grass or plants;
+88,Grimer,grime - dirt;
+89,Muk,muck - dirt;
+90,Shellder,shell - hard cover; shelter - to protect;
+91,Cloyster,clam - marine creature; oyster - marine creature; cloister - to confine or seclude oneself
+92,Gastly,gas - air-like fluid substance; ghastly - horrifying;
+93,Haunter,haunter - a person who scares others;
+94,Gengar,doppelgänger - a person’s exact double or ‘shadow’;
+95,Onix,onyx - a type of rock;
+96,Drowzee,"drowsy - tired, sleepy; zee - the letter ‘z’, often used to denote sleep;"
+97,Hypno,hypnosis - a trance or sleep;
+98,Krabby,"crab - marine creature; crabby - irritable, bad-tempered;"
+99,Kingler,king - a species of crab; royalty; fiddler - a species of crab;
+100,Voltorb,volt - unit of electricity; orb - spherical object;
+101,Electrode,electrode - electrical conductor; explode - to self-destruct;
+102,Exeggcute,egg - oval object in which animals develop; execute - to exterminate;
+103,Exeggutor,egg - oval object in which animals develop; executor - an exterminator;
+104,Cubone,cub - baby animal; bone - structure making up a skeleton;
+105,Marowak,marrow - material inside bone; whack - to hit;
+106,Hitmonlee,"hit - to strike; mon - monster; lee - from Bruce Lee, martial arts actor"
+107,Hitmonchan,"hit - to strike; mon - monster; chan - from Jackie Chan, martial arts actor"
+108,Lickitung,lick - touch with the tongue; tongue - muscle in mouth;
+109,Koffing,coughing - expulsion of air from the lungs;
+110,Weezing,wheezing - breathing with difficulty;
+111,Rhyhorn,rhino - large African mammal; horn - the spike on a rhino’s head;
+112,Rhydon,rhino - large African mammal; don - of great size/importance; lord or master;
+113,Chansey,chance - probability;
+114,Tangela,tangle - twisted mesh of strands (e.g. vines);
+115,Kangaskhan,kangaroo - Australian mammal; Genghis Khan - Mongolian leader;
+116,Horsea,seahorse - marine creature; horsie - cutesy slang for ‘horse’;
+117,Seadra,sea - large body of water; dragon - mythical fire-breathing creature;
+118,Goldeen,goldfish - a species of fish; queen - royalty;
+119,Seaking,sea - large body of water; king - royalty;
+120,Staryu,starfish - marine creature; you - opposite of me (from Starmie);
+121,Starmie,starfish - marine creature; me - opposite of you (from Staryu);
+122,Mr. Mime,Mr. - male title of respect; mime artist - a silent performer;
+123,Scyther,scythe - sword-like implement;
+124,Jynx,jinx - curse or bad luck;
+125,Electabuzz,"electricity - energy from electric currents; buzz - low humming sound, as in electricity;"
+126,Magmar,"magma - the melted rock in a volcano; mar - damage, spoil;"
+127,Pinsir,pincer - crab’s claw; sir - noble title;
+128,Tauros,Taurus - mythical Greek bull & star sign;
+129,Magikarp,magic - illusions; carp - a species of fish;
+130,Gyarados,gyre - thrash and turn about;
+131,Lapras,Loch Ness - lake where the mythical ‘Loch Ness Monster’ (on which Lapras is based) supposedly resides;
+132,Ditto,ditto - a duplicate or copy;
+133,Eevee,E-V - short for ‘evolution’;
+134,Vaporeon,vapor - water mist; eon - long period of time (implying evolution);
+135,Jolteon,jolt - a sudden movement or burst of electricity; eon - long period of time (implying evolution);
+136,Flareon,flare - burst of fire; eon - long period of time (implying evolution);
+137,Porygon,polygon - a many sided figure;
+138,Omanyte,ammonite - shell fossil; -ite - suffix meaning ‘closely related’;
+139,Omastar,ammonite - shell fossil; star - pointed shape;
+140,Kabuto,kabuto - type of helmet used by ancient Japanese warriors;
+141,Kabutops,kabuto - type of helmet used by ancient Japanese warriors; top - above;
+142,Aerodactyl,aero- - flying prefix; pterodactyl - prehistoric flying reptile;
+143,Snorlax,snore - sound made during sleeping; lax - lazy;
+144,Articuno,arctic - relating to the (cold) regions around the North Pole; uno - Spanish for one;
+145,Zapdos,zap - relating to the sound of striking electricity; dos - Spanish for two;
+146,Moltres,molten - liquified by heating; tres - Spanish for three;
+147,Dratini,dragon - mythical fire-breathing creature; tiny - small;
+148,Dragonair,dragon - mythical fire-breathing creature; air - relating to its majesty;
+149,Dragonite,dragon - mythical fire-breathing creature; knight - noble cavalier;
+150,Mewtwo,mew - cat sound; two - the second iteration of Mew;
+151,Mew,mew - cat sound;
+152,Chikorita,chicory - flowering plant; -ita - Spanish suffix meaning ‘small’;
+153,Bayleef,bay - a type of tree; leaf - plant foliage;
+154,Meganium,"mega - large, biggest; geranium - a type of plant;"
+155,Cyndaquil,cinder - ashes; quill - sharp feather/needle;
+156,Quilava,quill - sharp feather/needle; lava - magma that flows out of a volcano;
+157,Typhlosion,"typhoon - tropical cyclone; explosion - eruption, blast;"
+158,Totodile,tot - a small child; crocodile - a species of reptile;
+159,Croconaw,crocodile - a species of reptile; gnaw - to chew on;
+160,Feraligatr,"feral - menacing, ferocious; alligator - a species of reptile;"
+161,Sentret,sentry - a guard; ferret - a rodent mammal;
+162,Furret,fur - soft hair coating; ferret - a mammal in the weasel family;
+163,Hoothoot,hoot - a sound that owls make;
+164,Noctowl,nocturnal - active at night; owl - a species of bird;
+165,Ledyba,ladybird - a species of insect (aka ladybug);
+166,Ledian,ladybird - a species of insect (aka ladybug);
+167,Spinarak,spinneret - spider silk secreter; arachnid - a spider;
+168,Ariados,arachnid - a spider; dos - Spanish word for two;
+169,Crobat,cross - intersecting lines; bat - cave-dwelling flying mammal;
+170,Chinchou,chochin - Japanese for ‘lantern’;
+171,Lanturn,"lantern - a candle/light in a case; urn - vase, container (Lanturn swallows prey whole);"
+172,Pichu,pika - a small mouse-like mammal; chu - Japanese for ‘squeak’;
+173,Cleffa,clef - musical symbol;
+174,Igglybuff,jiggly/wiggly - from later evolutions Jigglypuff/Wigglytuff; buff - to shine;
+175,Togepi,togi - spike; pi - to chirp;
+176,Togetic,togi - spike; tic - chick;
+177,Natu,"Atu - the first man, in Samoan mythology;"
+178,Xatu,"X - exotic; Atu - the first man, in Samoan mythology;"
+179,Mareep,Mary - the girl in the poem ‘Mary Had a Little Lamb’; sheep - a species of mammal;
+180,Flaaffy,"fluffy - soft, cute; baa - sheep noise;"
+181,Ampharos,ampere - unit of electrical current; pharos - Greek for lighthouse; pharaoh - Ancient Egyptian ruler (which Ampharos is designed after)
+182,Bellossom,bell - ringing device (shape); blossom - plant flowers;
+183,Marill,"marine - of or relating to the sea; rill - brook, small river;"
+184,Azumarill,"azul - blue; marine - of or relating to the sea; rill - brook, small river"
+185,Sudowoodo,pseudo- - prefix meaning ‘false’ (Sudowoodo is based on petrified wood); wood - matter that trees are made of;
+186,Politoed,poliwog - tadpole; toad - a species of amphibian;
+187,Hoppip,hop - jump on one leg; pip - seed;
+188,Skiploom,skip - walking with steps and hops; bloom - blossoming;
+189,Jumpluff,jump - as in hop-skip-jump; fluff - light downy material;
+190,Aipom,ape - a species of primate; palm - referring to hand; pom-pom - cheerleading decoration
+191,Sunkern,sunflower - flower with yellow petals that looks like the Sun; kernel - inner part of a seed/stone; sunken - settled into the ground
+192,Sunflora,sunflower - flower with yellow petals that looks like the Sun; flora - relating to plants;
+193,Yanma,yanma - Japanese for ‘large dragonfly’;
+194,Wooper,Wooper Looper - Japanese name for a pet salamander/axolotl;
+195,Quagsire,"quagmire - swamp, quicksand; sire - master, lord;"
+196,Espeon,ESP - Extra Sensory Perception; psychic power; eon - long period of time (implying evolution);
+197,Umbreon,umbra - darkest part of a shadow; eon - long period of time (implying evolution);
+198,Murkrow,"murky - dark, gloomy; crow - a species of bird; murder - a group of crows"
+199,Slowking,slow - not fast; king - royalty;
+200,Misdreavus,"mischievous - naughty; dream - mental images seen during sleep; reave - rob, steal"
+201,Unown,unknown - not known ;);
+202,Wobbuffet,wobble - rocking motion; buffet - strike repeatedly (relating to Wobbuffet’s punching bag shape);
+203,Girafarig,"giraffe - long-necked African mammal; [palindrome] - Girafarig reads the same backwards as forwards, reflecting its symmetric design;"
+204,Pineco,pine cone - seed of a pine tree;
+205,Forretress,"fortress - defensive structure, e.g. a castle; turret - castle/fortress tower, often holding weapons;"
+206,Dunsparce,dun - yellow; sparse - rare;
+207,Gligar,glide - fly smoothly; gargoyle - grotesque carved ornament;
+208,Steelix,steel - a metal alloy; onyx - a type of rock; Onix is Steelix’s prevolution;
+209,Snubbull,snub - feeling of disdain; flattened nose; bulldog - gruff breed of dog;
+210,Granbull,"grand - large, impressive; bulldog - gruff breed of dog;"
+211,Qwilfish,quill - sharp feather used for writing with ink; fish - marine creature;
+212,Scizor,scissor(s) - cutting implements;
+213,Shuckle,shuck - hard shell of nuts or oysters; turtle - water-based reptile;
+214,Heracross,Hercules - Greek god (aka Heracles) and type of beetle; cross - intersecting lines;
+215,Sneasel,"sneaky - crafty, deceitful; weasel - small mammal with a long body;"
+216,Teddiursa,teddy - stuffed toy; ursa - Latin for ‘bear’;
+217,Ursaring,"ursa - Latin for ‘bear’; ring - circle, target; refers to its design;"
+218,Slugma,slug - snail-like terrestrial gastropod; magma - the melted rock in a volcano;
+219,Magcargo,magma - the melted rock in a volcano; escargot - French for ‘snail’;
+220,Swinub,swine - of or relating to pigs; nub - lump/knob (referring to its nose);
+221,Piloswine,pilose - covered with hair; swine - of or relating to pigs;
+222,Corsola,coral - hard skeleton secreted by certain marine creatures; solar - of or relating to the Sun;
+223,Remoraid,remora - fish that affixes itself to other marine creatures; raid - sudden attack;
+224,Octillery,octopus - marine creature with eight tentacles; artillery - weapons;
+225,Delibird,deliver - transport an item to the recipient; Adélie - a species of penguin; bird - winged animal
+226,Mantine,manta ray - marine creature; tine - sharp point or fork;
+227,Skarmory,"sky - the air, where birds fly; armory - storage unit for weapons;"
+228,Houndour,"hound - to hunt or pursue, like a dog; dour - sullen, gloomy;"
+229,Houndoom,"hound - to hunt or pursue, like a dog; doom - adverse fate;"
+230,Kingdra,king - royalty; dragon - mythical fire-breathing creature;
+231,Phanpy,elephant - large mammal with a trunk; pygmy - a small creature;
+232,Donphan,don - of great size/importance; lord or master; elephant - large mammal with a trunk;
+233,Porygon2,polygon - a many sided figure; two - as in ‘Version 2’;
+234,Stantler,stag - male deer; antler - a deer’s ‘horns’;
+235,Smeargle,"smear - smudge (e.g. ink, paint); beagle - a breed of dog;"
+236,Tyrogue,"tyro - beginner, novice; rogue - a mischievous person;"
+237,Hitmontop,hit - to strike; mon - monster; top - spinning top on which it’s based
+238,Smoochum,smooch - to kiss; smooch ‘em - smooch them;
+239,Elekid,electricity - energy from electric currents; kid - a child;
+240,Magby,magma - the melted rock in a volcano; baby - newborn child;
+241,Miltank,milk - white liquid from cows; tank - large storage unit or heavily amored vehicle;
+242,Blissey,bliss - happiness (required for evolution from Chansey);
+243,Raikou,rai - Japanese for ‘thunder’; kotei - Japanese for ‘emperor’;
+244,Entei,enten - Japanese for ‘blazing heat’; kotei - Japanese for ‘emperor’;
+245,Suicune,sui - Japanese for ‘water’; kun - Japanese for ‘monarch’;
+246,Larvitar,larva - young feeding stage of an insect; tar - from Latin ‘tardus’ meaning slow;
+247,Pupitar,pupae - immobile cocoon stage of an insect; tar - from Latin ‘tardus’ meaning slow;
+248,Tyranitar,Tyrannosaurus - a large bipedal dinosaur; tar - from Latin ‘tardus’ meaning slow;
+249,Lugia,luego - Latin for ‘lie dormant’;
+250,Ho-oh,Hōō - Chinese phoenix;
+251,Celebi,celestial - heavenly; being - one’s existence;
+252,Treecko,tree - large plant with a trunk; gecko - tropical lizard;
+253,Grovyle,grove - small wood or forest; reptile - animal with scales;
+254,Sceptile,sceptre - wand used by royalty; reptile - animal with scales;
+255,Torchic,torch - a piece of wood alight; chick - baby bird/chicken;
+256,Combusken,combustion - state where something bursts into flames; chicken - a species of bird;
+257,Blaziken,blaze - a bright fire; chicken - a species of bird;
+258,Mudkip,mudskipper - amphibious fish;
+259,Marshtomp,marsh - boggy area; stomp - step on with force;
+260,Swampert,swamp - boggy area; expert - possessing special skill or knowledge;
+261,Poochyena,pooch - slang for ‘dog’; hyena - dog-like African mammal;
+262,Mightyena,mighty - powerful; hyena - dog-like African mammal;
+263,Zigzagoon,zigzag - line that sharply weaves back and forth; raccoon - a small nocturnal carnivore;
+264,Linoone,line - continuous straight; raccoon - a small nocturnal carnivore;
+265,Wurmple,"worm - long, thin invertebrate creature; apple - a fruit, often eaten by worms;"
+266,Silcoon,silk - material produced by some insects; cocoon - a pupal casing made by some insects;
+267,Beautifly,beautiful - pleasing to the eye; butterfly - a species of flying insect;
+268,Cascoon,cask - hard container; cocoon - a pupal casing made by some insects;
+269,Dustox,"dust - fine, dry particles; toxic - poisonous;"
+270,Lotad,"lotus - a type of flower; lily pad - large, floating leaf of a water lily;"
+271,Lombre,lotus - a type of flower; sombrero - wide-brimmed Mexican hat;
+272,Ludicolo,ludic - playful in an aimless way; colocynth - tropical plant similar to watermelon;
+273,Seedot,seed - premature ungrown plant; tot - a small child;
+274,Nuzleaf,nuzzle - to burrow with the nose; leaf - plant foliage;
+275,Shiftry,"shifty - deceptive, evasive; tree - large plant with a trunk;"
+276,Taillow,tail - hindmost part of an animal; swallow - a species of bird;
+277,Swellow,swell - expand; swallow - a species of bird;
+278,Wingull,wing - forelimb of a bird that enables flight; gull - a species of bird;
+279,Pelipper,pelican - a large seabird; flipper - referring to its wings;
+280,Ralts,astral - (anagram) relating to the stars; waltz - a type of dance;
+281,Kirlia,kirlian - a type of photography concerned with psychic aura;
+282,Gardevoir,garde - French for ‘guard’; voir - French for ‘see’;
+283,Surskit,"surface - outside or top of an object, e.g. a lake; skitter - to skim along a surface (esp. water);"
+284,Masquerain,masquerade - costume/disguise or a facade; rain - precipitation;
+285,Shroomish,"shroom - short for ‘mushroom’, a fungus; -ish - suffix meaning ‘like’ or ‘partly’;"
+286,Breloom,"umbrella - a dome shape, referring to Breloom’s head; mushroom - a fungus;"
+287,Slakoth,slack - slow or lazy; full name sounds like ‘slack off’; sloth - a mammal commonly known for being slow;
+288,Vigoroth,"vigor - energy, strength; sloth - a mammal commonly known for being slow;"
+289,Slaking,slack - slow or lazy; full name sounds like ‘slacking’; king - royalty;
+290,Nincada,ninja - stealthy martial art; cicada - a species of insect;
+291,Ninjask,"ninja - stealthy martial art; mask - costume, disguise;"
+292,Shedinja,shed - to remove a shell or skin; ninja - stealthy martial art;
+293,Whismur,whisper - speak very quietly; murmur - mumble quietly;
+294,Loudred,loud - (of sound) high in volume; dread - fear;
+295,Exploud,"explode - blow up, erupt; loud - (of sound) high in volume;"
+296,Makuhita,makushita - a division of sumo wrestling;
+297,Hariyama,hariyama - a division of sumo wrestling;
+298,Azurill,azure - a blue color; rill - small brook or river;
+299,Nosepass,nose - facial feature; compass - instrument that determines direction;
+300,Skitty,skitty - absent-minded; kitty - a young cat;
+301,Delcatty,"delicate - fragile, dainty; catty - referring to cats;"
+302,Sableye,sable - a mammal in the weasel family; eye - the organ of sight;
+303,Mawile,"maw - the jaw of a voracious mammal; wile - deceitful cunning, trickery;"
+304,Aron,armor - tough protective shell or clothing; iron - heavy/tough metal;
+305,Lairon,lairy - aggressive (British slang); iron - heavy/tough metal;
+306,Aggron,aggressive - always fighting; iron - heavy/tough metal;
+307,Meditite,meditate - to engage in thought or contemplation; -ite - suffix meaning ‘closely related’;
+308,Medicham,meditate - to engage in thought or contemplation; champion - winner over all others;
+309,Electrike,electricity - energy from electric currents; strike - to hit (incl. with lightning);
+310,Manectric,mane - long hair around the neck of animals such as lions; electricity - energy from electric currents;
+311,Plusle,plus - a positive charge;
+312,Minun,minus - a negative charge;
+313,Volbeat,volt - unit of electricity; beat - rhythym;
+314,Illumise,illuminate - bring light to;
+315,Roselia,rose - a type of flower; buddleia - a type of flower;
+316,Gulpin,gulping - noise of swallowing;
+317,Swalot,swallow - to eat; a lot - many;
+318,Carvanha,"carnivore - meat-eating creature; piranha - a species of fish, occasionally carnivorous;"
+319,Sharpedo,"shark - large, voracious fish; torpedo - weapon used underwater;"
+320,Wailmer,"whale - large aquatic mammal; mere - not more, small;"
+321,Wailord,"whale - large aquatic mammal; lord - master, sire;"
+322,Numel,numb - lacking in feeling; camel - hump-backed mammal commonly found in desert areas;
+323,Camerupt,"camel - hump-backed mammal commonly found in desert areas; erupt - explode, eject molten lava from a volcano;"
+324,Torkoal,tortoise - large reptile with a protective shell; coal - black substance used as fuel;
+325,Spoink,spring - a coil that enables a bouncing action; oink - the noise a pig makes;
+326,Grumpig,"grumpy - unhappy, grouchy; pig - farmyard animal;"
+327,Spinda,spin - rotate around; panda - large mammal native to China;
+328,Trapinch,"trap - device used to capture creatures; pinch - squeeze, compress;"
+329,Vibrava,vibrate - shake rapidly; larva - young feeding stage of an insect;
+330,Flygon,dragonfly - a species of flying insect;
+331,Cacnea,cactus - a desert plant; -ea - Latin suffix;
+332,Cacturne,cactus - a desert plant; nocturnal - relating to the night;
+333,Swablu,swab - a piece of cotton (referring to Swablu’s wings); blue - a color;
+334,Altaria,alto - high-pitched vocal sound; aria - an air or melody;
+335,Zangoose,san - Japanese for ‘cut down’; mongoose - weasel-like mammal;
+336,Seviper,sever - cut or separate; viper - a species of snake;
+337,Lunatone,lunar - of or relating to the Moon; stone - small rock;
+338,Solrock,"solar - of or relating to the Sun; rock - stone, boulder;"
+339,Barboach,barb - a small spike; loach - a species of fish;
+340,Whiscash,whisker - hair growing from the mouth; catfish - a species of fish;
+341,Corphish,crawfish - a lobster-like crustacean; fish - marine creature;
+342,Crawdaunt,crawfish - a lobster-like crustacean; daunt - overcome with fear;
+343,Baltoy,balance - state of equilibrium; toy - plaything;
+344,Claydol,clay - hard substance used for crockery and decorations; doll - plaything; dreidel - Jewish spinning top
+345,Lileep,lily - a type of plant; creeper - plant or root that grows underground;
+346,Cradily,cradle - to hold gently or protectively; lily - a type of plant;
+347,Anorith,anomalocaris - an ancient fossilised shrimp; -lith - suffix referring to rock;
+348,Armaldo,armor - tough protective shell or clothing; armadilo - mammal with a tough shell;
+349,Feebas,feeble - weak; bass - a species of fish;
+350,Milotic,Venus de Milo - sculpture known for its beauty; exotic - foreign or unusual; beautiful;
+351,Castform,"forecast - to predict, esp. weather; form - state or shape (referring to Castform’s ability);"
+352,Kecleon,kakureru - from its Japanese name meaning ‘to hide’; chameleon - lizard known for its ability to adapt to its surroundings;
+353,Shuppet,"shadow - dark area created by blocking out light; puppet - referring to ‘shadow puppet’, casting shadow shapes with one’s hands;"
+354,Banette,bane - something that ruins or spoils; marionette - a type of puppet manipulated by strings;
+355,Duskull,dusk - the partial darkness between day and night; skull - the bony framework of the head;
+356,Dusclops,dusk - the partial darkness between day and night; cyclops - a monster with one eye;
+357,Tropius,tropical - of or relating to the rainforest; -saurus - Greek suffix meaning ‘lizard’;
+358,Chimecho,chime - to ring out (e.g. a bell); echo - (of sound) to reverberate;
+359,Absol,absolution - freeing oneself from guilt;
+360,Wynaut,why not - how its name is pronounced;
+361,Snorunt,snow - frozen precipitation; runt - the smallest of a litter of animals;
+362,Glalie,glacier - large mass of ice; goalie - a goalkeeper; Glalie’s design is based on an ice hockey goalie;
+363,Spheal,sphere - ball shape; seal - marine creature;
+364,Sealeo,seal - marine creature; leo - Latin for ‘lion’;
+365,Walrein,"walrus - marine creature; reign - to rule over others, like royalty;"
+366,Clamperl,clam - hard-shelled marine creature; pearl - gem found in clams/oysters; clamp - to grip or shut tightly
+367,Huntail,hunt - chase or forage for food; tail - hindmost part of an animal;
+368,Gorebyss,gore - to pierce with a horn or tusk; abyss - deep gulf or crag;
+369,Relicanth,relic - very old object; antique; coelacanths - ancient fossilised fish;
+370,Luvdisc,love - profound affection; disc - circular shape;
+371,Bagon,baby - newborn child; dragon - mythical fire-breathing creature;
+372,Shelgon,shell - hard cover; dragon - mythical fire-breathing creature;
+373,Salamence,"salamander - lizard-like amphibian; menace - brutal, violent;"
+374,Beldum,dumbbell - small training weight;
+375,Metang,metal - solid material; tang - sound of metal being struck;
+376,Metagross,"metal - solid material; gross - great, large;"
+377,Regirock,"regi - (Latin) of or relating to royalty; rock - stone, boulder;"
+378,Regice,regi - (Latin) of or relating to royalty; ice - frozen water;
+379,Registeel,regi - (Latin) of or relating to royalty; steel - a metal alloy;
+380,Latias,lateo - to lie hidden; -as - female suffix;
+381,Latios,lateo - to lie hidden; -os - male suffix;
+382,Kyogre,kai - Japanese for ‘ocean’; orca - a species of whale;
+383,Groudon,ground - the earth; don - of great size/importance; lord or master;
+384,Rayquaza,ray - beam of light; quasar - distant star;
+385,Jirachi,sachi - Japanese for ‘wish’;
+386,Deoxys,"deoxyribonucleic acid - the full technical name for DNA, the core genetic material for all living things;"
+387,Turtwig,turtle - water-based reptile; twig - a small tree branch;
+388,Grotle,grove - a small wood or forest; turtle - water-based reptile;
+389,Torterra,tortoise - large reptile with a protective shell; terra - Latin for ‘earth’;
+390,Chimchar,chimp - a species of primate; char - to burn or singe;
+391,Monferno,monkey - a species of primate; inferno - a raging fire;
+392,Infernape,inferno - a raging fire; ape - a species of primate;
+393,Piplup,pip - to hatch from an egg; plup - dripping water sound;
+394,Prinplup,prince - heir to a throne of an emperor or king; plup - dripping water sound;
+395,Empoleon,emperor - ruler; a species of penguin; Napoleon - French naval leader;
+396,Starly,starling - a species of bird;
+397,Staravia,starling - a species of bird; avian - relating to birds;
+398,Staraptor,starling - a species of bird; raptor - a voracious bird;
+399,Bidoof,"biber - German for ‘beaver’, a rodent; tooth - hard object in the mouth for biting/chewing food;"
+400,Bibarel,"biber - German for ‘beaver’, a rodent; barrel - wooden container often holding water or liquid;"
+401,Kricketot,cricket - a species of insect; tot - a small child;
+402,Kricketune,cricket - a species of insect; tune - music;
+403,Shinx,shine - to glow brightly; lynx - wildcat;
+404,Luxio,lux - unit of brightness; leo - Latin for ‘lion’;
+405,Luxray,lux - unit of brightness; x-ray - electromagnetic radiation that can ‘see through’ certain objects;
+406,Budew,bud - closed flower; dew - moisture often found on grass or plants;
+407,Roserade,rose - a type of flower; masquerade - costume/disguise or a facade;
+408,Cranidos,"cranium - brain or head, referring to Cranidos’ thick skull; -dos - common dinosaur suffix;"
+409,Rampardos,rampart - defensive wall; -dos - common dinosaur suffix;
+410,Shieldon,shield - protective armor; -don - common dinosaur suffix;
+411,Bastiodon,bastion - a structure protruding from a fortification; -don - common dinosaur suffix;
+412,Burmy,bagworm - a species of moth; wormy - worm-like;
+413,Wormadam,bagworm - a species of moth; madam - referring to a female;
+414,Mothim,moth - a species of insect; him - referring to a male;
+415,Combee,honeycomb - hexagonal structure storing honey in a beehive; bee - a species of flying insect;
+416,Vespiquen,vespine - of or relating to wasps; queen - female royalty;
+417,Pachirisu,pachipachi - Japanese for ‘electric crackling’; risu - Japanese for ‘squirrel’;
+418,Buizel,buoy - floating marker in the sea (usually orange); weasel - small mammal with a long body;
+419,Floatzel,float - to rest on a surface of liquid; weasel - small mammal with a long body;
+420,Cherubi,"cherry - a small fruit that grows on trees; cherubim - sweet, innocent child;"
+421,Cherrim,"cherry - a small fruit that grows on trees; cherubim - sweet, innocent child;"
+422,Shellos,shell - hard cover; lost - missing (it has no shell);
+423,Gastrodon,"gastropod - set of creatures including snails, whelks and slugs; don - of great size/importance; lord or master;"
+424,Ambipom,ambi- - prefix meaning ‘both’; palm - referring to hand; pom-pom - cheerleading decoration
+425,Drifloon,drift - to float through the air; balloon - object that contains helium and floats;
+426,Drifblim,drift - to float through the air; blimp - a floating air ship;
+427,Buneary,"bunny - slang for rabbit, a small mammal with long ears; ear - body part that senses sound;"
+428,Lopunny,"lop-eared - type of rabbit whose ears droop down; bunny - slang for rabbit, a small mammal with long ears;"
+429,Mismagius,mischief - annoying or disruptive actions; magus - magic-wielding characters in fantasy & fiction;
+430,Honchkrow,"honcho - leader, boss; crow - a species of bird;"
+431,Glameow,glamour - expensive good looks; meow - the sound a cat makes;
+432,Purugly,purr - sound a cat makes when content; ugly - unpleasant looking;
+433,Chingling,chime - to ring out (e.g. a bell); jingling - the sound of a bell ringing;
+434,Stunky,skunk - rodent known for emitting a foul smell; stinky - unpleasant smelling;
+435,Skuntank,skunk - rodent known for emitting a foul smell; tank - an armored vehicle;
+436,Bronzor,bronze - a type of metal; mirror - reflective piece of glass;
+437,Bronzong,bronze - a type of metal; dong - the deep chime of a bell;
+438,Bonsly,bonsai - a miniature tree; sly - clever or tricky;
+439,Mime Jr.,mime artist - a silent performer; junior - younger;
+440,Happiny,happy - joyful; tiny - small;
+441,Chatot,chat - to talk; tot - a small child;
+442,Spiritomb,spirit - a ghost; tomb - a burial chamber;
+443,Gible,gargoyle - grotesque carved ornament; nibble - make small bites;
+444,Gabite,gargoyle - grotesque carved ornament; bite - cut or wound with the teeth;
+445,Garchomp,gargoyle - grotesque carved ornament; chomp - bite down heavily;
+446,Munchlax,"munch - to eat; relax - chill out, slacken;"
+447,Riolu,"orichalcum - an ancient, mythical metal (‘Riolu’ is the Japanese syllables switched around);"
+448,Lucario,"orichalcum - an ancient, mythical metal (‘Lucario’ is the Japanese syllables reversed);"
+449,Hippopotas,hippopotamus - large African mammal;
+450,Hippowdon,hippopotamus - large African mammal; powder - fine grains e.g. sand; -don - common dinosaur suffix; Greek for ‘tooth’
+451,Skorupi,scorpion - creature with pincers and a stinger in its tail;
+452,Drapion,dragon - mythical fire-breathing creature; scorpion - creature with pincers and a stinger in its tail;
+453,Croagunk,croak - the sound a frog makes; gunk - slimy or oily matter;
+454,Toxicroak,toxic - poisonous; croak - the sound a frog makes;
+455,Carnivine,carnivore - meat-eating creature; vine - long strands of a plant;
+456,Finneon,fin - wing-like organ on a fish; neon - inert gas that glows brightly;
+457,Lumineon,luminous - shining brightly; neon - inert gas that glows brightly;
+458,Mantyke,manta ray - marine creature; tyke - a small child;
+459,Snover,snow - frozen precipitation; cover - conceal;
+460,Abomasnow,abominable snowman - mythological arctic creature; yeti; snow - frozen precipitation;
+461,Weavile,"weasel - small mammal with a long body; vile - unpleasant, wretched;"
+462,Magnezone,"magnetic zone - alternative name for a magnetic field, the region near a magnet;"
+463,Lickilicky,lick - touch with the tongue;
+464,Rhyperior,rhino - large African mammal; superior - dominant;
+465,Tangrowth,"tangle - twisted mesh of strands (e.g. vines); growth - expansion, enlargement;"
+466,Electivire,electricity - energy from electric currents; wire - thin strand of metal used to conduct electricity;
+467,Magmortar,magma - the melted rock in a volcano; mortar - a type of cannon;
+468,Togekiss,toge - Japanese for ‘spike’; kiss - display of affection;
+469,Yanmega,yanma - Japanese for ‘large dragonfly’; Meganeura - an extinct species of insect;
+470,Leafeon,leaf - plant foliage; eon - long period of time (implying evolution);
+471,Glaceon,glacier - a mass of ice; eon - long period of time (implying evolution);
+472,Gliscor,glide - to float with wings; scorpion - creature with pincers and a stinger in its tail;
+473,Mamoswine,mammoth - a prehistoric woolly mammal; swine - of or relating to pigs;
+474,Porygon-Z,polygon - a many sided figure; z - 3rd axis in coordinates;
+475,Gallade,"gallant - brave, chivalrous; blade - the flat cutting part of a knife, sword, etc.;"
+476,Probopass,proboscis - relating to the nose; compass - instrument that determines direction;
+477,Dusknoir,dusk - the partial darkness between day and night; noir - French for ‘black’;
+478,Froslass,frost - frozen moisture; lass - a young female;
+479,Rotom,motor - Rotom is ‘motor’ backwards;
+480,Uxie,"you - personal pronoun; pixie - a small, often mischievous fairy;"
+481,Mesprit,"me - personal pronoun; sprite - a small, often mischievous fairy;"
+482,Azelf,"us - personal pronoun; elf - a small, often mischievous fairy;"
+483,Dialga,diamond - precious stone; game of which Dialga is the mascot; dragon - mythical fire-breathing creature;
+484,Palkia,pearl - precious stone; game of which Palkia is the mascot; kai - Japanese for ‘ocean’;
+485,Heatran,"heat - to increase in temperature; transfer - to move from one place to another, esp. heat through metal;"
+486,Regigigas,regi - (Latin) of or relating to royalty; gigas - giant;
+487,Giratina,"girasol - a red opal; platina - an alloy of platinum, the game of which it is the mascot;"
+488,Cresselia,crescent - a phase of the moon; Selene - Greek goddess of the moon;
+489,Phione,"fairy - imp, sprite; clione - sea angels;"
+490,Manaphy,"mana - mythological energy used for magic; fairy - imp, sprite;"
+491,Darkrai,dark - absence of light; kurai - Japanese for ‘dark’;
+492,Shaymin,shaman - intermediary between the natural and supernatural worlds;
+493,Arceus,archaic - ancient; deus - Latin for ‘god’;
+494,Victini,victory - a successful act; teeny - small;
+495,Snivy,snake - a species of reptile; ivy - a type of plant;
+496,Servine,serpent - a snake; vine - long strands of a plant;
+497,Serperior,serpent - a snake; superior - better than;
+498,Tepig,tepid - lukewarm; pig - farmyard animal;
+499,Pignite,pig - farmyard animal; ignite - to bring flame to;
+500,Emboar,ember - a flame; boar - a species of pig;
+501,Oshawott,ocean - huge body of water; water - compound needed for life; otter - aquatic weasel-like mammal
+502,Dewott,dew - moisture often found on grass or plants; otter - aquatic weasel-like mammal;
+503,Samurott,samurai - a japanese warrior; otter - aquatic weasel-like mammal;
+504,Patrat,patrol - to watch over an area; packrat - American rodent;
+505,Watchog,watchdog - protective guard dog; groundhog - North American rodent;
+506,Lillipup,"Lilliput - fictional island inhabited by small people; pup - puppy, baby dog;"
+507,Herdier,herd - to drive animals (e.g. sheep) into a group; terrier - a breed of dog;
+508,Stoutland,"stout - bold, brave; land - referring to terriers, who get their name from ‘terra’;"
+509,Purrloin,purr - sound a cat makes when content; purloin - to steal;
+510,Liepard,"lie - an untruth; leopard - large, spotted feline;"
+511,Pansage,chimpanzee - a species of primate; sage - a herb (referring to cooking and its Grass type);
+512,Simisage,simian - of or relating to primates; sage - a herb (referring to cooking and its Grass type);
+513,Pansear,chimpanzee - a species of primate; sear - to heat/fry (referring to cooking and its Fire type);
+514,Simisear,simian - of or relating to primates; sear - to heat/fry (referring to cooking and its Fire type);
+515,Panpour,chimpanzee - a species of primate; pour - to drop or flow liquid (referring to cooking and its Water type);
+516,Simipour,simian - of or relating to primates; pour - to drop or flow liquid (referring to cooking and its Water type);
+517,Munna,muso - Japanese for ‘dream’; lunar - of or relating to the Moon;
+518,Musharna,muso - Japanese for ‘dream’; mushamusha - Japanese for an ‘eating’ sound; lunar - of or relating to the Moon
+519,Pidove,pigeon - a species of bird; dove - a species of bird;
+520,Tranquill,"tranquil - quiet, peaceful; quill - feather used for writing with ink;"
+521,Unfezant,"unfazed - not put off, undaunted; pheasant - a species of bird;"
+522,Blitzle,blitz - a swift attack; German for ‘lightning’; little - small;
+523,Zebstrika,zebra - a horse-like African mammal; strike - to hit something (incl. with lightning);
+524,Roggenrola,"rock ‘n’ roller - relating to rock ‘n’ roll, a type of popular music;"
+525,Boldore,boulder - large rock; ore - a mineral in its natural state;
+526,Gigalith,"giga- - huge, giant; -lith - suffix referring to rock;"
+527,Woobat,woo - to seduce; bat - cave-dwelling flying mammal;
+528,Swoobat,swoon - to be seduced; bat - cave-dwelling flying mammal;
+529,Drilbur,drill - device for making holes; burrow - dig underground;
+530,Excadrill,excavate - make a hole or pit; drill - device for making holes;
+531,Audino,audio - sound; I dunno' - Audino is a pun on said phrase;
+532,Timburr,timber - wood;
+533,Gurdurr,girder - a large steel beam;
+534,Conkeldurr,concrete - stone-like material; elder - older or senior person;
+535,Tympole,tympani - a type of drum; tadpole - a baby frog/toad;
+536,Palpitoad,palpitation - rapid pulsation; toad - a species of amphibian;
+537,Seismitoad,seismic - of or relating to earthquakes; toad - a species of amphibian;
+538,Throh,throw - to toss;
+539,Sawk,sock - to punch;
+540,Sewaddle,sew - to join by stitches; swaddle - to bind with strips of cloth;
+541,Swadloon,swaddle - to bind with strips of cloth; cocoon - a pupal casing made by some insects;
+542,Leavanny,leaves - plant foliage; nanny - carer of children;
+543,Venipede,venom - poison; centipede - a species of insect;
+544,Whirlipede,whirl - spiral; centipede - a species of insect;
+545,Scolipede,scolopendra - a species of centipede; centipede - a species of insect;
+546,Cottonee,"cottony - soft like cotton, a natural material;"
+547,Whimsicott,whimsy - playful humor; cotton - a natural material;
+548,Petilil,petal - colored foliage of a flower; lily - a type of plant;
+549,Lilligant,"lily - a type of plant; elegant - graceful, luxurious;"
+550,Basculin,"bass - a species of fish; masculine - tough, bold;"
+551,Sandile,sand - fine debris of rocks; crocodile - a species of reptile;
+552,Krokorok,"crocodile - a species of reptile; rock - stone, boulder;"
+553,Krookodile,"crook - criminal, thief; crocodile - a species of reptile;"
+554,Darumaka,"daruma - daruma doll, a traditional Japanese doll; makka - Japanese for ‘red/crimson’;"
+555,Darmanitan,"daruma - daruma doll, a traditional Japanese doll; orangutan - a species of ape;"
+556,Maractus,maracas - rhythm instrument; cactus - a desert plant;
+557,Dwebble,"dwell - live, reside; pebble - small stone;"
+558,Crustle,crust - solid layer of the Earth; castle - large fortress;
+559,Scraggy,"scraggy - thin, scrawny;"
+560,Scrafty,"scraggy - thin, scrawny; crafty - sly, sneaky;"
+561,Sigilyph,sigil - a seal or signet; glyph - a symbol;
+562,Yamask,yami - Japanese for ‘darkness’; mask - face covering;
+563,Cofagrigus,coffin - casket for the deceased; sarcophagus - large coffin carved from stone; egregious - outstandingly bad; shocking
+564,Tirtouga,tortuga - spanish for turtle;
+565,Carracosta,carapace - a hard protective covering; costa - latin for coast;
+566,Archen,archaeopteryx - a reptile-like fossil bird;
+567,Archeops,archaeopteryx - a reptile-like fossil bird;
+568,Trubbish,"trash - waste, garbage; rubbish - waste, garbage;"
+569,Garbodor,"garbage - waste, trash; odor - a bad smell;"
+570,Zorua,zorro - Spanish for ‘fox’;
+571,Zoroark,zorro - Spanish for ‘fox’; dark - absence of light;
+572,Minccino,"mink - a weasel-like mammal; chino - tough, twilled cotton;"
+573,Cinccino,"chinchilla - a small South American rodent; chino - tough, twilled cotton;"
+574,Gothita,"gothic - gloomy, dark; lolita - precocious young woman;"
+575,Gothorita,"gothic - gloomy, dark; señorita - Spanish for ‘Miss’, referring to a woman;"
+576,Gothitelle,"gothic - gloomy, dark; mademoiselle - French for ‘Miss’, referring to a woman;"
+577,Solosis,solo - single; one; mitosis - cell division;
+578,Duosion,duo - double; two; fusion - come together;
+579,Reuniclus,reunite - come together; nucleus - core of a biological cell;
+580,Ducklett,duck - a species of bird; -lett - suffix meaning ‘small’;
+581,Swanna,swan - a species of bird;
+582,Vanillite,vanilla - standard ice cream flavor; delight - great pleasure (often in relation to food);
+583,Vanillish,vanilla - standard ice cream flavor; delish - slang for ‘delicious’;
+584,Vanilluxe,vanilla - standard ice cream flavor; deluxe - high quality;
+585,Deerling,deer - a species of mammal with antlers; -ling - suffix meaning ‘small’;
+586,Sawsbuck,"S.A.W.S. - initials for the four seasons: Summer, Autumn, Winter, Spring; buck - male deer;"
+587,Emolga,momonga - Japanese scientific name of the ‘dwarf flying squirrel’;
+588,Karrablast,scarab - a species of beetle; blast - an explosion;
+589,Escavalier,escargot - French for ‘snail’; cavalier - knight; mounted soldier;
+590,Foongus,fungus - cell-based plants;
+591,Amoonguss,among us - from the phrase ‘a fungus among us’;
+592,Frillish,"frill - a trimming, e.g. lace; jellyfish - marine creature;"
+593,Jellicent,"jellyfish - marine creature; magnificent - beautiful, extravagant;"
+594,Alomomola,mola mola - a species of fish;
+595,Joltik,jolt - a sudden movement or burst of electricity; tick - a mite-like parasite;
+596,Galvantula,"galvanize - stimulate by an electric current; tarantula - a large, hairy spider;"
+597,Ferroseed,ferrous - of or containing iron; seed - premature ungrown plant;
+598,Ferrothorn,ferrous - of or containing iron; thorn - sharp spine on a plant;
+599,Klink,clink - sound of metal clashing;
+600,Klang,clang - sound of metal clashing;
+601,Klinklang,clink - sound of metal clashing; clang - sound of metal clashing;
+602,Tynamo,tyke - a small child; dynamo - electric generator;
+603,Eelektrik,eel - snake-like marine creature; electric - of or relating to electricity;
+604,Eelektross,"eel - snake-like marine creature; electric - of or relating to electricity; gross - great, large"
+605,Elgyem,L.G.M. - initials for ‘Little Green Man’ i.e. an alien;
+606,Beheeyem,"B.E.M. - initials for ‘Bug Eyed Monster’, i.e. an alien;"
+607,Litwick,lit - on fire or producing light; wick - candle ‘fuel’;
+608,Lampent,"lamp - device producing light, usually via a flame; lambent - softly flickering flame;"
+609,Chandelure,"chandelier - large, decorative light fixture; lure - attract or entice, often for evil means;"
+610,Axew,"axe - implement used for chopping; askew - out of line, off-center;"
+611,Fraxure,fracture - to break or crack; axe - implement used for chopping;
+612,Haxorus,hack - to chop repeatedly; axe - implement used for chopping; -saurus - common dinosaur suffix
+613,Cubchoo,cub - a young bear; atchoo - the sound of sneezing;
+614,Beartic,"bear - large, powerful mammal; arctic - frozen region at the very top of the Earth;"
+615,Cryogonal,cryogenic - of or relating to very low temperatures; polygonal - multi-sided shape;
+616,Shelmet,shell - hard cover; helmet - hard covering of the head;
+617,Accelgor,accelerate - to increase in speed; escargot - French for ‘snail’;
+618,Stunfisk,stun - to immobilize temporarily; fish - marine creature; disk - flat circular shape
+619,Mienfoo,mien - dignified manner; kung fu - Chinese martial art;
+620,Mienshao,mien - dignified manner; shaolin - Chinese martial art;
+621,Druddigon,dragon - mythical fire-breathing creature; ruddy - reddish color;
+622,Golett,golem - stone figure from jewish folklore; -lett - suffix meaning ‘small’;
+623,Golurk,golem - stone figure from jewish folklore; lurk - to lie or wait in concealment;
+624,Pawniard,pawn - the least important chess piece; poniard - a dagger;
+625,Bisharp,bishop - a chess piece; sharp - pointed;
+626,Bouffalant,bouffant - hair style; buffalo - a large ox;
+627,Rufflet,ruffle - to shake feathers; -let - suffix meaning ‘small’;
+628,Braviary,brave - courageous; aviary - a place where birds are kept;
+629,Vullaby,vulture - a species of bird; lullaby - a song used to lull people to sleep;
+630,Mandibuzz,mandible - jaw bone; buzzard - a species of bird;
+631,Heatmor,heat more - to increase in temperature;
+632,Durant,"durable - hard to break, does not wear easily; ant - a species of small insect;"
+633,Deino,ein - german for ‘one’; dino - slang for ‘dinosaur’;
+634,Zweilous,zwei - german for ‘two’; jealous - envious (Zweilous’ heads fight with each other);
+635,Hydreigon,drei - german for ‘three’; hydra - mythical multi-headed creature; dragon - mythical fire-breathing creature
+636,Larvesta,larva - young feeding stage of an insect; Vesta - Roman goddess of the hearth;
+637,Volcarona,volcano - mountain that erupts lava; corona - outline of the Sun;
+638,Cobalion,cobalt - blueish-grey metal; lion - large ferocious cat;
+639,Terrakion,terracotta - orange clay-based material; lion - large ferocious cat;
+640,Virizion,viridian - blueish-green color; lion - large ferocious cat;
+641,Tornadus,tornado - a whirlwind of destructive force; -us - common cloud suffix; possession of a given quality;
+642,Thundurus,thunder - loud noise produced by a lightning strike; -us - common cloud suffix; possession of a given quality;
+643,Reshiram,re - used as a softer sound than ‘ze’ to indicate a weaker character; shiro - Japanese for ‘white’;
+644,Zekrom,ze - used as a harder sound than ‘re’ to indicate a stronger character; kuro - Japanese for ‘black’;
+645,Landorus,land - area of ground; -us - common cloud suffix; possession of a given quality;
+646,Kyurem,kyuurei - Japanese for ‘rapid cooling’;
+647,Keldeo,kelpie - a supernatural water horse from Celtic folklore; rodeo - a public exhibition of cowboy skills;
+648,Meloetta,melody - a song; pirouette - a ballet move;
+649,Genesect,genetic - of or relating to DNA; insect - a bug;
+650,Chespin,chestnut - edible nut in a spiky shell; porcupine - spiny rodent;
+651,Quilladin,"quill - sharp feather/needle; paladin - heroic, chivalrous knight;"
+652,Chesnaught,"chestnut - edible nut in a spiky shell; juggernaught - large, destructive force;"
+653,Fennekin,"fennec - species of fox; kin - friendship, affinity;"
+654,Braixen,braise - to simmer over heat; vixen - a female fox;
+655,Delphox,Delphic oracle - the most important oracle in Greek mythology; fox - vulpine mammal;
+656,Froakie,"frog - a species of amphibian; croaky - husky, squawking noise made by frogs;"
+657,Frogadier,frog - a species of amphibian; brigadier - an army rank;
+658,Greninja,grenouille - French for ‘frog’; ninja - stealthy martial art;
+659,Bunnelby,"bunny - slang for rabbit, a small mammal with long ears; tunnel - to burrow underground;"
+660,Diggersby,"digger - one who excavates earth; bunny - slang for rabbit, a small mammal with long ears;"
+661,Fletchling,"fletch - a feather, as used on a dart/arrow; fledgling - a young bird learning to fly;"
+662,Fletchinder,"fletch - a feather, as used on a dart/arrow; cinder - ashes;"
+663,Talonflame,talon - a bird’s claw (especially birds of prey); flame - fire;
+664,Scatterbug,scatter - throw or distribute across a large area; bug - insect; suffix meaning ‘enthusiast’;
+665,Spewpa,spew - vomit; pupa - immobile cocoon stage of an insect;
+666,Vivillon,"vivify - bring to life, animate; papillon - French for ‘butterfly’;"
+667,Litleo,little - small; leo - Latin for ‘lion’;
+668,Pyroar,pyre - a bonfire; roar - deep cry of a lion/tiger;
+669,Flabébé,flabra - Latin for ‘breeze’ or ‘wind’; bébé - French for ‘baby’;
+670,Floette,florette - one of a cluster of small flowers;
+671,Florges,flower - the blossom of a plant; gorgeous - beautiful;
+672,Skiddo,skid - to slide; kiddo - slang for a child; ‘kid’ is a baby goat;
+673,Gogoat,gogo - full of energy; goat - horned mammal;
+674,Pancham,panda - large black & white mammal; champion - fighter who has defeated all opponents;
+675,Pangoro,panda - large black & white mammal; gorogoro - Japanese term for a rumbling sound;
+676,Furfrou,fur - soft hair coating; frou-frou - (French) a showy/frilly dress;
+677,Espurr,ESP - Extra Sensory Perception; psychic power; purr - sound a cat makes when content;
+678,Meowstic,meow - the sound a cat makes; mystic - of or relating to the occult or psychics;
+679,Honedge,"hone - sharpen, refine; edge - thin, sharp side of a blade;"
+680,Doublade,"double - two; blade - the flat cutting part of a sword, etc.;"
+681,Aegislash,aegis - shield in Greek mythology; slash - to swipe;
+682,Spritzee,spritz - to spray or squirt;
+683,Aromatisse,"aromatic - fragrant, sweet-scented; -isse - French suffix for feminine nouns;"
+684,Swirlix,swirl - to move in a spiral shape; licks - to eat with the tongue;
+685,Slurpuff,slurp - drink with loud sucking noises; puff - small blast (of powder etc.);
+686,Inkay,"ink - dark fluid ejected by squid; okay - agreement, acceptance;"
+687,Malamar,"malice - evil, spite; calamary - squid;"
+688,Binacle,"bi- - prefix meaning ‘two’; barnacle - marine crustacean, typically attached to ship bottoms;"
+689,Barbaracle,"barbaric - uncivilized, brutish; barnacle - marine crustacean, typically attached to ship bottoms;"
+690,Skrelp,"screen - disguise, cover; kelp - seaweed;"
+691,Dragalge,dragon - mythical fire-breathing creature; algae - aquatic plant family that includes seaweed;
+692,Clauncher,"claw - pincer, talon; launch - throw, project;"
+693,Clawitzer,"claw - pincer, talon; howitzer - a type of cannon;"
+694,Helioptile,helios - Greek for ‘sun’; reptile - cold-blooded creatures such as lizards and snakes;
+695,Heliolisk,helios - Greek for ‘sun’; basilisk - a type of lizard;
+696,Tyrunt,Tyrannosaurus - a large bipedal dinosaur; runt - the smallest of a litter of animals;
+697,Tyrantrum,Tyrannosaurus - a large bipedal dinosaur; tantrum - a display of rage or frustration;
+698,Amaura,Amargasaurus - a small sauropod dinosaur; aurora - a luminous atmospheric phenomenon occurring in the arctic/antarctic;
+699,Aurorus,Amargasaurus - a small sauropod dinosaur; aurora - a luminous atmospheric phenomenon occurring in the arctic/antarctic;
+700,Sylveon,sylph - an invisible spirit of the air; a fairy; eon - long period of time (implying evolution);
+701,Hawlucha,hawk - bird of prey; luchador - Mexican wrestler;
+702,Dedenne,denki - Japanese for ‘electricity’; antennae - aerial that receives television/radio waves;
+703,Carbink,carbon - core element of diamond and other minerals; clink - sound of gemstones clashing;
+704,Goomy,goo - sticky substance; slimy - covered in goo;
+705,Sliggoo,slime - sticky substance; goo - sticky substance;
+706,Goodra,goo - sticky substance; dragon - mythical fire-breathing creature;
+707,Klefki,clef - French for ‘key’; key - piece of metal for opening locks;
+708,Phantump,phantom - a ghost; stump - remainder of a tree after being cut down;
+709,Trevenant,tree - large plant with a trunk; revenant - one who has returned from the dead;
+710,Pumpkaboo,"pumpkin - large orange fruit, often used at Halloween; peek-a-boo - childish game involving hiding and suddenly reappearing;"
+711,Gourgeist,gourd - family to which pumpkins belong; poltergeist - a ghost;
+712,Bergmite,iceberg - large floating mass of ice; stalagmite - column of ice rising from the floor of a cave;
+713,Avalugg,avalanche - a landslide of snow; vugg - small cavity in rock or ice;
+714,Noibat,noise - loud sounds; bat - cave-dwelling flying mammal;
+715,Noivern,noise - loud sounds; wyvern - mythical dragon-like creature;
+716,Xerneas,X - letter; game in which Xerneas appears; Cernunnos - Celtic god based on a deer (itself from the Latin ‘cervus’);
+717,Yveltal,"Y - letter; game in which Yveltal appears; wyvern - mythical dragon-like creature; quetzal - colorful, long-tailed bird"
+718,Zygarde,Z - letter representing third coordinate axis; garde - French for ‘guard’ or ’protect’;
+719,Diancie,diamond - precious stone; ishi - Japanese for ‘rock’;
+720,Hoopa,hoop - a circular band;
+721,Volcanion,volcano - mountain that erupts lava; lion - large ferocious cat;
+722,Rowlet,arrow - thin weapon shot from a bow; owlet - a young owl;
+723,Dartrix,dart - a small arrow; strix - a genus of owls;
+724,Decidueye,deciduous - tree/shrub that sheds its leaves; eye - organ of sight; close observation;
+725,Litten,lit - alight (with fire); kitten - a young cat;
+726,Torracat,torrid - very hot and dry; cat - domesticated feline;
+727,Incineroar,incinerate - set alight; roar - deep cry of a lion/tiger;
+728,Popplio,pop - burst (a bubble or balloon); sea lion - aquatic mammal;
+729,Brionne,"brio - vivaciousness, enthusiasm; sissonne - common ballet step;"
+730,Primarina,prima donna - leading female singer; ballerina - dancer;
+731,Pikipek,picus - Latin for ‘woodpecker’; peck - strike with a beak;
+732,Trumbeak,trumpet - brass instrument; beak - a bird’s bill;
+733,Toucannon,toucan - brightly colored bird with a large beak; cannon - large mounted gun;
+734,Yungoos,young - baby animal; mongoose - weasel-like mammal;
+735,Gumshoos,gumshoe - slang for ‘detective’; mongoose - weasel-like mammal;
+736,Grubbin,grub - insect larva; grubbing - digging;
+737,Charjabug,charge - store electrical energy; bug - insect;
+738,Vikavolt,vice - grip with two jaws; volt - unit of electricity;
+739,Crabrawler,crab - marine creature; brawler - fighter;
+740,Crabominable,crab - marine creature; abominable snowman - mythological arctic creature; yeti;
+741,Oricorio,oriole - brightly-colored bird; choreography - dance composition; oratorio - extended musical composition
+742,Cutiefly,"cutie-pie - darling, sweetheart; fly - a species of insect;"
+743,Ribombee,ribbon - fancy/colorful strip of material; Bombyliidae - Scientific name of the ‘bee fly’; bee - a species of flying insect
+744,Rockruff,"rock - stone, boulder; ruff - dog’s bark;"
+745,Lycanroc,"lycanthrope - a werewolf; rock - stone, boulder;"
+746,Wishiwashi,wishy-washy - weak; watery;
+747,Mareanie,"marine - of or relating to the sea; meanie - small-minded, nasty;"
+748,Toxapex,"toxic - poisonous; apex - tip, point;"
+749,Mudbray,mud - dirt; bray - donkey noise;
+750,Mudsdale,"mud - dirt; Clydesdale - a large, heavy breed of horse;"
+751,Dewpider,dew - moisture; spider - eight-legged creature;
+752,Araquanid,arachnid - a spider; aqua - relating to water;
+753,Fomantis,"faux - false, artificial; mantis - a species of insect;"
+754,Lurantis,"lure - attract, entice; mantis - a species of insect;"
+755,Morelull,"morel - a type of mushroom; lull - soothe, put to sleep;"
+756,Shiinotic,shiitake - a type of mushroom; shine - glow brightly; hypnotic - inducing sleep
+757,Salandit,"salamander - lizard-like amphibian (also a mythical fire-dwelling creature); bandit - robber, outlaw;"
+758,Salazzle,"salamander - lizard-like amphibian (also a mythical fire-dwelling creature); dazzle - impress, attract;"
+759,Stufful,stuff - fill with material; little - small;
+760,Bewear,"bear - large, powerful mammal; wear - have on as clothing; beware - warning"
+761,Bounsweet,"bounce - jump, spring; sweet - sugary taste;"
+762,Steenee,mangosteen - tropical tree with sweet fruit; teen - youngster;
+763,Tsareena,tsarina - Russian empress; queen - female royalty;
+764,Comfey,"comfy - cosy, pleasant; lei - Hawaiian flower wreath;"
+765,Oranguru,orangutan - a species of ape; guru - spiritual leader; expert;
+766,Passimian,pass - transfer an object; simian - of or relating to primates;
+767,Wimpod,"wimp - coward, weakling; isopod - marine invertebrate with an exoskeleton;"
+768,Golisopod,goliath - a giant; isopod - marine invertebrate with an exoskeleton;
+769,Sandygast,sandy - covered in sand; gast - to frighten or scare;
+770,Palossand,palace - large stately building; sand - fine rock debris;
+771,Pyukumuku,puke - vomit; sea cucumber - marine creature;
+772,Type: Null,"type - kind, group; null - nothing, nonexistent;"
+773,Silvally,silver - precious metal; ally - friend;
+774,Minior,mini - small; meteor - space rock;
+775,Komala,coma - state of sleep or unconsciousness; koala - small marsupial;
+776,Turtonator,turtle - water-based reptile; detonator - device causing an explosion;
+777,Togedemaru,toge - Japanese for ‘thorn’; maru - Japanese for ‘round’;
+778,Mimikyu,mimic - imitate; you - as in ‘mimic you’;
+779,Bruxish,brux - to grind one’s teeth; fish - marine creature;
+780,Drampa,dragon - mythical fire-breathing creature; grampa - elderly relative;
+781,Dhelmise,"demise - death, termination; helm - a ship’s wheel;"
+782,Jangmo-o,jangle - to rustle metallic objects; mo'o - Hawaiian for ‘dragon’;
+783,Hakamo-o,haka - loud Maori war dance; mo'o - Hawaiian for ‘dragon’;
+784,Kommo-o,commotion - loud noises; mo'o - Hawaiian for ‘dragon’;
+785,Tapu Koko,tapu - Hawaiian for ‘holy’; kokō - Hawaiian for rooster’s cry;
+786,Tapu Lele,tapu - Hawaiian for ‘holy’; pulelehua - Hawaiian for ‘butterfly’;
+787,Tapu Bulu,tapu - Hawaiian for ‘holy’; bulu - Hawaiian for ‘bull’;
+788,Tapu Fini,tapu - Hawaiian for ‘holy’; fin - fish appendage;
+789,Cosmog,cosmos - the universe; fog - mist;
+790,Cosmoem,cosmos - the universe; embryo - fetus;
+791,Solgaleo,solar - of or relating to the Sun; leo - Latin for ‘lion’;
+792,Lunala,lunar - of or relating to the Moon; ala - Latin for ‘wing’;
+793,Nihilego,"nihilism - anarchy, desctructiveness; ego - the self;"
+794,Buzzwole,buzz - low humming sound; swole - muscular;
+795,Pheromosa,pheromone - attractive chemical secreted by animals; -osa - Latin female suffix;
+796,Xurkitree,circuitry - electric wiring;
+797,Celesteela,celestial - of or relating to space or heaven; steel - a metal alloy;
+798,Kartana,katana - Japanese samurai sword;
+799,Guzzlord,"guzzle - eat, devour; lord - master, royalty;"
+800,Necrozma,nekros - Greek for ‘dead’; prisma - Greek for ‘prism’;
+801,Magearna,machine - apparatus with connecting parts; gear - cog used in machines;
+802,Marshadow,"martial art - fighting, self-defense; shadow - dark area created by blocking out light;"
+803,Poipole,poison - toxic substance; pole - long stick/point;
+804,Naganadel,naga - mythological cobra; nadel - German for ‘needle’;
+805,Stakataka,stack - pile up objects neatly;
+806,Blacephalon,blast - an explosion; cephalo- - of or relating to the head;
+807,Zeraora,"zero - nil, nothing; tora - Japanese for ‘tiger’;"
+808,Meltan,melt - become liquefied; tan - suffix meaning ‘small’;
+809,Melmetal,melt - become liquefied; metal - solid material;
+810,Grookey,groove - rhythm; monkey - a species of primate;
+811,Thwackey,thwack;
+812,Rillaboom,gorilla - boom;
+813,Scorbunny,"scorch - to burn harshly; bunny - slang for rabbit, a small mammal with long ears;"
+814,Raboot,rabbit - boot;
+815,Cinderace,cinder - ace;
+816,Sobble,sob - to cry; bubble - liquid sphere;
+817,Drizzile,drizzle - prehensile;
+818,Inteleon,intelligence - chameleon;
+819,Skwovet,squirrel - covet;
+820,Greedent,greedy - rodent;
+821,Rookidee,rookie - chickidee;
+822,Corvisquire,corvine - squire;
+823,Corviknight,corvine - of or relating to crows; knight - noble cavalier;
+824,Blipbug,blip - bug;
+825,Dottler,dot;
+826,Orbeetle,orb - beetle;
+827,Nickit,nick;
+828,Thievul,thieve - vulpine;
+829,Gossifleur,gossypium - Latin name for the cotton plant; fleur - French for ‘flower’;
+830,Eldegoss,elder - older or senior person; gossypium - Latin name for the cotton plant;
+831,Wooloo,wool - a sheep’s hair;
+832,Dubwool,double - wool;
+833,Chewtle,chew - turtle;
+834,Drednaw,dreadnought - a battleship; gnaw - to bite or chew;
+835,Yamper,yap - high-pitched bark; scamper - run around playfully;
+836,Boltund,bolt - hound;
+837,Rolycoly,"roly-poly - round, plump; coal - black substance used as fuel;"
+838,Carkol,carbon - coal;
+839,Coalossal,coal - colossal;
+840,Applin,apple - red/green fruit;
+841,Flapple,flap - to move wings up and down; apple - red/green fruit;
+842,Appletun,apple - red/green fruit; tun - large cask for brewing;
+843,Silicobra,silicon - cobra;
+844,Sandaconda,sand - anacondo;
+845,Cramorant,cram - fill something by force; cormorant - a large seabird;
+846,Arrokuda,arrow - thin weapon; barracuda - large predatory fish;
+847,Barraskewda,barracuda - large predatory fish; skewer - to impale;
+848,Toxel,toxic - poisonous; electricity - energy from electric currents;
+849,Toxtricity,toxic - poisonous; electricity - energy from electric currents;
+850,Sizzlipede,sizzle - centipede;
+851,Centiskorch,centipede - scorch;
+852,Clobbopus,clobber; octopus - marine creature with eight tentacles
+853,Grapploct,grapple; octopus - marine creature with eight tentacles
+854,Sinistea,sinister - tea;
+855,Polteageist,poltergeist - a ghost; tea - hot drink;
+856,Hatenna,hat;
+857,Hattrem,hat;
+858,Hatterene,hat - serene;
+859,Impidimp,imp - mischievous devil or sprite; rinky-dink - poor quality; deceptive;
+860,Morgrem,morgue - gremlin;
+861,Grimmsnarl,grim - snarl;
+862,Obstagoon,obstacle - something that blocks or hinders progress; raccoon - a small nocturnal carnivore;
+863,Perrserker,purr - sound a cat makes when content; berserker - ancient Norse warrior;
+864,Cursola,curse - solar;
+865,Sirfetch'd,"sir - noble title; far-fetched - improbable, unlikely;"
+866,Mr. Rime,Mr. - male title of respect; rhyme - words ending in the same sound;
+867,Runerigus,rune - egregious;
+868,Milcery,milk - white liquid from cows; sorcery - magic;
+869,Alcremie,alchemy - medieval chemistry; creamy - soft and smooth;
+870,Falinks,phalanx - group of troops/officers in formation; links - connected items;
+871,Pincurchin,pin cushion - sea urchin;
+872,Snom,snow - frozen precipitation; moth - a species of insect;
+873,Frosmoth,frost - frozen dew; moth - a species of insect;
+874,Stonjourner,stone - a rock; sojourner - a traveller;
+875,Eiscue,ice cube - frozen water;
+876,Indeedee,indeed;
+877,Morpeko,morumotto - Japanese for ‘guinea pig’; harapeko - Japanese for ‘hungry’;
+878,Cufant,Cu - chemical symbol for copper; elephant - large mammal with a trunk;
+879,Copperajah,copper - reddish-brown metal; rajah - an Indian prince;
+880,Dracozolt,draco - Latin for ‘dragon’; volt - unit of electricity;
+881,Arctozolt,arctic - icy region around the North Pole; volt - unit of electricity;
+882,Dracovish,draco - Latin for ‘dragon’; fish - marine creature;
+883,Arctovish,arctic - icy region around the North Pole; fish - marine creature;
+884,Duraludon,duralumin - aluminium alloy; -don - common dinosaur suffix;
+885,Dreepy,dragon - creepy;
+886,Drakloak,dragon - cloak;
+887,Dragapult,dragon - catapult;
+888,Zacian,cyan - greenish-blue color;
+889,Zamazenta,magenta - purplish-red color;
+890,Eternatus,eternal;

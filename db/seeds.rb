@@ -33,4 +33,9 @@ CSV.foreach('lib/datasets/pokemon_name_origins_jp.csv') do |row|
   end
 end
 
+CSV.foreach('lib/datasets/pokemon_name_origins_en.csv', headers: true) do |row|
+  pokemon = Pokemon.find(row[0])
+  pokemon.update(name_origin_english: row[2])
+end
+
 puts "Finished seeding Pokemon data!"
