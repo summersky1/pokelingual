@@ -73,3 +73,9 @@
     font-size: 18px;
   }
 }
+
+@include media-breakpoint-up(xl) {
+  .bg-edges {
+    background: linear-gradient(to right, #606060 2%, white 2% 98%, #606060 98%);
+  }
+}
