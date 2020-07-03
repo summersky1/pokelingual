@@ -3,6 +3,7 @@ require 'test_helper'
 class PokemonControllerTest < ActionDispatch::IntegrationTest
   def setup
     @pokemon = pokemons(:one)
+    @generation = generations(:one)
     @type = types(:one)
   end
 

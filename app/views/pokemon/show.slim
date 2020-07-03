@@ -27,6 +27,10 @@ div.row.mt-2
               img.show-pokemon-type src= type_image_url(@pokemon.types[1].id)
               div = @pokemon.types[1].english
               div.mt-n1 = @pokemon.types[1].japanese
+      tr
+        td.attribute-name = "Region: "
+        - gen = @pokemon.generation
+        td = "#{gen.region_english} | #{gen.region_japanese}"
 
 table.table.border-bottom.table-hover
   tr

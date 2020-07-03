@@ -1,5 +1,14 @@
 require 'csv'
 
+Generation.delete_all
+CSV.foreach('lib/datasets/generations.csv', headers: true) do |row|
+  Generation.create({
+    id: row[0],
+    region_english: row[1],
+    region_japanese: row[2]
+  })
+end
+
 Type.delete_all
 CSV.foreach('lib/datasets/types.csv', headers: true) do |row|
   Type.create({
@@ -17,7 +26,8 @@ CSV.foreach('lib/datasets/pokemon.csv', headers: true) do |row|
     id: row[0],
     name_english: row[1],
     name_japanese: row[2],
-    name_romaji: row[3]
+    name_romaji: row[3],
+    generation_id: row[6]
   })
   pokemon.types << (Type.find_by_english(row[4]))
   pokemon.types << (Type.find_by_english(row[5])) if row[5].present?

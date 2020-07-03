@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_29_193710) do
+ActiveRecord::Schema.define(version: 2020_07_03_123719) do
+
+  create_table "generations", force: :cascade do |t|
+    t.string "region_english"
+    t.string "region_japanese"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "pokemon_types", force: :cascade do |t|
     t.integer "pokemon_id"
@@ -31,6 +38,8 @@ ActiveRecord::Schema.define(version: 2020_06_29_193710) do
     t.text "name_origin_japanese"
     t.text "name_origin_japanese_for_english"
     t.text "name_origin_english"
+    t.integer "generation_id"
+    t.index ["generation_id"], name: "index_pokemons_on_generation_id"
   end
 
   create_table "types", force: :cascade do |t|
