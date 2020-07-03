@@ -1,7 +1,7 @@
 doctype html
 html
   head
-    title Pokélingual
+    title = t(:pokelingual)
 
     meta content=("text/html; charset=UTF-8") http-equiv="Content-Type"
     meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -15,7 +15,7 @@ html
   body.sticky-footer.bg-edges
     nav.navbar.navbar-expand-sm.navbar-dark.bg-danger.p-0
       a.navbar-brand.ml-2.ml-sm-3.mr-2 href= url_for(action: :home)
-        | Pokélingual
+        = t(:pokelingual)
       span.mr-auto.text-white style="margin-top:2px" alpha
 
     div.container.animated.fadeIn.faster
