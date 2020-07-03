@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_01_205615) do
+ActiveRecord::Schema.define(version: 2020_07_03_123719) do
 
   create_table "generations", force: :cascade do |t|
     t.string "region_english"
@@ -38,6 +38,8 @@ ActiveRecord::Schema.define(version: 2020_07_01_205615) do
     t.text "name_origin_japanese"
     t.text "name_origin_japanese_for_english"
     t.text "name_origin_english"
+    t.integer "generation_id"
+    t.index ["generation_id"], name: "index_pokemons_on_generation_id"
   end
 
   create_table "types", force: :cascade do |t|
