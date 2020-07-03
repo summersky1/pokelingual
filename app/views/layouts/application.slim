@@ -14,7 +14,8 @@ html
 
   body.sticky-footer.bg-edges
     nav.navbar.navbar-expand-sm.navbar-dark.bg-danger.p-0
-      a.navbar-brand.ml-2.ml-sm-3.mr-2 href="/" Pokélingual
+      a.navbar-brand.ml-2.ml-sm-3.mr-2 href= url_for(action: :home)
+        | Pokélingual
       span.mr-auto.text-white style="margin-top:2px" alpha
 
     div.container.animated.fadeIn.faster

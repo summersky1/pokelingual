@@ -23,6 +23,10 @@
   font-weight: bold;
 }
 
+.simple-anchor:hover { 
+  text-decoration: none;
+}
+
 @include media-breakpoint-down(sm) {
   .pokemon-card {
     height: 142px;
