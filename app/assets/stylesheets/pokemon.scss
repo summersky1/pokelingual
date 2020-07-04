@@ -6,6 +6,13 @@
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins";
 
+.dropdown {
+  min-width: 120px;
+}
+.dropdown-menu {
+  min-width: 50px
+}
+
 .hand-cursor {
   cursor: pointer;
 }
