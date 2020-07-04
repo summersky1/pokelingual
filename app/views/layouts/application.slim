@@ -21,7 +21,11 @@ html
         span.navbar-toggler-icon
       #navbarNavAltMarkup.collapse.navbar-collapse
         div.navbar-nav.mx-auto
-          / insert links here
+          div.nav-item.dropdown
+            a.nav-link.text-white.px-3.dropdown-toggle href="#" data-toggle="dropdown" = t(:generation)
+            div.dropdown-menu.bg-danger
+              - (1..8).each do |gen|
+                a.dropdown-item href="#{url_for(action: :generation, id: gen)}" = "#{gen} | " + t("generation#{gen}")
         div.navbar-nav
           div.nav-item.dropdown
             a.nav-link.text-white.px-3.dropdown-toggle href="#" data-toggle="dropdown" = t(:language)
