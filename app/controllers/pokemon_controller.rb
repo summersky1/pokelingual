@@ -13,4 +13,8 @@ class PokemonController < ApplicationController
   def show
     @pokemon = Pokemon.find(params[:id])
   end
+
+  def generation
+    @pokemon_list = Pokemon.where(generation_id: params[:id]).limit(9)
+  end
 end
