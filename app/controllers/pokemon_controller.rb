@@ -15,6 +15,6 @@ class PokemonController < ApplicationController
   end
 
   def generation
-    @pokemon_list = Pokemon.where(generation_id: params[:id]).limit(9)
+    @pokemon_list = Pokemon.where(generation_id: params[:id]).page(params[:page]).per(15)
   end
 end

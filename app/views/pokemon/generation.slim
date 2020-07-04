@@ -1,2 +1,10 @@
 h2.mt-md-3.mt-2 = t(:region) + t("generation#{params[:id]}")
 = render 'layouts/pokemon_cards'
+/ pagination
+div.text-center.mt-2.mb-sm-5.mb-4
+  - if params[:page].to_i > 1
+    a.btn.btn-outline-danger href="#{url_for(action: :generation, page: 1)}" « First
+    a.btn.btn-outline-danger href="#{path_to_previous_page(@pokemon_list)}" ‹ Prev
+  - if params[:page].to_i < @pokemon_list.total_pages
+    a.btn.btn-outline-danger href="#{path_to_next_page(@pokemon_list)}" Next ›
+    a.btn.btn-outline-danger href="#{url_for(action: :generation, page: @pokemon_list.total_pages)}" Last »
