@@ -25,7 +25,7 @@ html
         div.navbar-nav
           div.nav-item.dropdown
             a.nav-link.text-white.px-3.dropdown-toggle href="#" data-toggle="dropdown" = t(:language)
-            div.dropdown-menu
+            div.dropdown-menu.bg-danger
               = link_to('🇬🇧 English', params.permit(:locale).merge(locale: :en), { class: "dropdown-item" })
               = link_to('🇯🇵 日本語', params.permit(:locale).merge(locale: :ja), { class: "dropdown-item" })
 
