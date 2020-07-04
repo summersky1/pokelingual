@@ -6,6 +6,16 @@
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins";
 
+.dropdown {
+  min-width: 120px;
+}
+.dropdown-menu {
+  min-width: 50px
+}
+.dropdown-item {
+  color: white;
+}
+
 .hand-cursor {
   cursor: pointer;
 }
@@ -21,6 +31,10 @@
 .attribute-name {
   width: 140px;
   font-weight: bold;
+}
+
+.simple-anchor:hover { 
+  text-decoration: none;
 }
 
 @include media-breakpoint-down(sm) {
