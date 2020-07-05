@@ -37,6 +37,10 @@
   text-decoration: none;
 }
 
+.display-button {
+  pointer-events: none;
+}
+
 @include media-breakpoint-down(sm) {
   .pokemon-card {
     height: 142px;
