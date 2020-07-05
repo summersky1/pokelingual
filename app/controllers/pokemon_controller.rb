@@ -13,4 +13,8 @@ class PokemonController < ApplicationController
   def show
     @pokemon = Pokemon.find(params[:id])
   end
+
+  def generation
+    @pokemon_list = Generation.get_pokemon_from_generation(params[:id], params[:page])
+  end
 end
