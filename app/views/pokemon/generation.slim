@@ -3,9 +3,9 @@ h2.mt-md-3.mt-2 = t(:region) + t("generation#{params[:id]}")
 / pagination
 div.text-center.mt-2.mb-sm-5.mb-4
   - if params[:page].to_i > 1
-    a.btn.btn-outline-danger.mx-sm-3.mr-1 href="#{url_for(action: :generation, page: 1)}" = t(:first)
-    a.btn.btn-outline-danger.mx-sm-3.mr-1 href="#{path_to_previous_page(@pokemon_list)}" = t(:previous)
+    a.btn.btn-outline-danger.page-button.mx-sm-3.mr-1 href="#{url_for(action: :generation, page: 1)}" = t(:first)
+    a.btn.btn-outline-danger.page-button.mx-sm-3.mr-1 href="#{path_to_previous_page(@pokemon_list)}" = t(:previous)
     span.btn.btn-outline-danger.display-button.mx-sm-3.mr-1 = params[:page]
   - if params[:page].to_i < @pokemon_list.total_pages
-    a.btn.btn-outline-danger.mx-sm-3.mr-1 href="#{path_to_next_page(@pokemon_list)}" = t(:next)
-    a.btn.btn-outline-danger.mx-sm-3.mr-1 href="#{url_for(action: :generation, page: @pokemon_list.total_pages)}" = t(:last)
+    a.btn.btn-outline-danger.page-button.mx-sm-3.mr-1 href="#{path_to_next_page(@pokemon_list)}" = t(:next)
+    a.btn.btn-outline-danger.page-button.mx-sm-3.mr-1 href="#{url_for(action: :generation, page: @pokemon_list.total_pages)}" = t(:last)

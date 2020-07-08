@@ -36,6 +36,9 @@
 .display-button {
   pointer-events: none;
 }
+.page-button {
+  min-width: 64px;
+}
 
 @include media-breakpoint-down(sm) {
   .pokemon-card {
