@@ -17,3 +17,7 @@ en:
   generation6: "Kalos"
   generation7: "Alola"
   generation8: "Galar"
+  first: "«First"
+  previous: "‹Prev"
+  next: "Next›"
+  last: "Last»"
