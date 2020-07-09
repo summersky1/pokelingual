@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     get 'pokemon', to: 'pokemon#home'
     get 'pokemon/:id', to: 'pokemon#show'
     get 'generation/:id', to: 'pokemon#generation'
+    get "*path" => redirect("/")
   end
 
   # always redirect urls without locale
