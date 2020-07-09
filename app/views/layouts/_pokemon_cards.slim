@@ -6,10 +6,10 @@ div.row
           img.pokemon-image.ml-4.ml-sm-5.ml-md-2.ml-lg-5.ml-xl-3 src= pokemon_thumbnail_image_url(pokemon.id)
           div.vertical-line.align-self-center.mx-2
           div.media-body.pt-sm-3.pt-2.pb-1.px-1
-            div.font-size-14 = "##{pokemon.id}"
-            div.font-size-18 = pokemon.name_english
-            div.font-size-18 = pokemon.name_japanese
-            div.font-size-14.mb-1 = pokemon.name_romaji
+            div.card-text-small = "##{pokemon.id}"
+            div.card-text-large = pokemon.name_english
+            div.card-text-large = pokemon.name_japanese
+            div.card-text-small.mb-1 = pokemon.name_romaji
             img.mr-1.pokemon-type src= type_image_url(pokemon.types[0].id)
             - if pokemon.types[1].present?
               img.pokemon-type src= type_image_url(pokemon.types[1].id)
