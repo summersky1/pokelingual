@@ -20,13 +20,13 @@ div.row.mt-2
         td
           figure.figure.text-center.mb-0
             img.show-pokemon-type src= type_image_url(@pokemon.types[0].id)
-            div = @pokemon.types[0].english
-            div.mt-n1 = @pokemon.types[0].japanese
+            div.show-text-small = @pokemon.types[0].english
+            div.show-text-small.mt-n1 = @pokemon.types[0].japanese
           - if @pokemon.types[1].present?
             figure.figure.text-center.mb-0.ml-3
               img.show-pokemon-type src= type_image_url(@pokemon.types[1].id)
-              div = @pokemon.types[1].english
-              div.mt-n1 = @pokemon.types[1].japanese
+              div.show-text-small = @pokemon.types[1].english
+              div.show-text-small.mt-n1 = @pokemon.types[1].japanese
       tr
         td.attribute-name = t(:region)
         - gen = @pokemon.generation
