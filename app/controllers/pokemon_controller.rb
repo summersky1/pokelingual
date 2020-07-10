@@ -11,7 +11,10 @@ class PokemonController < ApplicationController
   end
 
   def show
-    @pokemon = Pokemon.find(params[:id])
+    pokemon_id = params[:id].to_i
+    @pokemon = Pokemon.find(pokemon_id)
+    @prev_pokemon = Pokemon.get_previous_pokemon(pokemon_id)
+    @next_pokemon = Pokemon.get_next_pokemon(pokemon_id)
   end
 
   def generation
