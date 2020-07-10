@@ -48,13 +48,13 @@ table.table.border-bottom.table-hover
 
 / prev/next navigation
 div.d-flex.justify-content-between.mb-3
-  div.text-center
+  div.text-center.bg-white-hover
     a.simple-anchor.text-dark href= url_for(action: :show, id: @prev_pokemon.id)
       span.show-text-large «
       img.pokemon-icon.mx-1 src= pokemon_thumbnail_image_url(@prev_pokemon.id)
       div.show-text-small = @prev_pokemon.name_english
       div.show-text-small = @prev_pokemon.name_japanese
-  div.text-center
+  div.text-center.bg-white-hover
     a.simple-anchor.text-dark href= url_for(action: :show, id: @next_pokemon.id)
       img.pokemon-icon.mx-1 src= pokemon_thumbnail_image_url(@next_pokemon.id)
       span.show-text-large »
