@@ -48,15 +48,19 @@ table.table.border-bottom.table-hover
 
 / prev/next navigation
 div.d-flex.justify-content-between.mb-3
-  div.text-center.bg-white-hover
-    a.simple-anchor.text-dark href= url_for(action: :show, id: @prev_pokemon.id)
+  a.simple-anchor.text-dark href= url_for(action: :show, id: @prev_pokemon.id)
+    div.media.d-flex.align-items-center.bg-white-hover.px-sm-1
       span.show-text-large «
       img.pokemon-icon.mx-1 src= pokemon_thumbnail_image_url(@prev_pokemon.id)
-      div.show-text-small = @prev_pokemon.name_english
-      div.show-text-small = @prev_pokemon.name_japanese
-  div.text-center.bg-white-hover
-    a.simple-anchor.text-dark href= url_for(action: :show, id: @next_pokemon.id)
+      div.media-body.text-center
+        div.show-text-small = "##{@prev_pokemon.id}"
+        div.show-text-small = @prev_pokemon.name_english
+        div.show-text-small = @prev_pokemon.name_japanese
+  a.simple-anchor.text-dark href= url_for(action: :show, id: @next_pokemon.id)
+    div.media.d-flex.align-items-center.bg-white-hover.px-sm-1
+      div.media-body.text-center
+        div.show-text-small = "##{@next_pokemon.id}"
+        div.show-text-small = @next_pokemon.name_english
+        div.show-text-small = @next_pokemon.name_japanese
       img.pokemon-icon.mx-1 src= pokemon_thumbnail_image_url(@next_pokemon.id)
       span.show-text-large »
-      div.show-text-small = @next_pokemon.name_english
-      div.show-text-small = @next_pokemon.name_japanese

@@ -33,10 +33,6 @@
   text-decoration: none;
 }
 
-.pokemon-icon {
-  width: 84px;
-}
-
 .display-button {
   pointer-events: none;
 }
@@ -72,6 +68,9 @@
   .show-pokemon-type {
     width: 44px;
   }
+  .pokemon-icon {
+    width: 72px;
+  }
 }
 
 @include media-breakpoint-up(sm) {
@@ -98,6 +97,9 @@
   }
   .show-pokemon-type {
     width: 52px;
+  }
+  .pokemon-icon {
+    width: 84px;
   }
 }
 
