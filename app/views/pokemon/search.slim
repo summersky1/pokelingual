@@ -3,9 +3,14 @@ h2.mt-md-3.mt-2 Pokemon search
 form method="get" action= url_for(action: :search)
   div.form-row.pt-1.pb-3.pb-sm-2
     div.col-sm-9.col-md-10.pb-3.pb-sm-2
-      input.form-control.col-auto type="search" name="query" placeholder="Enter Pokemon name..." required="" minlength="3" value=params[:query]
+      input.form-control.col-auto[ type="search" name="query" placeholder="Enter Pokemon name..."
+        required="" minlength="3" value=params[:query] ]
     div.col
       button.btn.btn-outline-danger.btn-block type="submit" Search
 
-h4.mt-md-2.mt-1 = t(:random_pokemon)
+- if params[:query].present?
+  h4.mt-md-2.mt-1 Results
+- else
+  h4.mt-md-2.mt-1 = t(:random_pokemon)
+
 = render 'layouts/pokemon_cards'

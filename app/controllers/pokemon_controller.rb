@@ -7,7 +7,11 @@ class PokemonController < ApplicationController
   end
 
   def search
-    @pokemon_list = Pokemon.get_random_pokemon(9)
+    if params[:query].present?
+      @pokemon_list = Pokemon.search_pokemon_by_name(params[:query])
+    else
+      @pokemon_list = Pokemon.get_random_pokemon(9)
+    end
   end
 
   def show
