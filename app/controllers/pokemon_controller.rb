@@ -6,7 +6,7 @@ class PokemonController < ApplicationController
     I18n.with_locale(locale, &action)
   end
 
-  def home
+  def search
     @pokemon_list = Pokemon.get_random_pokemon(9)
   end
 

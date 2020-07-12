@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   scope '/:locale' do
-    root to: 'pokemon#home'
-    get 'pokemon', to: 'pokemon#home'
+    root to: 'pokemon#search'
+    get 'search', to: 'pokemon#search'
     get 'pokemon/:id', to: 'pokemon#show'
     get 'generation/:id', to: 'pokemon#generation'
     get "*path" => redirect("/")
