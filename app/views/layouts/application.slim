@@ -21,6 +21,8 @@ html
         span.navbar-toggler-icon
       #navbarNavAltMarkup.collapse.navbar-collapse
         div.navbar-nav.mx-auto
+          a.nav-item.nav-link.text-white.px-3 href= url_for(action: :search)
+            = t(:search_button)
           div.nav-item.dropdown
             a.nav-link.text-white.px-3.dropdown-toggle href="#" data-toggle="dropdown" = t(:generation)
             div.dropdown-menu.bg-danger
