@@ -1,6 +1,11 @@
 ja:
   pokelingual: "ポケリンガル"
   language: "表示言語"
+  pokemon_search: "ポケモン検索"
+  search_box_placeholder: "ポケモン名を入力してください..."
+  search_button: "検索"
+  search_results: "検索結果"
+  no_search_results: "検索結果はありません、検索ワードが間違っていないかご確認ください。"
   random_pokemon: "ランダムポケモン"
   national_dex: "全国図鑑："
   english: "英語名："

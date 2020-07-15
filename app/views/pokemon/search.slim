@@ -1,19 +1,19 @@
-h3.mt-md-3.mt-2 Pokemon search
+h3.mt-md-3.mt-2 = t(:pokemon_search)
 
 form method="get" action= url_for(action: :search)
   div.form-row.pt-1.pb-3.pb-sm-2
     div.col-sm-9.col-md-10.pb-3.pb-sm-2
-      input.form-control.col-auto[ type="search" name="query" placeholder="Enter Pokemon name..."
+      input.form-control.col-auto[ type="search" name="query" placeholder=t(:search_box_placeholder)
         required="" minlength="3" value=params[:query] ]
     div.col
-      button.btn.btn-outline-danger.btn-block type="submit" Search
+      button.btn.btn-outline-danger.btn-block type="submit" = t(:search_button)
 
 - if @search_success == true
-  h5.mt-2 Results
+  h5.mt-2 = t(:search_results)
 - else
   - if params[:query].present?
     div.text-center
-      h6.text-danger No search results, please try again.
+      h6.text-danger = t(:no_search_results)
   h5.mt-2 = t(:random_pokemon)
 
 = render 'layouts/pokemon_cards'
