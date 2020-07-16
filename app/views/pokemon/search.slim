@@ -2,8 +2,7 @@ h3.mt-md-3.mt-2 = t(:pokemon_search)
 
 form method="get" action= url_for(action: :search)
   div.input-group.mt-1.mb-sm-4.mb-3
-    input.form-control[ type="search" name="query" placeholder=t(:search_box_placeholder)
-      required="" minlength="3" value=params[:query] ]
+    input.form-control type="search" name="query" placeholder=t(:search_box_placeholder) minlength="3" value=params[:query]
     div.input-group-append
       button.btn.btn-primary.fa.fa-search.bg-danger.border.border-danger type="submit"
 
