@@ -24,4 +24,8 @@ class Pokemon < ApplicationRecord
     end
     Pokemon.find(pokemon_id)
   end
+
+  def self.search_pokemon_by_name(query)
+    Pokemon.where('name_english LIKE :q OR name_japanese LIKE :q OR name_romaji LIKE :q', q: "%#{query}%")
+  end
 end

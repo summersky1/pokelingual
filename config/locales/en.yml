@@ -1,6 +1,11 @@
 en:
   pokelingual: "Pokélingual"
+  search_link: "Search"
   language: "Language"
+  pokemon_search: "Pokemon search"
+  search_box_placeholder: "Enter Pokemon name..."
+  search_results: "Results"
+  no_search_results: "No search results, please try again."
   random_pokemon: "Random Pokemon"
   national_dex: "National dex: "
   english: "English: "
