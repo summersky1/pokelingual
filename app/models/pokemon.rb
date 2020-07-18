@@ -25,10 +25,29 @@ class Pokemon < ApplicationRecord
   def self.search(query, page)
     __elasticsearch__.search({
       query: {
-        multi_match: {
-          query: query,
-          fields: [:name_english, :name_japanese, :name_romaji, 'types.english', 'types.japanese'],
-          type: :phrase_prefix
+        bool: {
+          should: [
+            {
+              multi_match: {
+                query: query,
+                fields: [:name_english, :name_japanese, :name_romaji],
+                type: :phrase_prefix
+              }
+            },
+            {
+              multi_match: {
+                query: query,
+                fields: [:name_english, :name_japanese, :name_romaji],
+                fuzziness: :auto
+              }
+            },
+            {
+              multi_match: {
+                query: query,
+                fields: ['types.english', 'types.japanese']
+              }
+            }
+          ]
         }
       }
     }).page(page).per(9)
