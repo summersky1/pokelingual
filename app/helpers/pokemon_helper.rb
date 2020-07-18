@@ -12,4 +12,12 @@ module PokemonHelper
   def type_image_url(type_id)
     url = image_path("type_#{type_id}.svg")
   end
+
+  def path_to_first_page
+    url_for(page: 1)
+  end
+
+  def path_to_last_page(pokemon_list)
+    url_for(page: pokemon_list.total_pages)
+  end
 end

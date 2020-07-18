@@ -1,0 +1,8 @@
+div.text-center.mt-2.mb-sm-5.mb-4
+  - if params[:page].to_i > 1
+    a.btn.btn-outline-danger.page-button.mx-sm-3.mr-1 href="#{path_to_first_page}" = t(:first)
+    a.btn.btn-outline-danger.page-button.mx-sm-3.mr-1 href="#{path_to_previous_page(@pokemon_list)}" = t(:previous)
+    span.btn.btn-outline-danger.display-button.mx-sm-3.mr-1 = params[:page]
+  - if params[:page].to_i < @pokemon_list.total_pages
+    a.btn.btn-outline-danger.page-button.mx-sm-3.mr-1 href="#{path_to_next_page(@pokemon_list)}" = t(:next)
+    a.btn.btn-outline-danger.page-button.mx-sm-3.mr-1 href="#{path_to_last_page(@pokemon_list)}" = t(:last)
