@@ -22,6 +22,17 @@ class Pokemon < ApplicationRecord
   Pokemon.__elasticsearch__.create_index!(force: true)
   Pokemon.import
 
+  def self.search(query)
+    __elasticsearch__.search({
+      query: {
+        multi_match: {
+          query: query,
+          fields: ['name_english', 'name_japanese', 'name_romaji', 'type.english', 'type.japanese']
+        }
+      }
+    })
+  end
+
   def self.get_random_pokemon(quantity)
     Pokemon.find(Pokemon.pluck(:id).sample(quantity))
   end
@@ -42,9 +53,5 @@ class Pokemon < ApplicationRecord
       pokemon_id = 1
     end
     Pokemon.find(pokemon_id)
-  end
-
-  def self.search_pokemon_by_name(query)
-    Pokemon.where('name_english LIKE :q OR name_japanese LIKE :q OR name_romaji LIKE :q', q: "%#{query}%")
   end
 end
