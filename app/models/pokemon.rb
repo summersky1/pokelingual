@@ -27,7 +27,8 @@ class Pokemon < ApplicationRecord
       query: {
         multi_match: {
           query: query,
-          fields: [:name_english, :name_japanese, :name_romaji, 'types.english', 'types.japanese']
+          fields: [:name_english, :name_japanese, :name_romaji, 'types.english', 'types.japanese'],
+          type: :phrase_prefix
         }
       }
     }).page(page).per(9)
