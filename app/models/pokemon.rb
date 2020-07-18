@@ -22,15 +22,15 @@ class Pokemon < ApplicationRecord
   Pokemon.__elasticsearch__.create_index!(force: true)
   Pokemon.import
 
-  def self.search(query)
+  def self.search(query, page)
     __elasticsearch__.search({
       query: {
         multi_match: {
           query: query,
-          fields: ['name_english', 'name_japanese', 'name_romaji', 'type.english', 'type.japanese']
+          fields: [:name_english, :name_japanese, :name_romaji, 'types.english', 'types.japanese']
         }
       }
-    })
+    }).page(page).per(9)
   end
 
   def self.get_random_pokemon(quantity)

@@ -8,7 +8,7 @@ class PokemonController < ApplicationController
 
   def search
     if params[:query].present?
-      @pokemon_list = Pokemon.__elasticsearch__.search(params[:query]).page(params[:page]).per(9)
+      @pokemon_list = Pokemon.search(params[:query], params[:page])
       if !@pokemon_list.empty?
         @search_success = true
       else
