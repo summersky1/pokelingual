@@ -14,10 +14,10 @@ module PokemonHelper
   end
 
   def path_to_first_page
-    url_for(page: 1)
+    url_for(request.query_parameters.merge(page: 1))
   end
 
   def path_to_last_page(pokemon_list)
-    url_for(page: pokemon_list.total_pages)
+    url_for(request.query_parameters.merge(page: pokemon_list.total_pages))
   end
 end
