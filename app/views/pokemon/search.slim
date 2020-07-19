@@ -1,8 +1,8 @@
-h3.mt-md-3.mt-2 = t(:pokemon_search)
+h3.mt-md-3.mt-2 = t('search.title')
 
 form.mb-2 method="get" action= url_for(action: :search)
   div.input-group
-    input.form-control type="search" name="query" placeholder=t(:search_box_placeholder) minlength="2" value=params[:query]
+    input.form-control type="search" name="query" placeholder=t('search.placeholder') minlength="2" value=params[:query]
     div.input-group-append
       button.btn.btn-primary.fa.fa-search.bg-danger.border.border-danger type="submit"
   div.text-right
@@ -10,12 +10,12 @@ form.mb-2 method="get" action= url_for(action: :search)
     img style="width: 108px" src=image_path("misc/elasticsearch.png")
 
 - if @search_success == true
-  h5.mt-2 = t(:search_results)
+  h5.mt-2 = t('search.results')
 - else
   - if params[:query].present?
     div.text-center.mb-3
-      h6.text-danger = t(:no_search_results)
-  h5.mt-2 = t(:random_pokemon)
+      h6.text-danger = t('search.no_results')
+  h5.mt-2 = t('search.random_pokemon')
 
 = render 'layouts/pokemon_cards'
 

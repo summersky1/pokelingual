@@ -1,13 +1,11 @@
 doctype html
 html
   head
-    title = t(:pokelingual)
-
+    title = t('app.pokelingual')
     meta content=("text/html; charset=UTF-8") http-equiv="Content-Type"
     meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
     = csrf_meta_tags
     = csp_meta_tag
-
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
     = stylesheet_link_tag 'application', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'
     = stylesheet_link_tag 'application', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
@@ -16,22 +14,22 @@ html
   body.sticky-footer.bg-edges
     nav.navbar.navbar-expand-sm.navbar-dark.bg-danger.p-0.pr-sm-3
       a.navbar-brand.ml-2.ml-sm-3.mr-2 href= url_for(action: :search)
-        = t(:pokelingual)
+        = t('app.pokelingual')
       span.mr-auto.text-white style="margin-top:2px" alpha
       button.navbar-toggler data-target="#navbarNavAltMarkup" data-toggle="collapse" type="button"
         span.navbar-toggler-icon
       #navbarNavAltMarkup.collapse.navbar-collapse
         div.navbar-nav.mx-auto
           a.nav-item.nav-link.text-white.px-3 href= url_for(action: :search)
-            = t(:search_link)
+            = t('app.search_link')
           div.nav-item.dropdown
-            a.nav-link.text-white.px-3.dropdown-toggle href="#" data-toggle="dropdown" = t(:generation)
+            a.nav-link.text-white.px-3.dropdown-toggle href="#" data-toggle="dropdown" = t('app.generation')
             div.dropdown-menu.bg-danger
               - (1..8).each do |gen|
-                a.dropdown-item href="#{url_for(action: :generation, id: gen)}" = "#{gen} | " + t("generation#{gen}")
+                a.dropdown-item href="#{url_for(action: :generation, id: gen)}" = "#{gen} | " + t("app.generation#{gen}")
         div.navbar-nav
           div.nav-item.dropdown
-            a.nav-link.text-white.px-3.dropdown-toggle href="#" data-toggle="dropdown" = t(:language)
+            a.nav-link.text-white.px-3.dropdown-toggle href="#" data-toggle="dropdown" = t('app.language')
             div.dropdown-menu.bg-danger
               = link_to('🇬🇧 English', params.permit(:locale).merge(locale: :en), { class: "dropdown-item" })
               = link_to('🇯🇵 日本語', params.permit(:locale).merge(locale: :ja), { class: "dropdown-item" })
