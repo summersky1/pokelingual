@@ -7,16 +7,12 @@ class PokemonController < ApplicationController
   end
 
   def search
+    @search_success = false
     if params[:query].present?
       @pokemon_list = Pokemon.search(params[:query], params[:page])
-      if !@pokemon_list.empty?
-        @search_success = true
-      else
-        @pokemon_list = Pokemon.get_random_pokemon(9)
-      end
-    else
-      @pokemon_list = Pokemon.get_random_pokemon(9)
+      @search_success = true if !@pokemon_list.empty?
     end
+    @pokemon_list = Pokemon.get_random_pokemon(9) if @search_success == false
   end
 
   def show
