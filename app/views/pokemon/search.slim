@@ -1,4 +1,4 @@
-h3.mt-md-3.mt-2 = t('search.title')
+h4.mt-md-3.mt-2 = t('search.title')
 
 form method="get" action= url_for(action: :search)
   div.input-group
@@ -9,10 +9,26 @@ form method="get" action= url_for(action: :search)
     span.text-secondary.small powered by
     img style="width: 108px" src=image_path("misc/elasticsearch.png")
   - if params[:query].present? && @search_success == false
-    div.text-center
+    div.text-center.mb-3
       h6.text-danger = t('search.no_results')
-
-h5.mt-2
+  div.text-secondary.mt-n3
+    span Example searches:
+    div
+      a href=url_for(query: 'pikachu') pikachu
+      = " (English), "
+      a href=url_for(query: 'ピカチュウ') ピカチュウ
+      = " (Japanese), "
+      a href=url_for(query: 'rizadon') rizadon
+      = " (romaji)"
+    div
+      a href=url_for(query: 'pika') pika
+      = " (matches name prefix), "
+      a href=url_for(query: 'pikach') pikach
+      = " (matches slightly incorrect spelling), "
+      a href=url_for(query: 'water ice') = "water ice"
+      = " (search by type)"
+hr
+h5.mb-1
   - if @search_success == true
     = t('search.results')
   - else

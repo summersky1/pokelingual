@@ -14,7 +14,7 @@ en:
     language: "Language"
   search:
     title: "Pokemon search"
-    placeholder: "Enter Pokemon name..."
+    placeholder: "Enter search term..."
     results: "Results"
     no_results: "No search results, please try again."
     random_pokemon: "Random Pokemon"
