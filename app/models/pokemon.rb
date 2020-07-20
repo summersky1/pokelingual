@@ -19,9 +19,6 @@ class Pokemon < ApplicationRecord
     )
   end
 
-  Pokemon.__elasticsearch__.create_index!(force: true)
-  Pokemon.import
-
   def self.search(query, page)
     __elasticsearch__.search({
       query: {
