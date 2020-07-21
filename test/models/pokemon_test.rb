@@ -26,7 +26,7 @@ class PokemonTest < ActiveSupport::TestCase
   end
 
   test "search with slightly incorrect spelling" do
-    pokemon_list = Pokemon.search('pikach', 1)
+    pokemon_list = Pokemon.search('pikchu', 1)
     assert_equal(pokemon_list[0].id, '25')
   end
 
