@@ -14,7 +14,7 @@ ja:
     language: "表示言語"
   search:
     title: "ポケモン検索"
-    placeholder: "検索ワードを入力してください..."
+    placeholder: "検索ワードを入力..."
     results: "検索結果"
     no_results: "検索結果はありません、検索ワードが間違っていないかご確認ください。"
     random_pokemon: "ランダムポケモン"
