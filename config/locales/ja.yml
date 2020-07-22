@@ -24,7 +24,7 @@ ja:
     japanese: "日本語名："
     romaji: "ローマ字："
     types: "タイプ："
-    region: "地方："
+    region: "地方"
   pagination:
     first: "«最初"
     prev: "‹前"

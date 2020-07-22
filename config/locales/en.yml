@@ -24,7 +24,7 @@ en:
     japanese: "Japanese: "
     romaji: "Rōmaji: "
     types: "Type(s): "
-    region: "Region: "
+    region: "region"
   pagination:
     first: "«First"
     prev: "‹Prev"
