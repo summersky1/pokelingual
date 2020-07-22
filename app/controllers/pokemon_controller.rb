@@ -1,10 +1,5 @@
 class PokemonController < ApplicationController
   around_action :switch_locale
- 
-  def switch_locale(&action)
-    locale = params[:locale] || I18n.default_locale
-    I18n.with_locale(locale, &action)
-  end
 
   def search
     @search_success = false
@@ -26,4 +21,10 @@ class PokemonController < ApplicationController
     @pokemon_list = Generation.get_pokemon_from_generation(params[:id], params[:page])
     @first_pokemon_id = Generation.find(params[:id]).pokemons[0].id
   end
+
+  private
+    def switch_locale(&action)
+      locale = params[:locale] || I18n.default_locale
+      I18n.with_locale(locale, &action)
+    end
 end
