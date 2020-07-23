@@ -1,6 +1,6 @@
 div.mt-md-3.mt-2
   h4 style="display: inline" = t("app.generation#{params[:id]}") + " " + t('show.region')
-  span.text-secondary = " (##{@first_pokemon_id} ~ ##{@pokemon_list.total_count+@first_pokemon_id-1})"
+  span.text-secondary = " (##{@first_pokemon_id} ~ ##{@last_pokemon_id})"
   
 = render 'layouts/pokemon_cards'
 = render 'layouts/pagination'

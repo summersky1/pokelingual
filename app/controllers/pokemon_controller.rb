@@ -18,8 +18,10 @@ class PokemonController < ApplicationController
   end
 
   def generation
-    @pokemon_list = Generation.get_pokemon_from_generation(params[:id], params[:page])
-    @first_pokemon_id = Generation.find(params[:id]).pokemons[0].id
+    @pokemon_list = Generation.get_pokemon_from_generation(params[:id])
+    @first_pokemon_id = @pokemon_list[0].id
+    @last_pokemon_id = @pokemon_list[-1].id
+    @pokemon_list = @pokemon_list.page(params[:page]).per(12)
   end
 
   private
