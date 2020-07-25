@@ -12,7 +12,7 @@ html
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
 
   body.sticky-footer.bg-edges
-    nav.navbar.navbar-expand-sm.navbar-dark.bg-danger.p-0.pr-sm-3
+    nav.navbar.fixed-top.navbar-expand-sm.navbar-dark.bg-danger.p-0.pr-sm-3
       a.navbar-brand.ml-2.ml-sm-3.mr-2 href= url_for(action: :search)
         = t('app.pokelingual')
       span.mr-auto.text-white style="margin-top:2px" alpha
@@ -34,7 +34,7 @@ html
               = link_to('🇬🇧 English', params.permit(:locale).merge(locale: :en), { class: "dropdown-item" })
               = link_to('🇯🇵 日本語', params.permit(:locale).merge(locale: :ja), { class: "dropdown-item" })
 
-    div.container.animated.fadeIn.faster
+    div.container.animated.fadeIn.faster.mt-5.pt-sm-1.pb-sm-3.pb-2
       = yield
 
     footer.footer.mt-auto.py-2.bg-danger.text-center

@@ -1,4 +1,4 @@
-div.text-center.mt-2.mb-sm-5.mb-4
+div.text-center.mt-1.mb-2
   - if params[:page].to_i > 1
     a.btn.btn-outline-danger.page-button.mx-sm-3.mr-1 href="#{path_to_first_page}" = t('pagination.first')
     a.btn.btn-outline-danger.page-button.mx-sm-3.mr-1 href="#{path_to_prev_page(@pokemon_list)}" = t('pagination.prev')
