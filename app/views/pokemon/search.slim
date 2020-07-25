@@ -12,21 +12,21 @@ form method="get" action= url_for(action: :search)
     div.text-center.mb-3
       h6.text-danger = t('search.no_results')
   div.text-secondary.mt-n3
-    span Example searches:
+    span = t('search.example_searches')
     div
       a href=url_for(query: 'pikachu') pikachu
-      = " (English), "
+      = " #{t('search.english')}, "
       a href=url_for(query: 'ピカチュウ') ピカチュウ
-      = " (Japanese), "
+      = " #{t('search.japanese')}, "
       a href=url_for(query: 'rizadon') rizadon
-      = " (romaji)"
+      = " #{t('search.romaji')} "
     div
-      a href=url_for(query: 'pika') pika
-      = " (matches name prefix), "
-      a href=url_for(query: 'pikchu') pikchu
-      = " (matches slightly incorrect spelling), "
-      a href=url_for(query: 'water ice') = "water ice"
-      = " (search by type)"
+      a href=url_for(query: t('search.prefix_search')) = t('search.prefix_search')
+      = " #{t('search.prefix_search_explanation')}, "
+      a href=url_for(query: t('search.incorrect_search')) = t('search.incorrect_search')
+      = " #{t('search.incorrect_search_explanation')}, "
+      a href=url_for(query: t('search.type_search')) = t('search.type_search')
+      = " #{t('search.type_search_explanation')} "
 hr.my-sm-3.my-2
 h5.mb-1
   - if @search_success == true
