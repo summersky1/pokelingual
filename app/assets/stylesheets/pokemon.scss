@@ -47,10 +47,10 @@
 
 @include media-breakpoint-down(sm) {
   .pokemon-card {
-    height: 142px;
+    height: 144px;
   }
   .pokemon-image {
-    width: 142px;
+    width: 136px;
   }
   .vertical-line {
     height: 122px;
@@ -59,7 +59,7 @@
     font-size: 14px;
   }
   .pokemon-type {
-    width: 26px;
+    width: 30px;
   }
   .show-pokemon-image {
     width: 340px;
@@ -80,19 +80,19 @@
 
 @include media-breakpoint-up(sm) {
   .pokemon-card {
-    height: 180px;
+    height: 174px;
   }
   .pokemon-image {
-    width: 180px;
+    width: 166px;
   }
   .vertical-line {
-    height: 160px;
+    height: 152px;
   }
   .card-text-large {
     font-size: 18px;
   }
   .pokemon-type {
-    width: 32px;
+    width: 34px;
   }
   .show-text-small {
     font-size: 14px;
