@@ -11,6 +11,10 @@ vendor/
 # Ignore dotenv environment variables
 .env
 
+# Ignore solargraph config
+.solargraph.yml
+config/solargraph.rb
+
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
