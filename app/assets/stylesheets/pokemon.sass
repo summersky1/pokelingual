@@ -1,0 +1,85 @@
+@import "bootstrap/scss/functions"
+@import "bootstrap/scss/variables"
+@import "bootstrap/scss/mixins"
+
+$hover-color: #e9e9e9
+$dark-bg-color: #424242
+
+.dropdown
+  min-width: 120px
+.dropdown-menu
+  min-width: 50px
+.dropdown-item
+  color: white
+
+.bg-white-hover:hover
+  background-color: $hover-color
+
+.vertical-line
+  border-left: 1px solid rgba(0,0,0,0.15)
+
+.attribute-name
+  width: 140px
+  font-weight: bold
+
+.simple-anchor:hover 
+  text-decoration: none
+
+.display-button
+  pointer-events: none
+.page-button
+  min-width: 64px
+
+@include media-breakpoint-down(sm)
+  .pokemon-card
+    height: 144px
+  .pokemon-image
+    width: 136px
+  .vertical-line
+    height: 122px
+  .card-text-small
+    font-size: 14px
+  .pokemon-type
+    width: 30px
+  .show-pokemon-image
+    width: 340px
+  .show-text-small
+    font-size: 14px
+  .show-text-large
+    font-size: 20px
+  .show-pokemon-type
+    width: 44px
+  .pokemon-icon
+    width: 72px
+
+@include media-breakpoint-up(sm)
+  .pokemon-card
+    height: 174px
+  .pokemon-image
+    width: 166px
+  .vertical-line
+    height: 152px
+  .card-text-large
+    font-size: 18px
+  .pokemon-type
+    width: 34px
+  .show-text-small
+    font-size: 14px
+  .show-text-large
+    font-size: 24px
+  .show-pokemon-type
+    width: 52px
+  .pokemon-icon
+    width: 84px
+
+@media (min-width: 1300px)
+  .bg-edges
+    background: linear-gradient(to right, $hover-color 5%, white 5% 95%, $hover-color 95%)
+
+@media (min-width: 1550px)
+  .bg-edges
+    background: linear-gradient(to right, $dark-bg-color 5%, $hover-color 5% 10%, white 10% 90%, $hover-color 90% 95%, $dark-bg-color 95%)
+
+@media (min-width: 1800px)
+  .bg-edges
+    background: linear-gradient(to right, $dark-bg-color 9%, $hover-color 9% 18%, white 18% 82%, $hover-color 82% 91%, $dark-bg-color 91%)
