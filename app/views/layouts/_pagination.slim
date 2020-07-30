@@ -1,8 +1,19 @@
-div.text-center.mt-1.mb-2
-  - if params[:page].to_i > 1
-    a.btn.btn-outline-danger.page-button.mx-sm-3.mr-1 href="#{path_to_first_page}" = t('pagination.first')
-    a.btn.btn-outline-danger.page-button.mx-sm-3.mr-1 href="#{path_to_prev_page(@pokemon_list)}" = t('pagination.prev')
-    span.btn.btn-outline-danger.display-button.mx-sm-3.mr-1 = params[:page]
-  - if params[:page].to_i < @pokemon_list.total_pages
-    a.btn.btn-outline-danger.page-button.mx-sm-3.mr-1 href="#{path_to_next_page(@pokemon_list)}" = t('pagination.next')
-    a.btn.btn-outline-danger.page-button.mx-sm-3.mr-1 href="#{path_to_last_page(@pokemon_list)}" = t('pagination.last')
+nav.mt-1.mb-2
+  ul.pagination.justify-content-center
+    - if params[:page].to_i > 1
+      a.page-link.text-danger href="#{path_to_first_page}" = t('pagination.first')
+      a.page-link.text-danger href="#{path_to_prev_page(@pokemon_list)}" = t('pagination.prev')
+    - else
+      li.page-item.disabled
+        a.page-link = t('pagination.first')
+      li.page-item.disabled
+        a.page-link = t('pagination.prev')
+    span.page-link.text-danger = params[:page].present? ? params[:page] : 1
+    - if params[:page].to_i < @pokemon_list.total_pages
+      a.page-link.text-danger href="#{path_to_next_page(@pokemon_list)}" = t('pagination.next')
+      a.page-link.text-danger href="#{path_to_last_page(@pokemon_list)}" = t('pagination.last')
+    - else
+      li.page-item.disabled
+        a.page-link = t('pagination.next')
+      li.page-item.disabled
+        a.page-link = t('pagination.last')
