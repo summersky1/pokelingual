@@ -2,7 +2,8 @@ h4 = t('search.title')
 
 form method="get" action= url_for(action: :search)
   div.input-group
-    input.form-control type="search" name="query" placeholder=t('search.placeholder') minlength="2" value=params[:query]
+    input.form-control[ type="search" name="query" placeholder=t('search.placeholder') minlength="2" 
+      value=params[:query] data-behavior="autocomplete" ]
     div.input-group-append
       button.btn.btn-primary.fa.fa-search.bg-danger.border.border-danger type="submit"
   div.text-right
@@ -11,7 +12,7 @@ form method="get" action= url_for(action: :search)
   - if params[:query].present? && @search_success == false
     div.text-center.mb-3
       h6.text-danger = t('search.no_results')
-  div.text-secondary.mt-n3
+  div.text-secondary.mt-md-n3.mt-n2
     span = t('search.example_searches')
     div
       a href=url_for(query: 'pikachu') pikachu
