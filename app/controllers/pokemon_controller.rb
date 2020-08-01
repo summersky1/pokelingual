@@ -11,7 +11,7 @@ class PokemonController < ApplicationController
   end
 
   def autocomplete
-    if params[:query].present? && params[:query].length >= 2
+    if params[:query].present? && ( params[:query].length >= 2 || contains_kana(params[:query]) )
       pokemon_list = Pokemon.autocomplete(params[:query])
       # '_source' is the indexed model data from the Elasticsearch response
       pokemon_list = pokemon_list.map(&:_source)
@@ -43,5 +43,9 @@ class PokemonController < ApplicationController
     def switch_locale(&action)
       locale = params[:locale] || I18n.default_locale
       I18n.with_locale(locale, &action)
+    end
+
+    def contains_kana(string)
+      string =~ /\p{Katakana}|\p{Hiragana}/
     end
 end
