@@ -11,7 +11,7 @@ class PokemonController < ApplicationController
   end
 
   def autocomplete
-    if params[:query].present?
+    if params[:query].present? && params[:query].length >= 2
       pokemon_list = Pokemon.autocomplete(params[:query])
       # '_source' is the indexed model data from the Elasticsearch response
       pokemon_list = pokemon_list.map(&:_source)
@@ -20,6 +20,8 @@ class PokemonController < ApplicationController
       japanese_names = pokemon_list.map(&:name_japanese)
       pokemon_list = english_names + japanese_names
       render json: pokemon_list
+    else
+      render json: []
     end
   end
 
