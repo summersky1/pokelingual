@@ -50,6 +50,18 @@ class Pokemon < ApplicationRecord
     }).page(page).per(9)
   end
 
+  def self.autocomplete(query)
+    __elasticsearch__.search({
+      query: {
+        multi_match: {
+          query: query,
+          fields: [:name_english, :name_japanese],
+          type: :phrase_prefix
+        }
+      }
+    }).limit(5)
+  end
+
   def self.get_random_pokemon(quantity)
     Pokemon.find(Pokemon.pluck(:id).sample(quantity))
   end

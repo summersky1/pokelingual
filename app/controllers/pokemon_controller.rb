@@ -10,6 +10,19 @@ class PokemonController < ApplicationController
     @pokemon_list = Pokemon.get_random_pokemon(9) if @search_success == false
   end
 
+  def autocomplete
+    if params[:query].present?
+      pokemon_list = Pokemon.autocomplete(params[:query])
+      # '_source' is the indexed model data from the Elasticsearch response
+      pokemon_list = pokemon_list.map(&:_source)
+      # combine English and Japanese names into single array for combined autocomplete suggestions
+      english_names = pokemon_list.map(&:name_english)
+      japanese_names = pokemon_list.map(&:name_japanese)
+      pokemon_list = english_names + japanese_names
+      render json: pokemon_list
+    end
+  end
+
   def show
     pokemon_id = params[:id].to_i
     @pokemon = Pokemon.find(pokemon_id)
