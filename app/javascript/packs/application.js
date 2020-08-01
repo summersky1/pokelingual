@@ -12,3 +12,4 @@ require("channels")
 require("easy-autocomplete")
 
 import "bootstrap"
+require("packs/pokemon")
