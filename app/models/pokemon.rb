@@ -63,7 +63,7 @@ class Pokemon < ApplicationRecord
     format_autocomplete_suggestions(pokemon_list)
   end
 
-  def format_autocomplete_suggestions(pokemon_list)
+  def self.format_autocomplete_suggestions(pokemon_list)
     # '_source' is the indexed model data from the Elasticsearch response
     pokemon_list = pokemon_list.map(&:_source)
     autocomplete_suggestions = []
