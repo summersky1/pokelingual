@@ -60,12 +60,19 @@ class Pokemon < ApplicationRecord
         }
       }
     }).limit(5)
+    format_autocomplete_suggestions(pokemon_list)
+  end
+
+  def format_autocomplete_suggestions(pokemon_list)
     # '_source' is the indexed model data from the Elasticsearch response
     pokemon_list = pokemon_list.map(&:_source)
-    # combine English and Japanese names into single array for combined autocomplete suggestions
-    english_names = pokemon_list.map(&:name_english)
-    japanese_names = pokemon_list.map(&:name_japanese)
-    pokemon_list = english_names + japanese_names
+    autocomplete_suggestions = []
+    pokemon_list.each do |pokemon|
+      location = "/#{I18n.locale}/pokemon/#{pokemon.id}"
+      autocomplete_suggestions << { name: pokemon.name_english, url: location }
+      autocomplete_suggestions << { name: pokemon.name_japanese, url: location }
+    end
+    autocomplete_suggestions
   end
 
   def self.get_random_pokemon(quantity)

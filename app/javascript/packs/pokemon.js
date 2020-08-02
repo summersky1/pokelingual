@@ -5,6 +5,7 @@ $(document).on('turbolinks:load',
             url: function(phrase) {
                 return "/autocomplete?query=" + phrase;
             },
+            getValue: "name",
             // only show results matching current query
             list: {
                 match: {
