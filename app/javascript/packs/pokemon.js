@@ -10,6 +10,10 @@ $(document).on('turbolinks:load',
             list: {
                 match: {
                     enabled: true
+                },
+                onChooseEvent: function() {
+                    var url = $input.getSelectedItemData().url
+                    Turbolinks.visit(url)
                 }
             },
             // keep search box full width
