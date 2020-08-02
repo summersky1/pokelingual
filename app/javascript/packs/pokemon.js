@@ -12,7 +12,7 @@ $(document).on('turbolinks:load',
                 }
             },
             // keep search box full width
-            cssClasses: "col px-0"
+            cssClasses: "col px-0 custom-suggestion"
         };
         $input.easyAutocomplete(options);
     }
