@@ -1,9 +1,10 @@
 $(document).on('turbolinks:load',
     function() {
         $input = $("[data-behavior='autocomplete']")
+        $locale = window.location.pathname.substr(1).split("/")[0]
         var options = {
             url: function(phrase) {
-                return "/autocomplete?query=" + phrase;
+                return "/" + $locale + "/autocomplete?query=" + phrase;
             },
             getValue: "name",
             // only show results matching current query
