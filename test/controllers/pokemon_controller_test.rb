@@ -17,6 +17,11 @@ class PokemonControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test "should get autocomplete" do
+    get "/en/autocomplete"
+    assert_response :success
+  end
+
   test "should load japanese locale" do
     get '/ja/search'
     assert_response :success
