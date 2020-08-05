@@ -59,17 +59,17 @@ class Pokemon < ApplicationRecord
         }
       }
     }).limit(5)
-    format_autocomplete_suggestions(pokemon_list)
+    format_autocomplete_suggestions(pokemon_list, contains_kana)
   end
 
-  def self.format_autocomplete_suggestions(pokemon_list)
+  def self.format_autocomplete_suggestions(pokemon_list, contains_kana)
     # '_source' is the indexed model data from the Elasticsearch response
     pokemon_list = pokemon_list.map(&:_source)
     autocomplete_suggestions = []
     pokemon_list.each do |pokemon|
       location = "/#{I18n.locale}/pokemon/#{pokemon.id}"
-      autocomplete_suggestions << { name: pokemon.name_english, url: location }
-      autocomplete_suggestions << { name: pokemon.name_japanese, url: location }
+      pokemon_name = contains_kana ? pokemon.name_japanese : pokemon.name_english
+      autocomplete_suggestions << { name: pokemon_name, url: location }
     end
     autocomplete_suggestions
   end

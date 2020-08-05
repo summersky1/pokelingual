@@ -53,12 +53,12 @@ class PokemonTest < ActiveSupport::TestCase
   end
 
   test "autocomplete suggestions" do
-    pokemon_list = Pokemon.autocomplete('pik')
-    assert(pokemon_list.length == 4)
+    pokemon_list = Pokemon.autocomplete('pik', false)
+    assert(pokemon_list.length == 2)
   end
 
   test "autocomplete suggestions (ja)" do
-    pokemon_list = Pokemon.autocomplete('ピカ')
-    assert(pokemon_list.length == 2)
+    pokemon_list = Pokemon.autocomplete('ピ', true)
+    assert(pokemon_list.length == 5)
   end
 end
