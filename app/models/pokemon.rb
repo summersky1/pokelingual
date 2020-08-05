@@ -50,13 +50,12 @@ class Pokemon < ApplicationRecord
     }).page(page).per(9)
   end
 
-  def self.autocomplete(query)
+  def self.autocomplete(query, contains_kana)
+    language = contains_kana ? "name_japanese" : "name_english"
     pokemon_list = __elasticsearch__.search({
       query: {
-        multi_match: {
-          query: query,
-          fields: [:name_english, :name_japanese],
-          type: :phrase_prefix
+        match_phrase_prefix: {
+          language => query
         }
       }
     }).limit(5)

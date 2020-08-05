@@ -11,12 +11,15 @@ class PokemonController < ApplicationController
   end
 
   def autocomplete
-    if params[:query].present? && ( params[:query].length >= 2 || contains_kana(params[:query]) )
-      pokemon_list = Pokemon.autocomplete(params[:query])
-      render json: pokemon_list
-    else
-      render json: []
+    pokemon_list = []
+    if params[:query].present?
+      if contains_kana(params[:query])
+        pokemon_list = Pokemon.autocomplete(params[:query], true)
+      elsif params[:query].length >= 2
+        pokemon_list = Pokemon.autocomplete(params[:query], false)
+      end
     end
+    render json: pokemon_list
   end
 
   def show
