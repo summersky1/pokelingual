@@ -7,14 +7,14 @@ $(document).on('turbolinks:load',
                 return "/" + $locale + "/autocomplete?query=" + phrase;
             },
             getValue: "name",
-            // only show results matching current query
             list: {
-                match: {
-                    enabled: true
-                },
                 onChooseEvent: function() {
                     var url = $input.getSelectedItemData().url
                     Turbolinks.visit(url)
+                },
+                // only show results matching current query
+                match: {
+                    enabled: true
                 }
             },
             // keep search box full width
