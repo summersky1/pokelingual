@@ -50,22 +50,28 @@ class Pokemon < ApplicationRecord
     }).page(page).per(9)
   end
 
-  def self.autocomplete(query)
+  def self.autocomplete(query, contains_kana)
+    language = contains_kana ? "name_japanese" : "name_english"
     pokemon_list = __elasticsearch__.search({
       query: {
-        multi_match: {
-          query: query,
-          fields: [:name_english, :name_japanese],
-          type: :phrase_prefix
+        match_phrase_prefix: {
+          language => query
         }
       }
     }).limit(5)
+    format_autocomplete_suggestions(pokemon_list, contains_kana)
+  end
+
+  def self.format_autocomplete_suggestions(pokemon_list, contains_kana)
     # '_source' is the indexed model data from the Elasticsearch response
     pokemon_list = pokemon_list.map(&:_source)
-    # combine English and Japanese names into single array for combined autocomplete suggestions
-    english_names = pokemon_list.map(&:name_english)
-    japanese_names = pokemon_list.map(&:name_japanese)
-    pokemon_list = english_names + japanese_names
+    autocomplete_suggestions = []
+    pokemon_list.each do |pokemon|
+      location = "/#{I18n.locale}/pokemon/#{pokemon.id}"
+      pokemon_name = contains_kana ? pokemon.name_japanese : pokemon.name_english
+      autocomplete_suggestions << { name: pokemon_name, url: location }
+    end
+    autocomplete_suggestions
   end
 
   def self.get_random_pokemon(quantity)

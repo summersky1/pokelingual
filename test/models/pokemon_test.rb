@@ -51,4 +51,14 @@ class PokemonTest < ActiveSupport::TestCase
     assert_equal(pokemon_list[0].types[0].japanese, 'みず')
     assert_equal(pokemon_list[0].types[1].japanese, 'こおり')
   end
+
+  test "autocomplete suggestions" do
+    pokemon_list = Pokemon.autocomplete('pik', false)
+    assert(pokemon_list.length == 2)
+  end
+
+  test "autocomplete suggestions (ja)" do
+    pokemon_list = Pokemon.autocomplete('ピ', true)
+    assert(pokemon_list.length == 5)
+  end
 end
