@@ -22,6 +22,21 @@ CSV.foreach('lib/datasets/types.csv', headers: true) do |row|
 end
 Type.bulk_import(types)
 
+Ability.delete_all
+abilities = []
+abilities_hash = {} # used to save database calls when creating PokemonAbility records
+CSV.foreach('lib/datasets/abilities.csv', headers: true) do |row|
+  abilities << Ability.new({
+    id: row[0],
+    english: row[1],
+    description_english: row[2],
+    japanese: row[3],
+    description_japanese: row[4],
+  })
+  abilities_hash[row[1]] = row[0]
+end
+Ability.bulk_import(abilities)
+
 previous_id = 0
 pokemon_name_origins = []
 CSV.foreach('lib/datasets/pokemon_name_origins_jp.csv') do |row|
@@ -36,10 +51,12 @@ CSV.foreach('lib/datasets/pokemon_name_origins_en.csv', headers: true) do |row|
   pokemon_name_origins[row[0].to_i].merge!(english: row[2])
 end
 
+PokemonAbility.delete_all
 PokemonType.delete_all
 Pokemon.delete_all
 pokemon_list = []
 pokemon_types = []
+pokemon_abilities = []
 CSV.foreach('lib/datasets/pokemon.csv', headers: true) do |row|
   pokemon_list << Pokemon.new({
     id: row[0],
@@ -61,8 +78,19 @@ CSV.foreach('lib/datasets/pokemon.csv', headers: true) do |row|
       type_id: (Type.find_by_english(row[5]).id)
     })
   end
+  pokemon_abilities << PokemonAbility.new({
+    pokemon_id: row[0],
+    ability_id: abilities_hash[row[7]]
+  })
+  if row[8].present?
+    pokemon_abilities << PokemonAbility.new({
+      pokemon_id: row[0],
+      ability_id: abilities_hash[row[8]]
+    })
+  end
 end
 Pokemon.bulk_import(pokemon_list)
 PokemonType.bulk_import(pokemon_types)
+PokemonAbility.bulk_import(pokemon_abilities)
 
 puts "Finished seeding Pokemon data!"
