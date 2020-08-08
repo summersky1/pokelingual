@@ -1,891 +1,891 @@
-#,English,Japanese,Romaji,Type1,Type2,Generation
-1,Bulbasaur,フシギダネ,Fushigidane,Grass,Poison,1
-2,Ivysaur,フシギソウ,Fushigisō,Grass,Poison,1
-3,Venusaur,フシギバナ,Fushigibana,Grass,Poison,1
-4,Charmander,ヒトカゲ,Hitokage,Fire,,1
-5,Charmeleon,リザード,Rizādo,Fire,,1
-6,Charizard,リザードン,Rizādon,Fire,Flying,1
-7,Squirtle,ゼニガメ,Zenigame,Water,,1
-8,Wartortle,カメール,Kamēru,Water,,1
-9,Blastoise,カメックス,Kamekkusu,Water,,1
-10,Caterpie,キャタピー,Kyatapī,Bug,,1
-11,Metapod,トランセル,Toranseru,Bug,,1
-12,Butterfree,バタフリー,Batafurī,Bug,Flying,1
-13,Weedle,ビードル,Bīdoru,Bug,Poison,1
-14,Kakuna,コクーン,Kokūn,Bug,Poison,1
-15,Beedrill,スピアー,Supiā,Bug,Poison,1
-16,Pidgey,ポッポ,Poppo,Normal,Flying,1
-17,Pidgeotto,ピジョン,Pijon,Normal,Flying,1
-18,Pidgeot,ピジョット,Pijotto,Normal,Flying,1
-19,Rattata,コラッタ,Koratta,Normal,,1
-20,Raticate,ラッタ,Ratta,Normal,,1
-21,Spearow,オニスズメ,Onisuzume,Normal,Flying,1
-22,Fearow,オニドリル,Onidoriru,Normal,Flying,1
-23,Ekans,アーボ,Ābo,Poison,,1
-24,Arbok,アーボック,Ābokku,Poison,,1
-25,Pikachu,ピカチュウ,Pikachū,Electric,,1
-26,Raichu,ライチュウ,Raichū,Electric,,1
-27,Sandshrew,サンド,Sando,Ground,,1
-28,Sandslash,サンドパン,Sandopan,Ground,,1
-29,Nidoran♀,ニドラン♀,Nidoran Mesu,Poison,,1
-30,Nidorina,ニドリーナ,Nidorīna,Poison,,1
-31,Nidoqueen,ニドクイン,Nidokuin,Poison,Ground,1
-32,Nidoran♂,ニドラン♂,Nidoran Osu,Poison,,1
-33,Nidorino,ニドリーノ,Nidorīno,Poison,,1
-34,Nidoking,ニドキング,Nidokingu,Poison,Ground,1
-35,Clefairy,ピッピ,Pippi,Fairy,,1
-36,Clefable,ピクシー,Pikushī,Fairy,,1
-37,Vulpix,ロコン,Rokon,Fire,,1
-38,Ninetales,キュウコン,Kyūkon,Fire,,1
-39,Jigglypuff,プリン,Purin,Normal,Fairy,1
-40,Wigglytuff,プクリン,Pukurin,Normal,Fairy,1
-41,Zubat,ズバット,Zubatto,Poison,Flying,1
-42,Golbat,ゴルバット,Gorubatto,Poison,Flying,1
-43,Oddish,ナゾノクサ,Nazonokusa,Grass,Poison,1
-44,Gloom,クサイハナ,Kusaihana,Grass,Poison,1
-45,Vileplume,ラフレシア,Rafureshia,Grass,Poison,1
-46,Paras,パラス,Parasu,Bug,Grass,1
-47,Parasect,パラセクト,Parasekuto,Bug,Grass,1
-48,Venonat,コンパン,Konpan,Bug,Poison,1
-49,Venomoth,モルフォン,Morufon,Bug,Poison,1
-50,Diglett,ディグダ,Diguda,Ground,,1
-51,Dugtrio,ダグトリオ,Dagutorio,Ground,,1
-52,Meowth,ニャース,Nyāsu,Normal,,1
-53,Persian,ペルシアン,Perushian,Normal,,1
-54,Psyduck,コダック,Kodakku,Water,,1
-55,Golduck,ゴルダック,Gorudakku,Water,,1
-56,Mankey,マンキー,Mankī,Fighting,,1
-57,Primeape,オコリザル,Okorizaru,Fighting,,1
-58,Growlithe,ガーディ,Gādi,Fire,,1
-59,Arcanine,ウインディ,Uindi,Fire,,1
-60,Poliwag,ニョロモ,Nyoromo,Water,,1
-61,Poliwhirl,ニョロゾ,Nyorozo,Water,,1
-62,Poliwrath,ニョロボン,Nyorobon,Water,Fighting,1
-63,Abra,ケーシィ,Kēshī,Psychic,,1
-64,Kadabra,ユンゲラー,Yungerā,Psychic,,1
-65,Alakazam,フーディン,Fūdin,Psychic,,1
-66,Machop,ワンリキー,Wanrikī,Fighting,,1
-67,Machoke,ゴーリキー,Gōrikī,Fighting,,1
-68,Machamp,カイリキー,Kairikī,Fighting,,1
-69,Bellsprout,マダツボミ,Madatsubomi,Grass,Poison,1
-70,Weepinbell,ウツドン,Utsudon,Grass,Poison,1
-71,Victreebel,ウツボット,Utsubotto,Grass,Poison,1
-72,Tentacool,メノクラゲ,Menokurage,Water,Poison,1
-73,Tentacruel,ドククラゲ,Dokukurage,Water,Poison,1
-74,Geodude,イシツブテ,Ishitsubute,Rock,Ground,1
-75,Graveler,ゴローン,Gorōn,Rock,Ground,1
-76,Golem,ゴローニャ,Gorōnya,Rock,Ground,1
-77,Ponyta,ポニータ,Ponīta,Fire,,1
-78,Rapidash,ギャロップ,Gyaroppu,Fire,,1
-79,Slowpoke,ヤドン,Yadon,Water,Psychic,1
-80,Slowbro,ヤドラン,Yadoran,Water,Psychic,1
-81,Magnemite,コイル,Koiru,Electric,Steel,1
-82,Magneton,レアコイル,Reakoiru,Electric,Steel,1
-83,Farfetch'd,カモネギ,Kamonegi,Normal,Flying,1
-84,Doduo,ドードー,Dōdō,Normal,Flying,1
-85,Dodrio,ドードリオ,Dōdorio,Normal,Flying,1
-86,Seel,パウワウ,Pauwau,Water,,1
-87,Dewgong,ジュゴン,Jugon,Water,Ice,1
-88,Grimer,ベトベター,Betobetā,Poison,,1
-89,Muk,ベトベトン,Betobeton,Poison,,1
-90,Shellder,シェルダー,Sherudā,Water,,1
-91,Cloyster,パルシェン,Parushen,Water,Ice,1
-92,Gastly,ゴース,Gōsu,Ghost,Poison,1
-93,Haunter,ゴースト,Gōsuto,Ghost,Poison,1
-94,Gengar,ゲンガー,Gengā,Ghost,Poison,1
-95,Onix,イワーク,Iwāku,Rock,Ground,1
-96,Drowzee,スリープ,Surīpu,Psychic,,1
-97,Hypno,スリーパー,Surīpā,Psychic,,1
-98,Krabby,クラブ,Kurabu,Water,,1
-99,Kingler,キングラー,Kingurā,Water,,1
-100,Voltorb,ビリリダマ,Biriridama,Electric,,1
-101,Electrode,マルマイン,Marumain,Electric,,1
-102,Exeggcute,タマタマ,Tamatama,Grass,Psychic,1
-103,Exeggutor,ナッシー,Nasshī,Grass,Psychic,1
-104,Cubone,カラカラ,Karakara,Ground,,1
-105,Marowak,ガラガラ,Garagara,Ground,,1
-106,Hitmonlee,サワムラー,Sawamurā,Fighting,,1
-107,Hitmonchan,エビワラー,Ebiwarā,Fighting,,1
-108,Lickitung,ベロリンガ,Beroringa,Normal,,1
-109,Koffing,ドガース,Dogāsu,Poison,,1
-110,Weezing,マタドガス,Matadogasu,Poison,,1
-111,Rhyhorn,サイホーン,Saihōn,Ground,Rock,1
-112,Rhydon,サイドン,Saidon,Ground,Rock,1
-113,Chansey,ラッキー,Rakkī,Normal,,1
-114,Tangela,モンジャラ,Monjara,Grass,,1
-115,Kangaskhan,ガルーラ,Garūra,Normal,,1
-116,Horsea,タッツー,Tattsū,Water,,1
-117,Seadra,シードラ,Shīdora,Water,,1
-118,Goldeen,トサキント,Tosakinto,Water,,1
-119,Seaking,アズマオウ,Azumaō,Water,,1
-120,Staryu,ヒトデマン,Hitodeman,Water,,1
-121,Starmie,スターミー,Sutāmī,Water,Psychic,1
-122,Mr.Mime,バリヤード,Bariyādo,Psychic,Fairy,1
-123,Scyther,ストライク,Sutoraiku,Bug,Flying,1
-124,Jynx,ルージュラ,Rūjura,Ice,Psychic,1
-125,Electabuzz,エレブー,Erebū,Electric,,1
-126,Magmar,ブーバー,Būbā,Fire,,1
-127,Pinsir,カイロス,Kairosu,Bug,,1
-128,Tauros,ケンタロス,Kentarosu,Normal,,1
-129,Magikarp,コイキング,Koikingu,Water,,1
-130,Gyarados,ギャラドス,Gyaradosu,Water,Flying,1
-131,Lapras,ラプラス,Rapurasu,Water,Ice,1
-132,Ditto,メタモン,Metamon,Normal,,1
-133,Eevee,イーブイ,Ībui,Normal,,1
-134,Vaporeon,シャワーズ,Shawāzu,Water,,1
-135,Jolteon,サンダース,Sandāsu,Electric,,1
-136,Flareon,ブースター,Būsutā,Fire,,1
-137,Porygon,ポリゴン,Porigon,Normal,,1
-138,Omanyte,オムナイト,Omunaito,Rock,Water,1
-139,Omastar,オムスター,Omusutā,Rock,Water,1
-140,Kabuto,カブト,Kabuto,Rock,Water,1
-141,Kabutops,カブトプス,Kabutopusu,Rock,Water,1
-142,Aerodactyl,プテラ,Putera,Rock,Flying,1
-143,Snorlax,カビゴン,Kabigon,Normal,,1
-144,Articuno,フリーザー,Furīzā,Ice,Flying,1
-145,Zapdos,サンダー,Sandā,Electric,Flying,1
-146,Moltres,ファイヤー,Faiyā,Fire,Flying,1
-147,Dratini,ミニリュウ,Miniryū,Dragon,,1
-148,Dragonair,ハクリュー,Hakuryū,Dragon,,1
-149,Dragonite,カイリュー,Kairyū,Dragon,Flying,1
-150,Mewtwo,ミュウツー,Myūtsū,Psychic,,1
-151,Mew,ミュウ,Myū,Psychic,,1
-152,Chikorita,チコリータ,Chikorīta,Grass,,2
-153,Bayleef,ベイリーフ,Beirīfu,Grass,,2
-154,Meganium,メガニウム,Meganiumu,Grass,,2
-155,Cyndaquil,ヒノアラシ,Hinoarashi,Fire,,2
-156,Quilava,マグマラシ,Magumarashi,Fire,,2
-157,Typhlosion,バクフーン,Bakufūn,Fire,,2
-158,Totodile,ワニノコ,Waninoko,Water,,2
-159,Croconaw,アリゲイツ,Arigeitsu,Water,,2
-160,Feraligatr,オーダイル,Ōdairu,Water,,2
-161,Sentret,オタチ,Otachi,Normal,,2
-162,Furret,オオタチ,Ōtachi,Normal,,2
-163,Hoothoot,ホーホー,Hōhō,Normal,Flying,2
-164,Noctowl,ヨルノズク,Yorunozuku,Normal,Flying,2
-165,Ledyba,レディバ,Rediba,Bug,Flying,2
-166,Ledian,レディアン,Redian,Bug,Flying,2
-167,Spinarak,イトマル,Itomaru,Bug,Poison,2
-168,Ariados,アリアドス,Ariadosu,Bug,Poison,2
-169,Crobat,クロバット,Kurobatto,Poison,Flying,2
-170,Chinchou,チョンチー,Chonchī,Water,Electric,2
-171,Lanturn,ランターン,Rantān,Water,Electric,2
-172,Pichu,ピチュー,Pichū,Electric,,2
-173,Cleffa,ピィ,Pī,Fairy,,2
-174,Igglybuff,ププリン,Pupurin,Normal,Fairy,2
-175,Togepi,トゲピー,Togepī,Fairy,,2
-176,Togetic,トゲチック,Togechikku,Fairy,Flying,2
-177,Natu,ネイティ,Neiti,Psychic,Flying,2
-178,Xatu,ネイティオ,Neitio,Psychic,Flying,2
-179,Mareep,メリープ,Merīpu,Electric,,2
-180,Flaaffy,モココ,Mokoko,Electric,,2
-181,Ampharos,デンリュウ,Denryū,Electric,,2
-182,Bellossom,キレイハナ,Kireihana,Grass,,2
-183,Marill,マリル,Mariru,Water,Fairy,2
-184,Azumarill,マリルリ,Mariruri,Water,Fairy,2
-185,Sudowoodo,ウソッキー,Usokkī,Rock,,2
-186,Politoed,ニョロトノ,Nyorotono,Water,,2
-187,Hoppip,ハネッコ,Hanekko,Grass,Flying,2
-188,Skiploom,ポポッコ,Popokko,Grass,Flying,2
-189,Jumpluff,ワタッコ,Watakko,Grass,Flying,2
-190,Aipom,エイパム,Eipamu,Normal,,2
-191,Sunkern,ヒマナッツ,Himanattsu,Grass,,2
-192,Sunflora,キマワリ,Kimawari,Grass,,2
-193,Yanma,ヤンヤンマ,Yan'yanma,Bug,Flying,2
-194,Wooper,ウパー,Upā,Water,Ground,2
-195,Quagsire,ヌオー,Nuō,Water,Ground,2
-196,Espeon,エーフィ,Ēfi,Psychic,,2
-197,Umbreon,ブラッキー,Burakkī,Dark,,2
-198,Murkrow,ヤミカラス,Yamikarasu,Dark,Flying,2
-199,Slowking,ヤドキング,Yadokingu,Water,Psychic,2
-200,Misdreavus,ムウマ,Mūma,Ghost,,2
-201,Unown,アンノーン,Annōn,Psychic,,2
-202,Wobbuffet,ソーナンス,Sōnansu,Psychic,,2
-203,Girafarig,キリンリキ,Kirinriki,Normal,Psychic,2
-204,Pineco,クヌギダマ,Kunugidama,Bug,,2
-205,Forretress,フォレトス,Foretosu,Bug,Steel,2
-206,Dunsparce,ノコッチ,Nokotchi,Normal,,2
-207,Gligar,グライガー,Guraigā,Ground,Flying,2
-208,Steelix,ハガネール,Haganēru,Steel,Ground,2
-209,Snubbull,ブルー,Burū,Fairy,,2
-210,Granbull,グランブル,Guranburu,Fairy,,2
-211,Qwilfish,ハリーセン,Harīsen,Water,Poison,2
-212,Scizor,ハッサム,Hassamu,Bug,Steel,2
-213,Shuckle,ツボツボ,Tsubotsubo,Bug,Rock,2
-214,Heracross,ヘラクロス,Herakurosu,Bug,Fighting,2
-215,Sneasel,ニューラ,Nyūra,Dark,Ice,2
-216,Teddiursa,ヒメグマ,Himeguma,Normal,,2
-217,Ursaring,リングマ,Ringuma,Normal,,2
-218,Slugma,マグマッグ,Magumaggu,Fire,,2
-219,Magcargo,マグカルゴ,Magukarugo,Fire,Rock,2
-220,Swinub,ウリムー,Urimū,Ice,Ground,2
-221,Piloswine,イノムー,Inomū,Ice,Ground,2
-222,Corsola,サニーゴ,Sanīgo,Water,Rock,2
-223,Remoraid,テッポウオ,Teppouo,Water,,2
-224,Octillery,オクタン,Okutan,Water,,2
-225,Delibird,デリバード,Deribādo,Ice,Flying,2
-226,Mantine,マンタイン,Mantain,Water,Flying,2
-227,Skarmory,エアームド,Eāmudo,Steel,Flying,2
-228,Houndour,デルビル,Derubiru,Dark,Fire,2
-229,Houndoom,ヘルガー,Herugā,Dark,Fire,2
-230,Kingdra,キングドラ,Kingudora,Water,Dragon,2
-231,Phanpy,ゴマゾウ,Gomazō,Ground,,2
-232,Donphan,ドンファン,Donfan,Ground,,2
-233,Porygon2,ポリゴン２,PorigonTsū,Normal,,2
-234,Stantler,オドシシ,Odoshishi,Normal,,2
-235,Smeargle,ドーブル,Dōburu,Normal,,2
-236,Tyrogue,バルキー,Barukī,Fighting,,2
-237,Hitmontop,カポエラー,Kapoerā,Fighting,,2
-238,Smoochum,ムチュール,Muchūru,Ice,Psychic,2
-239,Elekid,エレキッド,Erekiddo,Electric,,2
-240,Magby,ブビィ,Bubī,Fire,,2
-241,Miltank,ミルタンク,Mirutanku,Normal,,2
-242,Blissey,ハピナス,Hapinasu,Normal,,2
-243,Raikou,ライコウ,Raikō,Electric,,2
-244,Entei,エンテイ,Entei,Fire,,2
-245,Suicune,スイクン,Suikun,Water,,2
-246,Larvitar,ヨーギラス,Yōgirasu,Rock,Ground,2
-247,Pupitar,サナギラス,Sanagirasu,Rock,Ground,2
-248,Tyranitar,バンギラス,Bangirasu,Rock,Dark,2
-249,Lugia,ルギア,Rugia,Psychic,Flying,2
-250,Ho-Oh,ホウオウ,Hōō,Fire,Flying,2
-251,Celebi,セレビィ,Serebī,Psychic,Grass,2
-252,Treecko,キモリ,Kimori,Grass,,3
-253,Grovyle,ジュプトル,Juputoru,Grass,,3
-254,Sceptile,ジュカイン,Jukain,Grass,,3
-255,Torchic,アチャモ,Achamo,Fire,,3
-256,Combusken,ワカシャモ,Wakashamo,Fire,Fighting,3
-257,Blaziken,バシャーモ,Bashāmo,Fire,Fighting,3
-258,Mudkip,ミズゴロウ,Mizugorō,Water,,3
-259,Marshtomp,ヌマクロー,Numakurō,Water,Ground,3
-260,Swampert,ラグラージ,Ragurāji,Water,Ground,3
-261,Poochyena,ポチエナ,Pochiena,Dark,,3
-262,Mightyena,グラエナ,Guraena,Dark,,3
-263,Zigzagoon,ジグザグマ,Jiguzaguma,Normal,,3
-264,Linoone,マッスグマ,Massuguma,Normal,,3
-265,Wurmple,ケムッソ,Kemusso,Bug,,3
-266,Silcoon,カラサリス,Karasarisu,Bug,,3
-267,Beautifly,アゲハント,Agehanto,Bug,Flying,3
-268,Cascoon,マユルド,Mayurudo,Bug,,3
-269,Dustox,ドクケイル,Dokukeiru,Bug,Poison,3
-270,Lotad,ハスボー,Hasubō,Water,Grass,3
-271,Lombre,ハスブレロ,Hasuburero,Water,Grass,3
-272,Ludicolo,ルンパッパ,Runpappa,Water,Grass,3
-273,Seedot,タネボー,Tanebō,Grass,,3
-274,Nuzleaf,コノハナ,Konohana,Grass,Dark,3
-275,Shiftry,ダーテング,Dātengu,Grass,Dark,3
-276,Taillow,スバメ,Subame,Normal,Flying,3
-277,Swellow,オオスバメ,Ōsubame,Normal,Flying,3
-278,Wingull,キャモメ,Kyamome,Water,Flying,3
-279,Pelipper,ペリッパー,Perippā,Water,Flying,3
-280,Ralts,ラルトス,Rarutosu,Psychic,Fairy,3
-281,Kirlia,キルリア,Kiruria,Psychic,Fairy,3
-282,Gardevoir,サーナイト,Sānaito,Psychic,Fairy,3
-283,Surskit,アメタマ,Ametama,Bug,Water,3
-284,Masquerain,アメモース,Amemōsu,Bug,Flying,3
-285,Shroomish,キノココ,Kinokoko,Grass,,3
-286,Breloom,キノガッサ,Kinogassa,Grass,Fighting,3
-287,Slakoth,ナマケロ,Namakero,Normal,,3
-288,Vigoroth,ヤルキモノ,Yarukimono,Normal,,3
-289,Slaking,ケッキング,Kekkingu,Normal,,3
-290,Nincada,ツチニン,Tsuchinin,Bug,Ground,3
-291,Ninjask,テッカニン,Tekkanin,Bug,Flying,3
-292,Shedinja,ヌケニン,Nukenin,Bug,Ghost,3
-293,Whismur,ゴニョニョ,Gonyonyo,Normal,,3
-294,Loudred,ドゴーム,Dogōmu,Normal,,3
-295,Exploud,バクオング,Bakuongu,Normal,,3
-296,Makuhita,マクノシタ,Makunoshita,Fighting,,3
-297,Hariyama,ハリテヤマ,Hariteyama,Fighting,,3
-298,Azurill,ルリリ,Ruriri,Normal,Fairy,3
-299,Nosepass,ノズパス,Nozupasu,Rock,,3
-300,Skitty,エネコ,Eneko,Normal,,3
-301,Delcatty,エネコロロ,Enekororo,Normal,,3
-302,Sableye,ヤミラミ,Yamirami,Dark,Ghost,3
-303,Mawile,クチート,Kuchīto,Steel,Fairy,3
-304,Aron,ココドラ,Kokodora,Steel,Rock,3
-305,Lairon,コドラ,Kodora,Steel,Rock,3
-306,Aggron,ボスゴドラ,Bosugodora,Steel,Rock,3
-307,Meditite,アサナン,Asanan,Fighting,Psychic,3
-308,Medicham,チャーレム,Chāremu,Fighting,Psychic,3
-309,Electrike,ラクライ,Rakurai,Electric,,3
-310,Manectric,ライボルト,Raiboruto,Electric,,3
-311,Plusle,プラスル,Purasuru,Electric,,3
-312,Minun,マイナン,Mainan,Electric,,3
-313,Volbeat,バルビート,Barubīto,Bug,,3
-314,Illumise,イルミーゼ,Irumīze,Bug,,3
-315,Roselia,ロゼリア,Rozeria,Grass,Poison,3
-316,Gulpin,ゴクリン,Gokurin,Poison,,3
-317,Swalot,マルノーム,Marunōmu,Poison,,3
-318,Carvanha,キバニア,Kibania,Water,Dark,3
-319,Sharpedo,サメハダー,Samehadā,Water,Dark,3
-320,Wailmer,ホエルコ,Hoeruko,Water,,3
-321,Wailord,ホエルオー,Hoeruō,Water,,3
-322,Numel,ドンメル,Donmeru,Fire,Ground,3
-323,Camerupt,バクーダ,Bakūda,Fire,Ground,3
-324,Torkoal,コータス,Kōtasu,Fire,,3
-325,Spoink,バネブー,Banebū,Psychic,,3
-326,Grumpig,ブーピッグ,Būpiggu,Psychic,,3
-327,Spinda,パッチール,Patchīru,Normal,,3
-328,Trapinch,ナックラー,Nakkurā,Ground,,3
-329,Vibrava,ビブラーバ,Biburāba,Ground,Dragon,3
-330,Flygon,フライゴン,Furaigon,Ground,Dragon,3
-331,Cacnea,サボネア,Sabonea,Grass,,3
-332,Cacturne,ノクタス,Nokutasu,Grass,Dark,3
-333,Swablu,チルット,Chirutto,Normal,Flying,3
-334,Altaria,チルタリス,Chirutarisu,Dragon,Flying,3
-335,Zangoose,ザングース,Zangūsu,Normal,,3
-336,Seviper,ハブネーク,Habunēku,Poison,,3
-337,Lunatone,ルナトーン,Runatōn,Rock,Psychic,3
-338,Solrock,ソルロック,Sorurokku,Rock,Psychic,3
-339,Barboach,ドジョッチ,Dojotchi,Water,Ground,3
-340,Whiscash,ナマズン,Namazun,Water,Ground,3
-341,Corphish,ヘイガニ,Heigani,Water,,3
-342,Crawdaunt,シザリガー,Shizarigā,Water,Dark,3
-343,Baltoy,ヤジロン,Yajiron,Ground,Psychic,3
-344,Claydol,ネンドール,Nendōru,Ground,Psychic,3
-345,Lileep,リリーラ,Rirīra,Rock,Grass,3
-346,Cradily,ユレイドル,Yureidoru,Rock,Grass,3
-347,Anorith,アノプス,Anopusu,Rock,Bug,3
-348,Armaldo,アーマルド,Āmarudo,Rock,Bug,3
-349,Feebas,ヒンバス,Hinbasu,Water,,3
-350,Milotic,ミロカロス,Mirokarosu,Water,,3
-351,Castform,ポワルン,Powarun,Normal,,3
-352,Kecleon,カクレオン,Kakureon,Normal,,3
-353,Shuppet,カゲボウズ,Kagebōzu,Ghost,,3
-354,Banette,ジュペッタ,Jupetta,Ghost,,3
-355,Duskull,ヨマワル,Yomawaru,Ghost,,3
-356,Dusclops,サマヨール,Samayōru,Ghost,,3
-357,Tropius,トロピウス,Toropiusu,Grass,Flying,3
-358,Chimecho,チリーン,Chirīn,Psychic,,3
-359,Absol,アブソル,Abusoru,Dark,,3
-360,Wynaut,ソーナノ,Sōnano,Psychic,,3
-361,Snorunt,ユキワラシ,Yukiwarashi,Ice,,3
-362,Glalie,オニゴーリ,Onigōri,Ice,,3
-363,Spheal,タマザラシ,Tamazarashi,Ice,Water,3
-364,Sealeo,トドグラー,Todogurā,Ice,Water,3
-365,Walrein,トドゼルガ,Todozeruga,Ice,Water,3
-366,Clamperl,パールル,Pāruru,Water,,3
-367,Huntail,ハンテール,Hantēru,Water,,3
-368,Gorebyss,サクラビス,Sakurabisu,Water,,3
-369,Relicanth,ジーランス,Jīransu,Water,Rock,3
-370,Luvdisc,ラブカス,Rabukasu,Water,,3
-371,Bagon,タツベイ,Tatsubei,Dragon,,3
-372,Shelgon,コモルー,Komorū,Dragon,,3
-373,Salamence,ボーマンダ,Bōmanda,Dragon,Flying,3
-374,Beldum,ダンバル,Danbaru,Steel,Psychic,3
-375,Metang,メタング,Metangu,Steel,Psychic,3
-376,Metagross,メタグロス,Metagurosu,Steel,Psychic,3
-377,Regirock,レジロック,Rejirokku,Rock,,3
-378,Regice,レジアイス,Rejiaisu,Ice,,3
-379,Registeel,レジスチル,Rejisuchiru,Steel,,3
-380,Latias,ラティアス,Ratiasu,Dragon,Psychic,3
-381,Latios,ラティオス,Ratiosu,Dragon,Psychic,3
-382,Kyogre,カイオーガ,Kaiōga,Water,,3
-383,Groudon,グラードン,Gurādon,Ground,,3
-384,Rayquaza,レックウザ,Rekkūza,Dragon,Flying,3
-385,Jirachi,ジラーチ,Jirāchi,Steel,Psychic,3
-386,Deoxys,デオキシス,Deokishisu,Psychic,,3
-387,Turtwig,ナエトル,Naetoru,Grass,,4
-388,Grotle,ハヤシガメ,Hayashigame,Grass,,4
-389,Torterra,ドダイトス,Dodaitosu,Grass,Ground,4
-390,Chimchar,ヒコザル,Hikozaru,Fire,,4
-391,Monferno,モウカザル,Mōkazaru,Fire,Fighting,4
-392,Infernape,ゴウカザル,Gōkazaru,Fire,Fighting,4
-393,Piplup,ポッチャマ,Potchama,Water,,4
-394,Prinplup,ポッタイシ,Pottaishi,Water,,4
-395,Empoleon,エンペルト,Enperuto,Water,Steel,4
-396,Starly,ムックル,Mukkuru,Normal,Flying,4
-397,Staravia,ムクバード,Mukubādo,Normal,Flying,4
-398,Staraptor,ムクホーク,Mukuhōku,Normal,Flying,4
-399,Bidoof,ビッパ,Bippa,Normal,,4
-400,Bibarel,ビーダル,Bīdaru,Normal,Water,4
-401,Kricketot,コロボーシ,Korobōshi,Bug,,4
-402,Kricketune,コロトック,Korotokku,Bug,,4
-403,Shinx,コリンク,Korinku,Electric,,4
-404,Luxio,ルクシオ,Rukushio,Electric,,4
-405,Luxray,レントラー,Rentorā,Electric,,4
-406,Budew,スボミー,Subomī,Grass,Poison,4
-407,Roserade,ロズレイド,Rozureido,Grass,Poison,4
-408,Cranidos,ズガイドス,Zugaidosu,Rock,,4
-409,Rampardos,ラムパルド,Ramuparudo,Rock,,4
-410,Shieldon,タテトプス,Tatetopusu,Rock,Steel,4
-411,Bastiodon,トリデプス,Toridepusu,Rock,Steel,4
-412,Burmy,ミノムッチ,Minomutchi,Bug,,4
-413,Wormadam,ミノマダム,Minomadamu,Bug,Grass,4
-414,Mothim,ガーメイル,Gāmeiru,Bug,Flying,4
-415,Combee,ミツハニー,Mitsuhanī,Bug,Flying,4
-416,Vespiquen,ビークイン,Bīkuin,Bug,Flying,4
-417,Pachirisu,パチリス,Pachirisu,Electric,,4
-418,Buizel,ブイゼル,Buizeru,Water,,4
-419,Floatzel,フローゼル,Furōzeru,Water,,4
-420,Cherubi,チェリンボ,Cherinbo,Grass,,4
-421,Cherrim,チェリム,Cherimu,Grass,,4
-422,Shellos,カラナクシ,Karanakushi,Water,,4
-423,Gastrodon,トリトドン,Toritodon,Water,Ground,4
-424,Ambipom,エテボース,Etebōsu,Normal,,4
-425,Drifloon,フワンテ,Fuwante,Ghost,Flying,4
-426,Drifblim,フワライド,Fuwaraido,Ghost,Flying,4
-427,Buneary,ミミロル,Mimiroru,Normal,,4
-428,Lopunny,ミミロップ,Mimiroppu,Normal,,4
-429,Mismagius,ムウマージ,Mūmāji,Ghost,,4
-430,Honchkrow,ドンカラス,Donkarasu,Dark,Flying,4
-431,Glameow,ニャルマー,Nyarumā,Normal,,4
-432,Purugly,ブニャット,Bunyatto,Normal,,4
-433,Chingling,リーシャン,Rīshan,Psychic,,4
-434,Stunky,スカンプー,Sukanpū,Poison,Dark,4
-435,Skuntank,スカタンク,Sukatanku,Poison,Dark,4
-436,Bronzor,ドーミラー,Dōmirā,Steel,Psychic,4
-437,Bronzong,ドータクン,Dōtakun,Steel,Psychic,4
-438,Bonsly,ウソハチ,Usohachi,Rock,,4
-439,MimeJr.,マネネ,Manene,Psychic,Fairy,4
-440,Happiny,ピンプク,Pinpuku,Normal,,4
-441,Chatot,ペラップ,Perappu,Normal,Flying,4
-442,Spiritomb,ミカルゲ,Mikaruge,Ghost,Dark,4
-443,Gible,フカマル,Fukamaru,Dragon,Ground,4
-444,Gabite,ガバイト,Gabaito,Dragon,Ground,4
-445,Garchomp,ガブリアス,Gaburiasu,Dragon,Ground,4
-446,Munchlax,ゴンベ,Gonbe,Normal,,4
-447,Riolu,リオル,Rioru,Fighting,,4
-448,Lucario,ルカリオ,Rukario,Fighting,Steel,4
-449,Hippopotas,ヒポポタス,Hipopotasu,Ground,,4
-450,Hippowdon,カバルドン,Kabarudon,Ground,,4
-451,Skorupi,スコルピ,Sukorupi,Poison,Bug,4
-452,Drapion,ドラピオン,Dorapion,Poison,Dark,4
-453,Croagunk,グレッグル,Guregguru,Poison,Fighting,4
-454,Toxicroak,ドクロッグ,Dokuroggu,Poison,Fighting,4
-455,Carnivine,マスキッパ,Masukippa,Grass,,4
-456,Finneon,ケイコウオ,Keiko'uo,Water,,4
-457,Lumineon,ネオラント,Neoranto,Water,,4
-458,Mantyke,タマンタ,Tamanta,Water,Flying,4
-459,Snover,ユキカブリ,Yukikaburi,Grass,Ice,4
-460,Abomasnow,ユキノオー,Yukinoō,Grass,Ice,4
-461,Weavile,マニューラ,Manyūra,Dark,Ice,4
-462,Magnezone,ジバコイル,Jibakoiru,Electric,Steel,4
-463,Lickilicky,ベロベルト,Beroberuto,Normal,,4
-464,Rhyperior,ドサイドン,Dosaidon,Ground,Rock,4
-465,Tangrowth,モジャンボ,Mojanbo,Grass,,4
-466,Electivire,エレキブル,Erekiburu,Electric,,4
-467,Magmortar,ブーバーン,Būbān,Fire,,4
-468,Togekiss,トゲキッス,Togekissu,Fairy,Flying,4
-469,Yanmega,メガヤンマ,Megayanma,Bug,Flying,4
-470,Leafeon,リーフィア,Rīfia,Grass,,4
-471,Glaceon,グレイシア,Gureishia,Ice,,4
-472,Gliscor,グライオン,Guraion,Ground,Flying,4
-473,Mamoswine,マンムー,Manmū,Ice,Ground,4
-474,Porygon-Z,ポリゴンＺ,PorigonZetto,Normal,,4
-475,Gallade,エルレイド,Erureido,Psychic,Fighting,4
-476,Probopass,ダイノーズ,Dainōzu,Rock,Steel,4
-477,Dusknoir,ヨノワール,Yonowāru,Ghost,,4
-478,Froslass,ユキメノコ,Yukimenoko,Ice,Ghost,4
-479,Rotom,ロトム,Rotomu,Electric,Ghost,4
-480,Uxie,ユクシー,Yukushī,Psychic,,4
-481,Mesprit,エムリット,Emuritto,Psychic,,4
-482,Azelf,アグノム,Agunomu,Psychic,,4
-483,Dialga,ディアルガ,Diaruga,Steel,Dragon,4
-484,Palkia,パルキア,Parukia,Water,Dragon,4
-485,Heatran,ヒードラン,Hīdoran,Fire,Steel,4
-486,Regigigas,レジギガス,Rejigigasu,Normal,,4
-487,Giratina,ギラティナ,Giratina,Ghost,Dragon,4
-488,Cresselia,クレセリア,Kureseria,Psychic,,4
-489,Phione,フィオネ,Fione,Water,,4
-490,Manaphy,マナフィ,Manafi,Water,,4
-491,Darkrai,ダークライ,Dākurai,Dark,,4
-492,Shaymin,シェイミ,Sheimi,Grass,,4
-493,Arceus,アルセウス,Aruseusu,Normal,,4
-494,Victini,ビクティニ,Bikutini,Psychic,Fire,5
-495,Snivy,ツタージャ,Tsutāja,Grass,,5
-496,Servine,ジャノビー,Janobī,Grass,,5
-497,Serperior,ジャローダ,Jarōda,Grass,,5
-498,Tepig,ポカブ,Pokabu,Fire,,5
-499,Pignite,チャオブー,Chaobū,Fire,Fighting,5
-500,Emboar,エンブオー,Enbuō,Fire,Fighting,5
-501,Oshawott,ミジュマル,Mijumaru,Water,,5
-502,Dewott,フタチマル,Futachimaru,Water,,5
-503,Samurott,ダイケンキ,Daikenki,Water,,5
-504,Patrat,ミネズミ,Minezumi,Normal,,5
-505,Watchog,ミルホッグ,Miruhoggu,Normal,,5
-506,Lillipup,ヨーテリー,Yōterī,Normal,,5
-507,Herdier,ハーデリア,Hāderia,Normal,,5
-508,Stoutland,ムーランド,Mūrando,Normal,,5
-509,Purrloin,チョロネコ,Choroneko,Dark,,5
-510,Liepard,レパルダス,Reparudasu,Dark,,5
-511,Pansage,ヤナップ,Yanappu,Grass,,5
-512,Simisage,ヤナッキー,Yanakkī,Grass,,5
-513,Pansear,バオップ,Baoppu,Fire,,5
-514,Simisear,バオッキー,Baokkī,Fire,,5
-515,Panpour,ヒヤップ,Hiyappu,Water,,5
-516,Simipour,ヒヤッキー,Hiyakkī,Water,,5
-517,Munna,ムンナ,Munna,Psychic,,5
-518,Musharna,ムシャーナ,Mushāna,Psychic,,5
-519,Pidove,マメパト,Mamepato,Normal,Flying,5
-520,Tranquill,ハトーボー,Hatōbō,Normal,Flying,5
-521,Unfezant,ケンホロウ,Kenhorō,Normal,Flying,5
-522,Blitzle,シママ,Shimama,Electric,,5
-523,Zebstrika,ゼブライカ,Zeburaika,Electric,,5
-524,Roggenrola,ダンゴロ,Dangoro,Rock,,5
-525,Boldore,ガントル,Gantoru,Rock,,5
-526,Gigalith,ギガイアス,Gigaiasu,Rock,,5
-527,Woobat,コロモリ,Koromori,Psychic,Flying,5
-528,Swoobat,ココロモリ,Kokoromori,Psychic,Flying,5
-529,Drilbur,モグリュー,Moguryū,Ground,,5
-530,Excadrill,ドリュウズ,Doryūzu,Ground,Steel,5
-531,Audino,タブンネ,Tabunne,Normal,,5
-532,Timburr,ドッコラー,Dokkorā,Fighting,,5
-533,Gurdurr,ドテッコツ,Dotekkotsu,Fighting,,5
-534,Conkeldurr,ローブシン,Rōbushin,Fighting,,5
-535,Tympole,オタマロ,Otamaro,Water,,5
-536,Palpitoad,ガマガル,Gamagaru,Water,Ground,5
-537,Seismitoad,ガマゲロゲ,Gamageroge,Water,Ground,5
-538,Throh,ナゲキ,Nageki,Fighting,,5
-539,Sawk,ダゲキ,Dageki,Fighting,,5
-540,Sewaddle,クルミル,Kurumiru,Bug,Grass,5
-541,Swadloon,クルマユ,Kurumayu,Bug,Grass,5
-542,Leavanny,ハハコモリ,Hahakomori,Bug,Grass,5
-543,Venipede,フシデ,Fushide,Bug,Poison,5
-544,Whirlipede,ホイーガ,Hoīga,Bug,Poison,5
-545,Scolipede,ペンドラー,Pendorā,Bug,Poison,5
-546,Cottonee,モンメン,Monmen,Grass,Fairy,5
-547,Whimsicott,エルフーン,Erufūn,Grass,Fairy,5
-548,Petilil,チュリネ,Churine,Grass,,5
-549,Lilligant,ドレディア,Doredia,Grass,,5
-550,Basculin,バスラオ,Basurao,Water,,5
-551,Sandile,メグロコ,Meguroko,Ground,Dark,5
-552,Krokorok,ワルビル,Warubiru,Ground,Dark,5
-553,Krookodile,ワルビアル,Warubiaru,Ground,Dark,5
-554,Darumaka,ダルマッカ,Darumakka,Fire,,5
-555,Darmanitan,ヒヒダルマ,Hihidaruma,Fire,Psychic,5
-556,Maractus,マラカッチ,Marakatchi,Grass,,5
-557,Dwebble,イシズマイ,Ishizumai,Bug,Rock,5
-558,Crustle,イワパレス,Iwaparesu,Bug,Rock,5
-559,Scraggy,ズルッグ,Zuruggu,Dark,Fighting,5
-560,Scrafty,ズルズキン,Zuruzukin,Dark,Fighting,5
-561,Sigilyph,シンボラー,Shinborā,Psychic,Flying,5
-562,Yamask,デスマス,Desumasu,Ghost,,5
-563,Cofagrigus,デスカーン,Desukān,Ghost,,5
-564,Tirtouga,プロトーガ,Purotōga,Water,Rock,5
-565,Carracosta,アバゴーラ,Abagōra,Water,Rock,5
-566,Archen,アーケン,Āken,Rock,Flying,5
-567,Archeops,アーケオス,Ākeosu,Rock,Flying,5
-568,Trubbish,ヤブクロン,Yabukuron,Poison,,5
-569,Garbodor,ダストダス,Dasutodasu,Poison,,5
-570,Zorua,ゾロア,Zoroa,Dark,,5
-571,Zoroark,ゾロアーク,Zoroāku,Dark,,5
-572,Minccino,チラーミィ,Chirāmī,Normal,,5
-573,Cinccino,チラチーノ,Chirachīno,Normal,,5
-574,Gothita,ゴチム,Gochimu,Psychic,,5
-575,Gothorita,ゴチミル,Gochimiru,Psychic,,5
-576,Gothitelle,ゴチルゼル,Gochiruzeru,Psychic,,5
-577,Solosis,ユニラン,Yuniran,Psychic,,5
-578,Duosion,ダブラン,Daburan,Psychic,,5
-579,Reuniclus,ランクルス,Rankurusu,Psychic,,5
-580,Ducklett,コアルヒー,Koaruhī,Water,Flying,5
-581,Swanna,スワンナ,Suwanna,Water,Flying,5
-582,Vanillite,バニプッチ,Baniputchi,Ice,,5
-583,Vanillish,バニリッチ,Baniritchi,Ice,,5
-584,Vanilluxe,バイバニラ,Baibanira,Ice,,5
-585,Deerling,シキジカ,Shikijika,Normal,Grass,5
-586,Sawsbuck,メブキジカ,Mebukijika,Normal,Grass,5
-587,Emolga,エモンガ,Emonga,Electric,Flying,5
-588,Karrablast,カブルモ,Kaburumo,Bug,,5
-589,Escavalier,シュバルゴ,Shubarugo,Bug,Steel,5
-590,Foongus,タマゲタケ,Tamagetake,Grass,Poison,5
-591,Amoonguss,モロバレル,Morobareru,Grass,Poison,5
-592,Frillish,プルリル,Pururiru,Water,Ghost,5
-593,Jellicent,ブルンゲル,Burungeru,Water,Ghost,5
-594,Alomomola,ママンボウ,Mamanbō,Water,,5
-595,Joltik,バチュル,Bachuru,Bug,Electric,5
-596,Galvantula,デンチュラ,Denchura,Bug,Electric,5
-597,Ferroseed,テッシード,Tesshīdo,Grass,Steel,5
-598,Ferrothorn,ナットレイ,Nattorei,Grass,Steel,5
-599,Klink,ギアル,Giaru,Steel,,5
-600,Klang,ギギアル,Gigiaru,Steel,,5
-601,Klinklang,ギギギアル,Gigigiaru,Steel,,5
-602,Tynamo,シビシラス,Shibishirasu,Electric,,5
-603,Eelektrik,シビビール,Shibibīru,Electric,,5
-604,Eelektross,シビルドン,Shibirudon,Electric,,5
-605,Elgyem,リグレー,Rigurē,Psychic,,5
-606,Beheeyem,オーベム,Ōbemu,Psychic,,5
-607,Litwick,ヒトモシ,Hitomoshi,Ghost,Fire,5
-608,Lampent,ランプラー,Ranpurā,Ghost,Fire,5
-609,Chandelure,シャンデラ,Shandera,Ghost,Fire,5
-610,Axew,キバゴ,Kibago,Dragon,,5
-611,Fraxure,オノンド,Onondo,Dragon,,5
-612,Haxorus,オノノクス,Ononokusu,Dragon,,5
-613,Cubchoo,クマシュン,Kumashun,Ice,,5
-614,Beartic,ツンベアー,Tsunbeā,Ice,,5
-615,Cryogonal,フリージオ,Furījio,Ice,,5
-616,Shelmet,チョボマキ,Chobomaki,Bug,,5
-617,Accelgor,アギルダー,Agirudā,Bug,,5
-618,Stunfisk,マッギョ,Maggyo,Ground,Electric,5
-619,Mienfoo,コジョフー,Kojofū,Fighting,,5
-620,Mienshao,コジョンド,Kojondo,Fighting,,5
-621,Druddigon,クリムガン,Kurimugan,Dragon,,5
-622,Golett,ゴビット,Gobitto,Ground,Ghost,5
-623,Golurk,ゴルーグ,Gorūgu,Ground,Ghost,5
-624,Pawniard,コマタナ,Komatana,Dark,Steel,5
-625,Bisharp,キリキザン,Kirikizan,Dark,Steel,5
-626,Bouffalant,バッフロン,Baffuron,Normal,,5
-627,Rufflet,ワシボン,Washibon,Normal,Flying,5
-628,Braviary,ウォーグル,Wōguru,Normal,Flying,5
-629,Vullaby,バルチャイ,Baruchai,Dark,Flying,5
-630,Mandibuzz,バルジーナ,Barujīna,Dark,Flying,5
-631,Heatmor,クイタラン,Kuitaran,Fire,,5
-632,Durant,アイアント,Aianto,Bug,Steel,5
-633,Deino,モノズ,Monozu,Dark,Dragon,5
-634,Zweilous,ジヘッド,Jiheddo,Dark,Dragon,5
-635,Hydreigon,サザンドラ,Sazandora,Dark,Dragon,5
-636,Larvesta,メラルバ,Meraruba,Bug,Fire,5
-637,Volcarona,ウルガモス,Urugamosu,Bug,Fire,5
-638,Cobalion,コバルオン,Kobaruon,Steel,Fighting,5
-639,Terrakion,テラキオン,Terakion,Rock,Fighting,5
-640,Virizion,ビリジオン,Birijion,Grass,Fighting,5
-641,Tornadus,トルネロス,Torunerosu,Flying,,5
-642,Thundurus,ボルトロス,Borutorosu,Electric,Flying,5
-643,Reshiram,レシラム,Reshiramu,Dragon,Fire,5
-644,Zekrom,ゼクロム,Zekuromu,Dragon,Electric,5
-645,Landorus,ランドロス,Randorosu,Ground,Flying,5
-646,Kyurem,キュレム,Kyuremu,Dragon,Ice,5
-647,Keldeo,ケルディオ,Kerudio,Water,Fighting,5
-648,Meloetta,メロエッタ,Meroetta,Normal,Psychic,5
-649,Genesect,ゲノセクト,Genosekuto,Bug,Steel,5
-650,Chespin,ハリマロン,Harimaron,Grass,,6
-651,Quilladin,ハリボーグ,Haribōgu,Grass,,6
-652,Chesnaught,ブリガロン,Burigaron,Grass,Fighting,6
-653,Fennekin,フォッコ,Fokko,Fire,,6
-654,Braixen,テールナー,Tērunā,Fire,,6
-655,Delphox,マフォクシー,Mafokushī,Fire,Psychic,6
-656,Froakie,ケロマツ,Keromatsu,Water,,6
-657,Frogadier,ゲコガシラ,Gekogashira,Water,,6
-658,Greninja,ゲッコウガ,Gekkōga,Water,Dark,6
-659,Bunnelby,ホルビー,Horubī,Normal,,6
-660,Diggersby,ホルード,Horūdo,Normal,Ground,6
-661,Fletchling,ヤヤコマ,Yayakoma,Normal,Flying,6
-662,Fletchinder,ヒノヤコマ,Hinoyakoma,Fire,Flying,6
-663,Talonflame,ファイアロー,Faiarō,Fire,Flying,6
-664,Scatterbug,コフキムシ,Kofukimushi,Bug,,6
-665,Spewpa,コフーライ,Kofūrai,Bug,,6
-666,Vivillon,ビビヨン,Bibiyon,Bug,Flying,6
-667,Litleo,シシコ,Shishiko,Fire,Normal,6
-668,Pyroar,カエンジシ,Kaenjishi,Fire,Normal,6
-669,Flabébé,フラベベ,Furabebe,Fairy,,6
-670,Floette,フラエッテ,Furaette,Fairy,,6
-671,Florges,フラージェス,Furājesu,Fairy,,6
-672,Skiddo,メェークル,Mēkuru,Grass,,6
-673,Gogoat,ゴーゴート,Gōgōto,Grass,,6
-674,Pancham,ヤンチャム,Yanchamu,Fighting,,6
-675,Pangoro,ゴロンダ,Goronda,Fighting,Dark,6
-676,Furfrou,トリミアン,Torimian,Normal,,6
-677,Espurr,ニャスパー,Nyasupā,Psychic,,6
-678,Meowstic,ニャオニクス,Nyaonikusu,Psychic,,6
-679,Honedge,ヒトツキ,Hitotsuki,Steel,Ghost,6
-680,Doublade,ニダンギル,Nidangiru,Steel,Ghost,6
-681,Aegislash,ギルガルド,Girugarudo,Steel,Ghost,6
-682,Spritzee,シュシュプ,Shushupu,Fairy,,6
-683,Aromatisse,フレフワン,Furefuwan,Fairy,,6
-684,Swirlix,ペロッパフ,Peroppafu,Fairy,,6
-685,Slurpuff,ペロリーム,Perorīmu,Fairy,,6
-686,Inkay,マーイーカ,Māīka,Dark,Psychic,6
-687,Malamar,カラマネロ,Karamanero,Dark,Psychic,6
-688,Binacle,カメテテ,Kametete,Rock,Water,6
-689,Barbaracle,ガメノデス,Gamenodesu,Rock,Water,6
-690,Skrelp,クズモー,Kuzumō,Poison,Water,6
-691,Dragalge,ドラミドロ,Doramidoro,Poison,Dragon,6
-692,Clauncher,ウデッポウ,Udeppō,Water,,6
-693,Clawitzer,ブロスター,Burosutā,Water,,6
-694,Helioptile,エリキテル,Erikiteru,Electric,Normal,6
-695,Heliolisk,エレザード,Erezādo,Electric,Normal,6
-696,Tyrunt,チゴラス,Chigorasu,Rock,Dragon,6
-697,Tyrantrum,ガチゴラス,Gachigorasu,Rock,Dragon,6
-698,Amaura,アマルス,Amarusu,Rock,Ice,6
-699,Aurorus,アマルルガ,Amaruruga,Rock,Ice,6
-700,Sylveon,ニンフィア,Ninfia,Fairy,,6
-701,Hawlucha,ルチャブル,Ruchaburu,Fighting,Flying,6
-702,Dedenne,デデンネ,Dedenne,Electric,Fairy,6
-703,Carbink,メレシー,Mereshī,Rock,Fairy,6
-704,Goomy,ヌメラ,Numera,Dragon,,6
-705,Sliggoo,ヌメイル,Numeiru,Dragon,,6
-706,Goodra,ヌメルゴン,Numerugon,Dragon,,6
-707,Klefki,クレッフィ,Kureffi,Steel,Fairy,6
-708,Phantump,ボクレー,Bokurē,Ghost,Grass,6
-709,Trevenant,オーロット,Ōrotto,Ghost,Grass,6
-710,Pumpkaboo,バケッチャ,Baketcha,Ghost,Grass,6
-711,Gourgeist,パンプジン,Panpujin,Ghost,Grass,6
-712,Bergmite,カチコール,Kachikōru,Ice,,6
-713,Avalugg,クレベース,Kurebēsu,Ice,,6
-714,Noibat,オンバット,Onbatto,Flying,Dragon,6
-715,Noivern,オンバーン,Onbān,Flying,Dragon,6
-716,Xerneas,ゼルネアス,Zeruneasu,Fairy,,6
-717,Yveltal,イベルタル,Iberutaru,Dark,Flying,6
-718,Zygarde,ジガルデ,Jigarude,Dragon,Ground,6
-719,Diancie,ディアンシー,Dianshī,Rock,Fairy,6
-720,Hoopa,フーパ,Fūpa,Psychic,Ghost,6
-721,Volcanion,ボルケニオン,Borukenion,Fire,Water,6
-722,Rowlet,モクロー,Mokurō,Grass,Flying,7
-723,Dartrix,フクスロー,Fukusurō,Grass,Flying,7
-724,Decidueye,ジュナイパー,Junaipā,Grass,Ghost,7
-725,Litten,ニャビー,Nyabī,Fire,,7
-726,Torracat,ニャヒート,Nyahīto,Fire,,7
-727,Incineroar,ガオガエン,Gaogaen,Fire,Dark,7
-728,Popplio,アシマリ,Ashimari,Water,,7
-729,Brionne,オシャマリ,Oshamari,Water,,7
-730,Primarina,アシレーヌ,Ashirēnu,Water,Fairy,7
-731,Pikipek,ツツケラ,Tsutsukera,Normal,Flying,7
-732,Trumbeak,ケララッパ,Kerarappa,Normal,Flying,7
-733,Toucannon,ドデカバシ,Dodekabashi,Normal,Flying,7
-734,Yungoos,ヤングース,Yangūsu,Normal,,7
-735,Gumshoos,デカグース,Dekagūsu,Normal,,7
-736,Grubbin,アゴジムシ,Agojimushi,Bug,,7
-737,Charjabug,デンヂムシ,Denjimushi,Bug,Electric,7
-738,Vikavolt,クワガノン,Kuwaganon,Bug,Electric,7
-739,Crabrawler,マケンカニ,Makenkani,Fighting,,7
-740,Crabominable,ケケンカニ,Kekenkani,Fighting,Ice,7
-741,Oricorio,オドリドリ,Odoridori,Fire,Flying,7
-742,Cutiefly,アブリー,Aburī,Bug,Fairy,7
-743,Ribombee,アブリボン,Aburibon,Bug,Fairy,7
-744,Rockruff,イワンコ,Iwanko,Rock,,7
-745,Lycanroc,ルガルガン,Rugarugan,Rock,,7
-746,Wishiwashi,ヨワシ,Yowashi,Water,,7
-747,Mareanie,ヒドイデ,Hidoide,Poison,Water,7
-748,Toxapex,ドヒドイデ,Dohidoide,Poison,Water,7
-749,Mudbray,ドロバンコ,Dorobanko,Ground,,7
-750,Mudsdale,バンバドロ,Banbadoro,Ground,,7
-751,Dewpider,シズクモ,Shizukumo,Water,Bug,7
-752,Araquanid,オニシズクモ,Onishizukumo,Water,Bug,7
-753,Fomantis,カリキリ,Karikiri,Grass,,7
-754,Lurantis,ラランテス,Rarantesu,Grass,,7
-755,Morelull,ネマシュ,Nemashu,Grass,Fairy,7
-756,Shiinotic,マシェード,Mashēdo,Grass,Fairy,7
-757,Salandit,ヤトウモリ,Yatōmori,Poison,Fire,7
-758,Salazzle,エンニュート,Ennyūto,Poison,Fire,7
-759,Stufful,ヌイコグマ,Nuikoguma,Normal,Fighting,7
-760,Bewear,キテルグマ,Kiteruguma,Normal,Fighting,7
-761,Bounsweet,アマカジ,Amakaji,Grass,,7
-762,Steenee,アママイコ,Amamaiko,Grass,,7
-763,Tsareena,アマージョ,Amājo,Grass,,7
-764,Comfey,キュワワー,Kyuwawā,Fairy,,7
-765,Oranguru,ヤレユータン,Yareyūtan,Normal,Psychic,7
-766,Passimian,ナゲツケサル,Nagetsukesaru,Fighting,,7
-767,Wimpod,コソクムシ,Kosokumushi,Bug,Water,7
-768,Golisopod,グソクムシャ,Gusokumusha,Bug,Water,7
-769,Sandygast,スナバァ,Sunabā,Ghost,Ground,7
-770,Palossand,シロデスナ,Shirodesuna,Ghost,Ground,7
-771,Pyukumuku,ナマコブシ,Namakobushi,Water,,7
-772,Type:Null,タイプ：ヌル,Taipu:Nuru,Normal,,7
-773,Silvally,シルヴァディ,Shiruvadi,Normal,,7
-774,Minior,メテノ,Meteno,Rock,Flying,7
-775,Komala,ネッコアラ,Nekkoara,Normal,,7
-776,Turtonator,バクガメス,Bakugamesu,Fire,Dragon,7
-777,Togedemaru,トゲデマル,Togedemaru,Electric,Steel,7
-778,Mimikyu,ミミッキュ,Mimikkyu,Ghost,Fairy,7
-779,Bruxish,ハギギシリ,Hagigishiri,Water,Psychic,7
-780,Drampa,ジジーロン,Jijīron,Normal,Dragon,7
-781,Dhelmise,ダダリン,Dadarin,Ghost,Grass,7
-782,Jangmo-o,ジャラコ,Jarako,Dragon,,7
-783,Hakamo-o,ジャランゴ,Jarango,Dragon,Fighting,7
-784,Kommo-o,ジャラランガ,Jararanga,Dragon,Fighting,7
-785,TapuKoko,カプ・コケコ,KapuKokeko,Electric,Fairy,7
-786,TapuLele,カプ・テテフ,KapuTetefu,Psychic,Fairy,7
-787,TapuBulu,カプ・ブルル,KapuBururu,Grass,Fairy,7
-788,TapuFini,カプ・レヒレ,KapuRehire,Water,Fairy,7
-789,Cosmog,コスモッグ,Kosumoggu,Psychic,,7
-790,Cosmoem,コスモウム,Kosumoumu,Psychic,,7
-791,Solgaleo,ソルガレオ,Sorugareo,Psychic,Steel,7
-792,Lunala,ルナアーラ,Runaāra,Psychic,Ghost,7
-793,Nihilego,ウツロイド,Utsuroido,Rock,Poison,7
-794,Buzzwole,マッシブーン,Masshibūn,Bug,Fighting,7
-795,Pheromosa,フェローチェ,Ferōche,Bug,Fighting,7
-796,Xurkitree,デンジュモク,Denjumoku,Electric,,7
-797,Celesteela,テッカグヤ,Tekkaguya,Steel,Flying,7
-798,Kartana,カミツルギ,Kamitsurugi,Grass,Steel,7
-799,Guzzlord,アクジキング,Akujikingu,Dark,Dragon,7
-800,Necrozma,ネクロズマ,Nekurozuma,Psychic,,7
-801,Magearna,マギアナ,Magiana,Steel,Fairy,7
-802,Marshadow,マーシャドー,Māshadō,Fighting,Ghost,7
-803,Poipole,ベベノム,Bebenomu,Poison,,7
-804,Naganadel,アーゴヨン,Āgoyon,Poison,Dragon,7
-805,Stakataka,ツンデツンデ,Tsundetsunde,Rock,Steel,7
-806,Blacephalon,ズガドーン,Zugadōn,Fire,Ghost,7
-807,Zeraora,ゼラオラ,Zeraora,Electric,,7
-808,Meltan,メルタン,Merutan,Steel,,7
-809,Melmetal,メルメタル,Merumetaru,Steel,,7
-810,Grookey,サルノリ,Sarunori,Grass,,8
-811,Thwackey,バチンキー,Bachinkī,Grass,,8
-812,Rillaboom,ゴリランダー,Gorirandā,Grass,,8
-813,Scorbunny,ヒバニー,Hibanī,Fire,,8
-814,Raboot,ラビフット,Rabifutto,Fire,,8
-815,Cinderace,エースバーン,Ēsubān,Fire,,8
-816,Sobble,メッソン,Messon,Water,,8
-817,Drizzile,ジメレオン,Jimereon,Water,,8
-818,Inteleon,インテレオン,Intereon,Water,,8
-819,Skwovet,ホシガリス,Hoshigarisu,Normal,,8
-820,Greedent,ヨクバリス,Yokubarisu,Normal,,8
-821,Rookidee,ココガラ,Kokogara,Flying,,8
-822,Corvisquire,アオガラス,Aogarasu,Flying,,8
-823,Corviknight,アーマーガア,Āmāgā,Flying,Steel,8
-824,Blipbug,サッチムシ,Satchimushi,Bug,,8
-825,Dottler,レドームシ,Redōmushi,Bug,Psychic,8
-826,Orbeetle,イオルブ,Iorubu,Bug,Psychic,8
-827,Nickit,クスネ,Kusune,Dark,,8
-828,Thievul,フォクスライ,Fokusurai,Dark,,8
-829,Gossifleur,ヒメンカ,Himenka,Grass,,8
-830,Eldegoss,ワタシラガ,Watashiraga,Grass,,8
-831,Wooloo,ウールー,Ūrū,Normal,,8
-832,Dubwool,バイウールー,Baiūrū,Normal,,8
-833,Chewtle,カムカメ,Kamukame,Water,,8
-834,Drednaw,カジリガメ,Kajirigame,Water,Rock,8
-835,Yamper,ワンパチ,Wanpachi,Electric,,8
-836,Boltund,パルスワン,Parusuwan,Electric,,8
-837,Rolycoly,タンドン,Tandon,Rock,,8
-838,Carkol,トロッゴン,Toroggon,Rock,Fire,8
-839,Coalossal,セキタンザン,Sekitanzan,Rock,Fire,8
-840,Applin,カジッチュ,Kajitchu,Grass,Dragon,8
-841,Flapple,アップリュー,Appuryū,Grass,Dragon,8
-842,Appletun,タルップル,Taruppuru,Grass,Dragon,8
-843,Silicobra,スナヘビ,Sunahebi,Ground,,8
-844,Sandaconda,サダイジャ,Sadaija,Ground,,8
-845,Cramorant,ウッウ,U'u,Flying,Water,8
-846,Arrokuda,サシカマス,Sashikamasu,Water,,8
-847,Barraskewda,カマスジョー,Kamasujō,Water,,8
-848,Toxel,エレズン,Erezun,Electric,Poison,8
-849,Toxtricity,ストリンダー,Sutorindā,Electric,Poison,8
-850,Sizzlipede,ヤクデ,Yakude,Fire,Bug,8
-851,Centiskorch,マルヤクデ,Maruyakude,Fire,Bug,8
-852,Clobbopus,タタッコ,Tatakko,Fighting,,8
-853,Grapploct,オトスパス,Otosupasu,Fighting,,8
-854,Sinistea,ヤバチャ,Yabacha,Ghost,,8
-855,Polteageist,ポットデス,Pottodesu,Ghost,,8
-856,Hatenna,ミブリム,Miburimu,Psychic,,8
-857,Hattrem,テブリム,Teburimu,Psychic,,8
-858,Hatterene,ブリムオン,Burimuon,Psychic,Fairy,8
-859,Impidimp,ベロバー,Berobā,Dark,Fairy,8
-860,Morgrem,ギモー,Gimō,Dark,Fairy,8
-861,Grimmsnarl,オーロンゲ,Ōronge,Dark,Fairy,8
-862,Obstagoon,タチフサグマ,Tachifusaguma,Dark,Normal,8
-863,Perrserker,ニャイキング,Nyaikingu,Steel,,8
-864,Cursola,サニゴーン,Sanigōn,Ghost,,8
-865,Sirfetch'd,ネギガナイト,Negiganaito,Fighting,,8
-866,Mr.Rime,バリコオル,Barikōru,Psychic,Ice,8
-867,Runerigus,デスバーン,Desubān,Ground,Ghost,8
-868,Milcery,マホミル,Mahomiru,Fairy,,8
-869,Alcremie,マホイップ,Mahoippu,Fairy,,8
-870,Falinks,タイレーツ,Tairētsu,Fighting,,8
-871,Pincurchin,バチンウニ,Bachin'uni,Electric,,8
-872,Snom,ユキハミ,Yukihami,Ice,Bug,8
-873,Frosmoth,モスノウ,Mosunō,Ice,Bug,8
-874,Stonjourner,イシヘンジン,Ishihenjin,Rock,,8
-875,Eiscue,コオリッポ,Kōrippo,Ice,,8
-876,Indeedee,イエッサン,Iessan,Psychic,Normal,8
-877,Morpeko,モルペコ,Morupeko,Electric,Dark,8
-878,Cufant,ゾウドウ,Zōdō,Steel,,8
-879,Copperajah,ダイオウドウ,Daiōdō,Steel,,8
-880,Dracozolt,パッチラゴン,Patchiragon,Electric,Dragon,8
-881,Arctozolt,パッチルドン,Patchirudon,Electric,Ice,8
-882,Dracovish,ウオノラゴン,Uonoragon,Water,Dragon,8
-883,Arctovish,ウオチルドン,Uochirudon,Water,Ice,8
-884,Duraludon,ジュラルドン,Jurarudon,Steel,Dragon,8
-885,Dreepy,ドラメシヤ,Dorameshiya,Dragon,Ghost,8
-886,Drakloak,ドロンチ,Doronchi,Dragon,Ghost,8
-887,Dragapult,ドラパルト,Doraparuto,Dragon,Ghost,8
-888,Zacian,ザシアン,Zashian,Fairy,Steel,8
-889,Zamazenta,ザマゼンタ,Zamazenta,Fighting,Steel,8
-890,Eternatus,ムゲンダイナ,Mugendaina,Poison,Dragon,8
+#,English,Japanese,Romaji,Type1,Type2,Generation,Ability 1,Ability 2
+1,Bulbasaur,フシギダネ,Fushigidane,Grass,Poison,1,Overgrow,
+2,Ivysaur,フシギソウ,Fushigisō,Grass,Poison,1,Overgrow,
+3,Venusaur,フシギバナ,Fushigibana,Grass,Poison,1,Overgrow,
+4,Charmander,ヒトカゲ,Hitokage,Fire,,1,Blaze,
+5,Charmeleon,リザード,Rizādo,Fire,,1,Blaze,
+6,Charizard,リザードン,Rizādon,Fire,Flying,1,Blaze,
+7,Squirtle,ゼニガメ,Zenigame,Water,,1,Torrent,
+8,Wartortle,カメール,Kamēru,Water,,1,Torrent,
+9,Blastoise,カメックス,Kamekkusu,Water,,1,Torrent,
+10,Caterpie,キャタピー,Kyatapī,Bug,,1,Shield Dust,
+11,Metapod,トランセル,Toranseru,Bug,,1,Shed Skin,
+12,Butterfree,バタフリー,Batafurī,Bug,Flying,1,Compound Eyes,
+13,Weedle,ビードル,Bīdoru,Bug,Poison,1,Shield Dust,
+14,Kakuna,コクーン,Kokūn,Bug,Poison,1,Shed Skin,
+15,Beedrill,スピアー,Supiā,Bug,Poison,1,Swarm,
+16,Pidgey,ポッポ,Poppo,Normal,Flying,1,Keen Eye,Tangled Feet
+17,Pidgeotto,ピジョン,Pijon,Normal,Flying,1,Keen Eye,Tangled Feet
+18,Pidgeot,ピジョット,Pijotto,Normal,Flying,1,Keen Eye,Tangled Feet
+19,Rattata,コラッタ,Koratta,Normal,,1,Run Away,Guts
+20,Raticate,ラッタ,Ratta,Normal,,1,Run Away,Guts
+21,Spearow,オニスズメ,Onisuzume,Normal,Flying,1,Keen Eye,
+22,Fearow,オニドリル,Onidoriru,Normal,Flying,1,Keen Eye,
+23,Ekans,アーボ,Ābo,Poison,,1,Intimidate,Shed Skin
+24,Arbok,アーボック,Ābokku,Poison,,1,Intimidate,Shed Skin
+25,Pikachu,ピカチュウ,Pikachū,Electric,,1,Static,
+26,Raichu,ライチュウ,Raichū,Electric,,1,Static,
+27,Sandshrew,サンド,Sando,Ground,,1,Sand Veil,
+28,Sandslash,サンドパン,Sandopan,Ground,,1,Sand Veil,
+29,Nidoran♀,ニドラン♀,Nidoran Mesu,Poison,,1,Poison Point,Rivalry
+30,Nidorina,ニドリーナ,Nidorīna,Poison,,1,Poison Point,Rivalry
+31,Nidoqueen,ニドクイン,Nidokuin,Poison,Ground,1,Poison Point,Rivalry
+32,Nidoran♂,ニドラン♂,Nidoran Osu,Poison,,1,Poison Point,Rivalry
+33,Nidorino,ニドリーノ,Nidorīno,Poison,,1,Poison Point,Rivalry
+34,Nidoking,ニドキング,Nidokingu,Poison,Ground,1,Poison Point,Rivalry
+35,Clefairy,ピッピ,Pippi,Fairy,,1,Cute Charm,Magic Guard
+36,Clefable,ピクシー,Pikushī,Fairy,,1,Cute Charm,Magic Guard
+37,Vulpix,ロコン,Rokon,Fire,,1,Flash Fire,
+38,Ninetales,キュウコン,Kyūkon,Fire,,1,Flash Fire,
+39,Jigglypuff,プリン,Purin,Normal,Fairy,1,Cute Charm,Competitive
+40,Wigglytuff,プクリン,Pukurin,Normal,Fairy,1,Cute Charm,Competitive
+41,Zubat,ズバット,Zubatto,Poison,Flying,1,Inner Focus,
+42,Golbat,ゴルバット,Gorubatto,Poison,Flying,1,Inner Focus,
+43,Oddish,ナゾノクサ,Nazonokusa,Grass,Poison,1,Chlorophyll,
+44,Gloom,クサイハナ,Kusaihana,Grass,Poison,1,Chlorophyll,
+45,Vileplume,ラフレシア,Rafureshia,Grass,Poison,1,Chlorophyll,
+46,Paras,パラス,Parasu,Bug,Grass,1,Effect Spore,Dry Skin
+47,Parasect,パラセクト,Parasekuto,Bug,Grass,1,Effect Spore,Dry Skin
+48,Venonat,コンパン,Konpan,Bug,Poison,1,Compound Eyes,Tinted Lens
+49,Venomoth,モルフォン,Morufon,Bug,Poison,1,Shield Dust,Tinted Lens
+50,Diglett,ディグダ,Diguda,Ground,,1,Sand Veil,Arena Trap
+51,Dugtrio,ダグトリオ,Dagutorio,Ground,,1,Sand Veil,Arena Trap
+52,Meowth,ニャース,Nyāsu,Normal,,1,Pickup,Technician
+53,Persian,ペルシアン,Perushian,Normal,,1,Limber,Technician
+54,Psyduck,コダック,Kodakku,Water,,1,Damp,Cloud Nine
+55,Golduck,ゴルダック,Gorudakku,Water,,1,Damp,Cloud Nine
+56,Mankey,マンキー,Mankī,Fighting,,1,Vital Spirit,Anger Point
+57,Primeape,オコリザル,Okorizaru,Fighting,,1,Vital Spirit,Anger Point
+58,Growlithe,ガーディ,Gādi,Fire,,1,Intimidate,Flash Fire
+59,Arcanine,ウインディ,Uindi,Fire,,1,Intimidate,Flash Fire
+60,Poliwag,ニョロモ,Nyoromo,Water,,1,Water Absorb,Damp
+61,Poliwhirl,ニョロゾ,Nyorozo,Water,,1,Water Absorb,Damp
+62,Poliwrath,ニョロボン,Nyorobon,Water,Fighting,1,Water Absorb,Damp
+63,Abra,ケーシィ,Kēshī,Psychic,,1,Synchronize,Inner Focus
+64,Kadabra,ユンゲラー,Yungerā,Psychic,,1,Synchronize,Inner Focus
+65,Alakazam,フーディン,Fūdin,Psychic,,1,Synchronize,Inner Focus
+66,Machop,ワンリキー,Wanrikī,Fighting,,1,Guts,No Guard
+67,Machoke,ゴーリキー,Gōrikī,Fighting,,1,Guts,No Guard
+68,Machamp,カイリキー,Kairikī,Fighting,,1,Guts,No Guard
+69,Bellsprout,マダツボミ,Madatsubomi,Grass,Poison,1,Chlorophyll,
+70,Weepinbell,ウツドン,Utsudon,Grass,Poison,1,Chlorophyll,
+71,Victreebel,ウツボット,Utsubotto,Grass,Poison,1,Chlorophyll,
+72,Tentacool,メノクラゲ,Menokurage,Water,Poison,1,Clear Body,Liquid Ooze
+73,Tentacruel,ドククラゲ,Dokukurage,Water,Poison,1,Clear Body,Liquid Ooze
+74,Geodude,イシツブテ,Ishitsubute,Rock,Ground,1,Rock Head,Sturdy
+75,Graveler,ゴローン,Gorōn,Rock,Ground,1,Rock Head,Sturdy
+76,Golem,ゴローニャ,Gorōnya,Rock,Ground,1,Rock Head,Sturdy
+77,Ponyta,ポニータ,Ponīta,Fire,,1,Run Away,Flash Fire
+78,Rapidash,ギャロップ,Gyaroppu,Fire,,1,Run Away,Flash Fire
+79,Slowpoke,ヤドン,Yadon,Water,Psychic,1,Oblivious,Own Tempo
+80,Slowbro,ヤドラン,Yadoran,Water,Psychic,1,Oblivious,Own Tempo
+81,Magnemite,コイル,Koiru,Electric,Steel,1,Magnet Pull,Sturdy
+82,Magneton,レアコイル,Reakoiru,Electric,Steel,1,Magnet Pull,Sturdy
+83,Farfetch'd,カモネギ,Kamonegi,Normal,Flying,1,Keen Eye,Inner Focus
+84,Doduo,ドードー,Dōdō,Normal,Flying,1,Run Away,Early Bird
+85,Dodrio,ドードリオ,Dōdorio,Normal,Flying,1,Run Away,Early Bird
+86,Seel,パウワウ,Pauwau,Water,,1,Thick Fat,Hydration
+87,Dewgong,ジュゴン,Jugon,Water,Ice,1,Thick Fat,Hydration
+88,Grimer,ベトベター,Betobetā,Poison,,1,Stench,Sticky Hold
+89,Muk,ベトベトン,Betobeton,Poison,,1,Stench,Sticky Hold
+90,Shellder,シェルダー,Sherudā,Water,,1,Shell Armor,Skill Link
+91,Cloyster,パルシェン,Parushen,Water,Ice,1,Shell Armor,Skill Link
+92,Gastly,ゴース,Gōsu,Ghost,Poison,1,Levitate,
+93,Haunter,ゴースト,Gōsuto,Ghost,Poison,1,Levitate,
+94,Gengar,ゲンガー,Gengā,Ghost,Poison,1,Cursed Body,
+95,Onix,イワーク,Iwāku,Rock,Ground,1,Rock Head,Sturdy
+96,Drowzee,スリープ,Surīpu,Psychic,,1,Insomnia,Forewarn
+97,Hypno,スリーパー,Surīpā,Psychic,,1,Insomnia,Forewarn
+98,Krabby,クラブ,Kurabu,Water,,1,Hyper Cutter,Shell Armor
+99,Kingler,キングラー,Kingurā,Water,,1,Hyper Cutter,Shell Armor
+100,Voltorb,ビリリダマ,Biriridama,Electric,,1,Soundproof,Static
+101,Electrode,マルマイン,Marumain,Electric,,1,Soundproof,Static
+102,Exeggcute,タマタマ,Tamatama,Grass,Psychic,1,Chlorophyll,
+103,Exeggutor,ナッシー,Nasshī,Grass,Psychic,1,Chlorophyll,
+104,Cubone,カラカラ,Karakara,Ground,,1,Rock Head,Lightning Rod
+105,Marowak,ガラガラ,Garagara,Ground,,1,Rock Head,Lightning Rod
+106,Hitmonlee,サワムラー,Sawamurā,Fighting,,1,Limber,Reckless
+107,Hitmonchan,エビワラー,Ebiwarā,Fighting,,1,Keen Eye,Iron Fist
+108,Lickitung,ベロリンガ,Beroringa,Normal,,1,Own Tempo,Oblivious
+109,Koffing,ドガース,Dogāsu,Poison,,1,Levitate,Neutralizing Gas
+110,Weezing,マタドガス,Matadogasu,Poison,,1,Levitate,Neutralizing Gas
+111,Rhyhorn,サイホーン,Saihōn,Ground,Rock,1,Lightning Rod,Rock Head
+112,Rhydon,サイドン,Saidon,Ground,Rock,1,Lightning Rod,Rock Head
+113,Chansey,ラッキー,Rakkī,Normal,,1,Natural Cure,Serene Grace
+114,Tangela,モンジャラ,Monjara,Grass,,1,Chlorophyll,Leaf Guard
+115,Kangaskhan,ガルーラ,Garūra,Normal,,1,Early Bird,Scrappy
+116,Horsea,タッツー,Tattsū,Water,,1,Swift Swim,Sniper
+117,Seadra,シードラ,Shīdora,Water,,1,Poison Point,Sniper
+118,Goldeen,トサキント,Tosakinto,Water,,1,Swift Swim,Water Veil
+119,Seaking,アズマオウ,Azumaō,Water,,1,Swift Swim,Water Veil
+120,Staryu,ヒトデマン,Hitodeman,Water,,1,Illuminate,Natural Cure
+121,Starmie,スターミー,Sutāmī,Water,Psychic,1,Illuminate,Natural Cure
+122,Mr.Mime,バリヤード,Bariyādo,Psychic,Fairy,1,Soundproof,Filter
+123,Scyther,ストライク,Sutoraiku,Bug,Flying,1,Swarm,Technician
+124,Jynx,ルージュラ,Rūjura,Ice,Psychic,1,Oblivious,Forewarn
+125,Electabuzz,エレブー,Erebū,Electric,,1,Static,
+126,Magmar,ブーバー,Būbā,Fire,,1,Flame Body,
+127,Pinsir,カイロス,Kairosu,Bug,,1,Hyper Cutter,Mold Breaker
+128,Tauros,ケンタロス,Kentarosu,Normal,,1,Intimidate,Anger Point
+129,Magikarp,コイキング,Koikingu,Water,,1,Swift Swim,
+130,Gyarados,ギャラドス,Gyaradosu,Water,Flying,1,Intimidate,
+131,Lapras,ラプラス,Rapurasu,Water,Ice,1,Water Absorb,Shell Armor
+132,Ditto,メタモン,Metamon,Normal,,1,Limber,
+133,Eevee,イーブイ,Ībui,Normal,,1,Run Away,Adaptability
+134,Vaporeon,シャワーズ,Shawāzu,Water,,1,Water Absorb,
+135,Jolteon,サンダース,Sandāsu,Electric,,1,Volt Absorb,
+136,Flareon,ブースター,Būsutā,Fire,,1,Flash Fire,
+137,Porygon,ポリゴン,Porigon,Normal,,1,Trace,Download
+138,Omanyte,オムナイト,Omunaito,Rock,Water,1,Swift Swim,Shell Armor
+139,Omastar,オムスター,Omusutā,Rock,Water,1,Swift Swim,Shell Armor
+140,Kabuto,カブト,Kabuto,Rock,Water,1,Swift Swim,Battle Armor
+141,Kabutops,カブトプス,Kabutopusu,Rock,Water,1,Swift Swim,Battle Armor
+142,Aerodactyl,プテラ,Putera,Rock,Flying,1,Rock Head,Pressure
+143,Snorlax,カビゴン,Kabigon,Normal,,1,Immunity,Thick Fat
+144,Articuno,フリーザー,Furīzā,Ice,Flying,1,Pressure,
+145,Zapdos,サンダー,Sandā,Electric,Flying,1,Pressure,
+146,Moltres,ファイヤー,Faiyā,Fire,Flying,1,Pressure,
+147,Dratini,ミニリュウ,Miniryū,Dragon,,1,Shed Skin,
+148,Dragonair,ハクリュー,Hakuryū,Dragon,,1,Shed Skin,
+149,Dragonite,カイリュー,Kairyū,Dragon,Flying,1,Inner Focus,
+150,Mewtwo,ミュウツー,Myūtsū,Psychic,,1,Pressure,
+151,Mew,ミュウ,Myū,Psychic,,1,Synchronize,
+152,Chikorita,チコリータ,Chikorīta,Grass,,2,Overgrow,
+153,Bayleef,ベイリーフ,Beirīfu,Grass,,2,Overgrow,
+154,Meganium,メガニウム,Meganiumu,Grass,,2,Overgrow,
+155,Cyndaquil,ヒノアラシ,Hinoarashi,Fire,,2,Blaze,
+156,Quilava,マグマラシ,Magumarashi,Fire,,2,Blaze,
+157,Typhlosion,バクフーン,Bakufūn,Fire,,2,Blaze,
+158,Totodile,ワニノコ,Waninoko,Water,,2,Torrent,
+159,Croconaw,アリゲイツ,Arigeitsu,Water,,2,Torrent,
+160,Feraligatr,オーダイル,Ōdairu,Water,,2,Torrent,
+161,Sentret,オタチ,Otachi,Normal,,2,Run Away,Keen Eye
+162,Furret,オオタチ,Ōtachi,Normal,,2,Run Away,Keen Eye
+163,Hoothoot,ホーホー,Hōhō,Normal,Flying,2,Insomnia,Keen Eye
+164,Noctowl,ヨルノズク,Yorunozuku,Normal,Flying,2,Insomnia,Keen Eye
+165,Ledyba,レディバ,Rediba,Bug,Flying,2,Swarm,Early Bird
+166,Ledian,レディアン,Redian,Bug,Flying,2,Swarm,Early Bird
+167,Spinarak,イトマル,Itomaru,Bug,Poison,2,Swarm,Insomnia
+168,Ariados,アリアドス,Ariadosu,Bug,Poison,2,Swarm,Insomnia
+169,Crobat,クロバット,Kurobatto,Poison,Flying,2,Inner Focus,
+170,Chinchou,チョンチー,Chonchī,Water,Electric,2,Volt Absorb,Illuminate
+171,Lanturn,ランターン,Rantān,Water,Electric,2,Volt Absorb,Illuminate
+172,Pichu,ピチュー,Pichū,Electric,,2,Static,
+173,Cleffa,ピィ,Pī,Fairy,,2,Cute Charm,Magic Guard
+174,Igglybuff,ププリン,Pupurin,Normal,Fairy,2,Cute Charm,Competitive
+175,Togepi,トゲピー,Togepī,Fairy,,2,Hustle,Serene Grace
+176,Togetic,トゲチック,Togechikku,Fairy,Flying,2,Hustle,Serene Grace
+177,Natu,ネイティ,Neiti,Psychic,Flying,2,Synchronize,Early Bird
+178,Xatu,ネイティオ,Neitio,Psychic,Flying,2,Synchronize,Early Bird
+179,Mareep,メリープ,Merīpu,Electric,,2,Static,
+180,Flaaffy,モココ,Mokoko,Electric,,2,Static,
+181,Ampharos,デンリュウ,Denryū,Electric,,2,Static,
+182,Bellossom,キレイハナ,Kireihana,Grass,,2,Chlorophyll,
+183,Marill,マリル,Mariru,Water,Fairy,2,Thick Fat,Huge Power
+184,Azumarill,マリルリ,Mariruri,Water,Fairy,2,Thick Fat,Huge Power
+185,Sudowoodo,ウソッキー,Usokkī,Rock,,2,Sturdy,Rock Head
+186,Politoed,ニョロトノ,Nyorotono,Water,,2,Water Absorb,Damp
+187,Hoppip,ハネッコ,Hanekko,Grass,Flying,2,Chlorophyll,Leaf Guard
+188,Skiploom,ポポッコ,Popokko,Grass,Flying,2,Chlorophyll,Leaf Guard
+189,Jumpluff,ワタッコ,Watakko,Grass,Flying,2,Chlorophyll,Leaf Guard
+190,Aipom,エイパム,Eipamu,Normal,,2,Run Away,Pickup
+191,Sunkern,ヒマナッツ,Himanattsu,Grass,,2,Chlorophyll,Solar Power
+192,Sunflora,キマワリ,Kimawari,Grass,,2,Chlorophyll,Solar Power
+193,Yanma,ヤンヤンマ,Yan'yanma,Bug,Flying,2,Speed Boost,Compound Eyes
+194,Wooper,ウパー,Upā,Water,Ground,2,Damp,Water Absorb
+195,Quagsire,ヌオー,Nuō,Water,Ground,2,Damp,Water Absorb
+196,Espeon,エーフィ,Ēfi,Psychic,,2,Synchronize,
+197,Umbreon,ブラッキー,Burakkī,Dark,,2,Synchronize,
+198,Murkrow,ヤミカラス,Yamikarasu,Dark,Flying,2,Insomnia,Super Luck
+199,Slowking,ヤドキング,Yadokingu,Water,Psychic,2,Oblivious,Own Tempo
+200,Misdreavus,ムウマ,Mūma,Ghost,,2,Levitate,
+201,Unown,アンノーン,Annōn,Psychic,,2,Levitate,
+202,Wobbuffet,ソーナンス,Sōnansu,Psychic,,2,Shadow Tag,
+203,Girafarig,キリンリキ,Kirinriki,Normal,Psychic,2,Inner Focus,Early Bird
+204,Pineco,クヌギダマ,Kunugidama,Bug,,2,Sturdy,
+205,Forretress,フォレトス,Foretosu,Bug,Steel,2,Sturdy,
+206,Dunsparce,ノコッチ,Nokotchi,Normal,,2,Serene Grace,Run Away
+207,Gligar,グライガー,Guraigā,Ground,Flying,2,Hyper Cutter,Sand Veil
+208,Steelix,ハガネール,Haganēru,Steel,Ground,2,Rock Head,Sturdy
+209,Snubbull,ブルー,Burū,Fairy,,2,Intimidate,Run Away
+210,Granbull,グランブル,Guranburu,Fairy,,2,Intimidate,Quick Feet
+211,Qwilfish,ハリーセン,Harīsen,Water,Poison,2,Poison Point,Swift Swim
+212,Scizor,ハッサム,Hassamu,Bug,Steel,2,Swarm,Technician
+213,Shuckle,ツボツボ,Tsubotsubo,Bug,Rock,2,Sturdy,Gluttony
+214,Heracross,ヘラクロス,Herakurosu,Bug,Fighting,2,Swarm,Guts
+215,Sneasel,ニューラ,Nyūra,Dark,Ice,2,Inner Focus,Keen Eye
+216,Teddiursa,ヒメグマ,Himeguma,Normal,,2,Pickup,Quick Feet
+217,Ursaring,リングマ,Ringuma,Normal,,2,Guts,Quick Feet
+218,Slugma,マグマッグ,Magumaggu,Fire,,2,Magma Armor,Flame Body
+219,Magcargo,マグカルゴ,Magukarugo,Fire,Rock,2,Magma Armor,Flame Body
+220,Swinub,ウリムー,Urimū,Ice,Ground,2,Oblivious,Snow Cloak
+221,Piloswine,イノムー,Inomū,Ice,Ground,2,Oblivious,Snow Cloak
+222,Corsola,サニーゴ,Sanīgo,Water,Rock,2,Hustle,Natural Cure
+223,Remoraid,テッポウオ,Teppouo,Water,,2,Hustle,Sniper
+224,Octillery,オクタン,Okutan,Water,,2,Suction Cups,Sniper
+225,Delibird,デリバード,Deribādo,Ice,Flying,2,Vital Spirit,Hustle
+226,Mantine,マンタイン,Mantain,Water,Flying,2,Swift Swim,Water Absorb
+227,Skarmory,エアームド,Eāmudo,Steel,Flying,2,Keen Eye,Sturdy
+228,Houndour,デルビル,Derubiru,Dark,Fire,2,Early Bird,Flash Fire
+229,Houndoom,ヘルガー,Herugā,Dark,Fire,2,Early Bird,Flash Fire
+230,Kingdra,キングドラ,Kingudora,Water,Dragon,2,Swift Swim,Sniper
+231,Phanpy,ゴマゾウ,Gomazō,Ground,,2,Pickup,
+232,Donphan,ドンファン,Donfan,Ground,,2,Sturdy,
+233,Porygon2,ポリゴン２,PorigonTsū,Normal,,2,Trace,Download
+234,Stantler,オドシシ,Odoshishi,Normal,,2,Intimidate,Frisk
+235,Smeargle,ドーブル,Dōburu,Normal,,2,Own Tempo,Technician
+236,Tyrogue,バルキー,Barukī,Fighting,,2,Guts,Steadfast
+237,Hitmontop,カポエラー,Kapoerā,Fighting,,2,Intimidate,Technician
+238,Smoochum,ムチュール,Muchūru,Ice,Psychic,2,Oblivious,Forewarn
+239,Elekid,エレキッド,Erekiddo,Electric,,2,Static,
+240,Magby,ブビィ,Bubī,Fire,,2,Flame Body,
+241,Miltank,ミルタンク,Mirutanku,Normal,,2,Thick Fat,Scrappy
+242,Blissey,ハピナス,Hapinasu,Normal,,2,Natural Cure,Serene Grace
+243,Raikou,ライコウ,Raikō,Electric,,2,Pressure,
+244,Entei,エンテイ,Entei,Fire,,2,Pressure,
+245,Suicune,スイクン,Suikun,Water,,2,Pressure,
+246,Larvitar,ヨーギラス,Yōgirasu,Rock,Ground,2,Guts,
+247,Pupitar,サナギラス,Sanagirasu,Rock,Ground,2,Shed Skin,
+248,Tyranitar,バンギラス,Bangirasu,Rock,Dark,2,Sand Stream,
+249,Lugia,ルギア,Rugia,Psychic,Flying,2,Pressure,
+250,Ho-Oh,ホウオウ,Hōō,Fire,Flying,2,Pressure,
+251,Celebi,セレビィ,Serebī,Psychic,Grass,2,Natural Cure,
+252,Treecko,キモリ,Kimori,Grass,,3,Overgrow,
+253,Grovyle,ジュプトル,Juputoru,Grass,,3,Overgrow,
+254,Sceptile,ジュカイン,Jukain,Grass,,3,Overgrow,
+255,Torchic,アチャモ,Achamo,Fire,,3,Blaze,
+256,Combusken,ワカシャモ,Wakashamo,Fire,Fighting,3,Blaze,
+257,Blaziken,バシャーモ,Bashāmo,Fire,Fighting,3,Blaze,
+258,Mudkip,ミズゴロウ,Mizugorō,Water,,3,Torrent,
+259,Marshtomp,ヌマクロー,Numakurō,Water,Ground,3,Torrent,
+260,Swampert,ラグラージ,Ragurāji,Water,Ground,3,Torrent,
+261,Poochyena,ポチエナ,Pochiena,Dark,,3,Run Away,Quick Feet
+262,Mightyena,グラエナ,Guraena,Dark,,3,Intimidate,Quick Feet
+263,Zigzagoon,ジグザグマ,Jiguzaguma,Normal,,3,Pickup,Gluttony
+264,Linoone,マッスグマ,Massuguma,Normal,,3,Pickup,Gluttony
+265,Wurmple,ケムッソ,Kemusso,Bug,,3,Shield Dust,
+266,Silcoon,カラサリス,Karasarisu,Bug,,3,Shed Skin,
+267,Beautifly,アゲハント,Agehanto,Bug,Flying,3,Swarm,
+268,Cascoon,マユルド,Mayurudo,Bug,,3,Shed Skin,
+269,Dustox,ドクケイル,Dokukeiru,Bug,Poison,3,Shield Dust,
+270,Lotad,ハスボー,Hasubō,Water,Grass,3,Swift Swim,Rain Dish
+271,Lombre,ハスブレロ,Hasuburero,Water,Grass,3,Swift Swim,Rain Dish
+272,Ludicolo,ルンパッパ,Runpappa,Water,Grass,3,Swift Swim,Rain Dish
+273,Seedot,タネボー,Tanebō,Grass,,3,Chlorophyll,Early Bird
+274,Nuzleaf,コノハナ,Konohana,Grass,Dark,3,Chlorophyll,Early Bird
+275,Shiftry,ダーテング,Dātengu,Grass,Dark,3,Chlorophyll,Early Bird
+276,Taillow,スバメ,Subame,Normal,Flying,3,Guts,
+277,Swellow,オオスバメ,Ōsubame,Normal,Flying,3,Guts,
+278,Wingull,キャモメ,Kyamome,Water,Flying,3,Keen Eye,Hydration
+279,Pelipper,ペリッパー,Perippā,Water,Flying,3,Keen Eye,Drizzle
+280,Ralts,ラルトス,Rarutosu,Psychic,Fairy,3,Synchronize,Trace
+281,Kirlia,キルリア,Kiruria,Psychic,Fairy,3,Synchronize,Trace
+282,Gardevoir,サーナイト,Sānaito,Psychic,Fairy,3,Synchronize,Trace
+283,Surskit,アメタマ,Ametama,Bug,Water,3,Swift Swim,
+284,Masquerain,アメモース,Amemōsu,Bug,Flying,3,Intimidate,
+285,Shroomish,キノココ,Kinokoko,Grass,,3,Effect Spore,Poison Heal
+286,Breloom,キノガッサ,Kinogassa,Grass,Fighting,3,Effect Spore,Poison Heal
+287,Slakoth,ナマケロ,Namakero,Normal,,3,Truant,
+288,Vigoroth,ヤルキモノ,Yarukimono,Normal,,3,Vital Spirit,
+289,Slaking,ケッキング,Kekkingu,Normal,,3,Truant,
+290,Nincada,ツチニン,Tsuchinin,Bug,Ground,3,Compound Eyes,
+291,Ninjask,テッカニン,Tekkanin,Bug,Flying,3,Speed Boost,
+292,Shedinja,ヌケニン,Nukenin,Bug,Ghost,3,Wonder Guard,
+293,Whismur,ゴニョニョ,Gonyonyo,Normal,,3,Soundproof,
+294,Loudred,ドゴーム,Dogōmu,Normal,,3,Soundproof,
+295,Exploud,バクオング,Bakuongu,Normal,,3,Soundproof,
+296,Makuhita,マクノシタ,Makunoshita,Fighting,,3,Thick Fat,Guts
+297,Hariyama,ハリテヤマ,Hariteyama,Fighting,,3,Thick Fat,Guts
+298,Azurill,ルリリ,Ruriri,Normal,Fairy,3,Thick Fat,Huge Power
+299,Nosepass,ノズパス,Nozupasu,Rock,,3,Sturdy,Magnet Pull
+300,Skitty,エネコ,Eneko,Normal,,3,Cute Charm,Normalize
+301,Delcatty,エネコロロ,Enekororo,Normal,,3,Cute Charm,Normalize
+302,Sableye,ヤミラミ,Yamirami,Dark,Ghost,3,Keen Eye,Stall
+303,Mawile,クチート,Kuchīto,Steel,Fairy,3,Hyper Cutter,Intimidate
+304,Aron,ココドラ,Kokodora,Steel,Rock,3,Sturdy,Rock Head
+305,Lairon,コドラ,Kodora,Steel,Rock,3,Sturdy,Rock Head
+306,Aggron,ボスゴドラ,Bosugodora,Steel,Rock,3,Sturdy,Rock Head
+307,Meditite,アサナン,Asanan,Fighting,Psychic,3,Pure Power,
+308,Medicham,チャーレム,Chāremu,Fighting,Psychic,3,Pure Power,
+309,Electrike,ラクライ,Rakurai,Electric,,3,Static,Lightning Rod
+310,Manectric,ライボルト,Raiboruto,Electric,,3,Static,Lightning Rod
+311,Plusle,プラスル,Purasuru,Electric,,3,Plus,
+312,Minun,マイナン,Mainan,Electric,,3,Minus,
+313,Volbeat,バルビート,Barubīto,Bug,,3,Illuminate,Swarm
+314,Illumise,イルミーゼ,Irumīze,Bug,,3,Oblivious,Tinted Lens
+315,Roselia,ロゼリア,Rozeria,Grass,Poison,3,Natural Cure,Poison Point
+316,Gulpin,ゴクリン,Gokurin,Poison,,3,Liquid Ooze,Sticky Hold
+317,Swalot,マルノーム,Marunōmu,Poison,,3,Liquid Ooze,Sticky Hold
+318,Carvanha,キバニア,Kibania,Water,Dark,3,Rough Skin,
+319,Sharpedo,サメハダー,Samehadā,Water,Dark,3,Rough Skin,
+320,Wailmer,ホエルコ,Hoeruko,Water,,3,Water Veil,Oblivious
+321,Wailord,ホエルオー,Hoeruō,Water,,3,Water Veil,Oblivious
+322,Numel,ドンメル,Donmeru,Fire,Ground,3,Oblivious,Simple
+323,Camerupt,バクーダ,Bakūda,Fire,Ground,3,Magma Armor,Solid Rock
+324,Torkoal,コータス,Kōtasu,Fire,,3,White Smoke,Drought
+325,Spoink,バネブー,Banebū,Psychic,,3,Thick Fat,Own Tempo
+326,Grumpig,ブーピッグ,Būpiggu,Psychic,,3,Thick Fat,Own Tempo
+327,Spinda,パッチール,Patchīru,Normal,,3,Own Tempo,Tangled Feet
+328,Trapinch,ナックラー,Nakkurā,Ground,,3,Hyper Cutter,Arena Trap
+329,Vibrava,ビブラーバ,Biburāba,Ground,Dragon,3,Levitate,
+330,Flygon,フライゴン,Furaigon,Ground,Dragon,3,Levitate,
+331,Cacnea,サボネア,Sabonea,Grass,,3,Sand Veil,
+332,Cacturne,ノクタス,Nokutasu,Grass,Dark,3,Sand Veil,
+333,Swablu,チルット,Chirutto,Normal,Flying,3,Natural Cure,
+334,Altaria,チルタリス,Chirutarisu,Dragon,Flying,3,Natural Cure,
+335,Zangoose,ザングース,Zangūsu,Normal,,3,Immunity,
+336,Seviper,ハブネーク,Habunēku,Poison,,3,Shed Skin,
+337,Lunatone,ルナトーン,Runatōn,Rock,Psychic,3,Levitate,
+338,Solrock,ソルロック,Sorurokku,Rock,Psychic,3,Levitate,
+339,Barboach,ドジョッチ,Dojotchi,Water,Ground,3,Oblivious,Anticipation
+340,Whiscash,ナマズン,Namazun,Water,Ground,3,Oblivious,Anticipation
+341,Corphish,ヘイガニ,Heigani,Water,,3,Hyper Cutter,Shell Armor
+342,Crawdaunt,シザリガー,Shizarigā,Water,Dark,3,Hyper Cutter,Shell Armor
+343,Baltoy,ヤジロン,Yajiron,Ground,Psychic,3,Levitate,
+344,Claydol,ネンドール,Nendōru,Ground,Psychic,3,Levitate,
+345,Lileep,リリーラ,Rirīra,Rock,Grass,3,Suction Cups,
+346,Cradily,ユレイドル,Yureidoru,Rock,Grass,3,Suction Cups,
+347,Anorith,アノプス,Anopusu,Rock,Bug,3,Battle Armor,
+348,Armaldo,アーマルド,Āmarudo,Rock,Bug,3,Battle Armor,
+349,Feebas,ヒンバス,Hinbasu,Water,,3,Swift Swim,Oblivious
+350,Milotic,ミロカロス,Mirokarosu,Water,,3,Marvel Scale,Competitive
+351,Castform,ポワルン,Powarun,Normal,,3,Forecast,
+352,Kecleon,カクレオン,Kakureon,Normal,,3,Color Change,
+353,Shuppet,カゲボウズ,Kagebōzu,Ghost,,3,Insomnia,Frisk
+354,Banette,ジュペッタ,Jupetta,Ghost,,3,Insomnia,Frisk
+355,Duskull,ヨマワル,Yomawaru,Ghost,,3,Levitate,
+356,Dusclops,サマヨール,Samayōru,Ghost,,3,Pressure,
+357,Tropius,トロピウス,Toropiusu,Grass,Flying,3,Chlorophyll,Solar Power
+358,Chimecho,チリーン,Chirīn,Psychic,,3,Levitate,
+359,Absol,アブソル,Abusoru,Dark,,3,Pressure,Super Luck
+360,Wynaut,ソーナノ,Sōnano,Psychic,,3,Shadow Tag,
+361,Snorunt,ユキワラシ,Yukiwarashi,Ice,,3,Inner Focus,Ice Body
+362,Glalie,オニゴーリ,Onigōri,Ice,,3,Inner Focus,Ice Body
+363,Spheal,タマザラシ,Tamazarashi,Ice,Water,3,Thick Fat,Ice Body
+364,Sealeo,トドグラー,Todogurā,Ice,Water,3,Thick Fat,Ice Body
+365,Walrein,トドゼルガ,Todozeruga,Ice,Water,3,Thick Fat,Ice Body
+366,Clamperl,パールル,Pāruru,Water,,3,Shell Armor,
+367,Huntail,ハンテール,Hantēru,Water,,3,Swift Swim,
+368,Gorebyss,サクラビス,Sakurabisu,Water,,3,Swift Swim,
+369,Relicanth,ジーランス,Jīransu,Water,Rock,3,Swift Swim,Rock Head
+370,Luvdisc,ラブカス,Rabukasu,Water,,3,Swift Swim,
+371,Bagon,タツベイ,Tatsubei,Dragon,,3,Rock Head,
+372,Shelgon,コモルー,Komorū,Dragon,,3,Rock Head,
+373,Salamence,ボーマンダ,Bōmanda,Dragon,Flying,3,Intimidate,
+374,Beldum,ダンバル,Danbaru,Steel,Psychic,3,Clear Body,
+375,Metang,メタング,Metangu,Steel,Psychic,3,Clear Body,
+376,Metagross,メタグロス,Metagurosu,Steel,Psychic,3,Clear Body,
+377,Regirock,レジロック,Rejirokku,Rock,,3,Clear Body,
+378,Regice,レジアイス,Rejiaisu,Ice,,3,Clear Body,
+379,Registeel,レジスチル,Rejisuchiru,Steel,,3,Clear Body,
+380,Latias,ラティアス,Ratiasu,Dragon,Psychic,3,Levitate,
+381,Latios,ラティオス,Ratiosu,Dragon,Psychic,3,Levitate,
+382,Kyogre,カイオーガ,Kaiōga,Water,,3,Drizzle,
+383,Groudon,グラードン,Gurādon,Ground,,3,Drought,
+384,Rayquaza,レックウザ,Rekkūza,Dragon,Flying,3,Air Lock,
+385,Jirachi,ジラーチ,Jirāchi,Steel,Psychic,3,Serene Grace,
+386,Deoxys,デオキシス,Deokishisu,Psychic,,3,Pressure,
+387,Turtwig,ナエトル,Naetoru,Grass,,4,Overgrow,
+388,Grotle,ハヤシガメ,Hayashigame,Grass,,4,Overgrow,
+389,Torterra,ドダイトス,Dodaitosu,Grass,Ground,4,Overgrow,
+390,Chimchar,ヒコザル,Hikozaru,Fire,,4,Blaze,
+391,Monferno,モウカザル,Mōkazaru,Fire,Fighting,4,Blaze,
+392,Infernape,ゴウカザル,Gōkazaru,Fire,Fighting,4,Blaze,
+393,Piplup,ポッチャマ,Potchama,Water,,4,Torrent,
+394,Prinplup,ポッタイシ,Pottaishi,Water,,4,Torrent,
+395,Empoleon,エンペルト,Enperuto,Water,Steel,4,Torrent,
+396,Starly,ムックル,Mukkuru,Normal,Flying,4,Keen Eye,
+397,Staravia,ムクバード,Mukubādo,Normal,Flying,4,Intimidate,
+398,Staraptor,ムクホーク,Mukuhōku,Normal,Flying,4,Intimidate,
+399,Bidoof,ビッパ,Bippa,Normal,,4,Simple,Unaware
+400,Bibarel,ビーダル,Bīdaru,Normal,Water,4,Simple,Unaware
+401,Kricketot,コロボーシ,Korobōshi,Bug,,4,Shed Skin,
+402,Kricketune,コロトック,Korotokku,Bug,,4,Swarm,
+403,Shinx,コリンク,Korinku,Electric,,4,Rivalry,Intimidate
+404,Luxio,ルクシオ,Rukushio,Electric,,4,Rivalry,Intimidate
+405,Luxray,レントラー,Rentorā,Electric,,4,Rivalry,Intimidate
+406,Budew,スボミー,Subomī,Grass,Poison,4,Natural Cure,Poison Point
+407,Roserade,ロズレイド,Rozureido,Grass,Poison,4,Natural Cure,Poison Point
+408,Cranidos,ズガイドス,Zugaidosu,Rock,,4,Mold Breaker,
+409,Rampardos,ラムパルド,Ramuparudo,Rock,,4,Mold Breaker,
+410,Shieldon,タテトプス,Tatetopusu,Rock,Steel,4,Sturdy,
+411,Bastiodon,トリデプス,Toridepusu,Rock,Steel,4,Sturdy,
+412,Burmy,ミノムッチ,Minomutchi,Bug,,4,Shed Skin,
+413,Wormadam,ミノマダム,Minomadamu,Bug,Grass,4,Anticipation,
+414,Mothim,ガーメイル,Gāmeiru,Bug,Flying,4,Swarm,
+415,Combee,ミツハニー,Mitsuhanī,Bug,Flying,4,Honey Gather,
+416,Vespiquen,ビークイン,Bīkuin,Bug,Flying,4,Pressure,
+417,Pachirisu,パチリス,Pachirisu,Electric,,4,Run Away,Pickup
+418,Buizel,ブイゼル,Buizeru,Water,,4,Swift Swim,
+419,Floatzel,フローゼル,Furōzeru,Water,,4,Swift Swim,
+420,Cherubi,チェリンボ,Cherinbo,Grass,,4,Chlorophyll,
+421,Cherrim,チェリム,Cherimu,Grass,,4,Flower Gift,
+422,Shellos,カラナクシ,Karanakushi,Water,,4,Sticky Hold,Storm Drain
+423,Gastrodon,トリトドン,Toritodon,Water,Ground,4,Sticky Hold,Storm Drain
+424,Ambipom,エテボース,Etebōsu,Normal,,4,Technician,Pickup
+425,Drifloon,フワンテ,Fuwante,Ghost,Flying,4,Aftermath,Unburden
+426,Drifblim,フワライド,Fuwaraido,Ghost,Flying,4,Aftermath,Unburden
+427,Buneary,ミミロル,Mimiroru,Normal,,4,Run Away,Klutz
+428,Lopunny,ミミロップ,Mimiroppu,Normal,,4,Cute Charm,Klutz
+429,Mismagius,ムウマージ,Mūmāji,Ghost,,4,Levitate,
+430,Honchkrow,ドンカラス,Donkarasu,Dark,Flying,4,Insomnia,Super Luck
+431,Glameow,ニャルマー,Nyarumā,Normal,,4,Limber,Own Tempo
+432,Purugly,ブニャット,Bunyatto,Normal,,4,Thick Fat,Own Tempo
+433,Chingling,リーシャン,Rīshan,Psychic,,4,Levitate,
+434,Stunky,スカンプー,Sukanpū,Poison,Dark,4,Stench,Aftermath
+435,Skuntank,スカタンク,Sukatanku,Poison,Dark,4,Stench,Aftermath
+436,Bronzor,ドーミラー,Dōmirā,Steel,Psychic,4,Levitate,Heatproof
+437,Bronzong,ドータクン,Dōtakun,Steel,Psychic,4,Levitate,Heatproof
+438,Bonsly,ウソハチ,Usohachi,Rock,,4,Sturdy,Rock Head
+439,MimeJr.,マネネ,Manene,Psychic,Fairy,4,Soundproof,Filter
+440,Happiny,ピンプク,Pinpuku,Normal,,4,Natural Cure,Serene Grace
+441,Chatot,ペラップ,Perappu,Normal,Flying,4,Keen Eye,Tangled Feet
+442,Spiritomb,ミカルゲ,Mikaruge,Ghost,Dark,4,Pressure,
+443,Gible,フカマル,Fukamaru,Dragon,Ground,4,Sand Veil,
+444,Gabite,ガバイト,Gabaito,Dragon,Ground,4,Sand Veil,
+445,Garchomp,ガブリアス,Gaburiasu,Dragon,Ground,4,Sand Veil,
+446,Munchlax,ゴンベ,Gonbe,Normal,,4,Pickup,Thick Fat
+447,Riolu,リオル,Rioru,Fighting,,4,Steadfast,Inner Focus
+448,Lucario,ルカリオ,Rukario,Fighting,Steel,4,Steadfast,Inner Focus
+449,Hippopotas,ヒポポタス,Hipopotasu,Ground,,4,Sand Stream,
+450,Hippowdon,カバルドン,Kabarudon,Ground,,4,Sand Stream,
+451,Skorupi,スコルピ,Sukorupi,Poison,Bug,4,Battle Armor,Sniper
+452,Drapion,ドラピオン,Dorapion,Poison,Dark,4,Battle Armor,Sniper
+453,Croagunk,グレッグル,Guregguru,Poison,Fighting,4,Anticipation,Dry Skin
+454,Toxicroak,ドクロッグ,Dokuroggu,Poison,Fighting,4,Anticipation,Dry Skin
+455,Carnivine,マスキッパ,Masukippa,Grass,,4,Levitate,
+456,Finneon,ケイコウオ,Keiko'uo,Water,,4,Swift Swim,Storm Drain
+457,Lumineon,ネオラント,Neoranto,Water,,4,Swift Swim,Storm Drain
+458,Mantyke,タマンタ,Tamanta,Water,Flying,4,Swift Swim,Water Absorb
+459,Snover,ユキカブリ,Yukikaburi,Grass,Ice,4,Snow Warning,
+460,Abomasnow,ユキノオー,Yukinoō,Grass,Ice,4,Snow Warning,
+461,Weavile,マニューラ,Manyūra,Dark,Ice,4,Pressure,
+462,Magnezone,ジバコイル,Jibakoiru,Electric,Steel,4,Magnet Pull,Sturdy
+463,Lickilicky,ベロベルト,Beroberuto,Normal,,4,Own Tempo,Oblivious
+464,Rhyperior,ドサイドン,Dosaidon,Ground,Rock,4,Lightning Rod,Solid Rock
+465,Tangrowth,モジャンボ,Mojanbo,Grass,,4,Chlorophyll,Leaf Guard
+466,Electivire,エレキブル,Erekiburu,Electric,,4,Motor Drive,
+467,Magmortar,ブーバーン,Būbān,Fire,,4,Flame Body,
+468,Togekiss,トゲキッス,Togekissu,Fairy,Flying,4,Hustle,Serene Grace
+469,Yanmega,メガヤンマ,Megayanma,Bug,Flying,4,Speed Boost,Tinted Lens
+470,Leafeon,リーフィア,Rīfia,Grass,,4,Leaf Guard,
+471,Glaceon,グレイシア,Gureishia,Ice,,4,Snow Cloak,
+472,Gliscor,グライオン,Guraion,Ground,Flying,4,Hyper Cutter,Sand Veil
+473,Mamoswine,マンムー,Manmū,Ice,Ground,4,Oblivious,Snow Cloak
+474,Porygon-Z,ポリゴンＺ,PorigonZetto,Normal,,4,Adaptability,Download
+475,Gallade,エルレイド,Erureido,Psychic,Fighting,4,Steadfast,
+476,Probopass,ダイノーズ,Dainōzu,Rock,Steel,4,Sturdy,Magnet Pull
+477,Dusknoir,ヨノワール,Yonowāru,Ghost,,4,Pressure,
+478,Froslass,ユキメノコ,Yukimenoko,Ice,Ghost,4,Snow Cloak,
+479,Rotom,ロトム,Rotomu,Electric,Ghost,4,Levitate,
+480,Uxie,ユクシー,Yukushī,Psychic,,4,Levitate,
+481,Mesprit,エムリット,Emuritto,Psychic,,4,Levitate,
+482,Azelf,アグノム,Agunomu,Psychic,,4,Levitate,
+483,Dialga,ディアルガ,Diaruga,Steel,Dragon,4,Pressure,
+484,Palkia,パルキア,Parukia,Water,Dragon,4,Pressure,
+485,Heatran,ヒードラン,Hīdoran,Fire,Steel,4,Flash Fire,
+486,Regigigas,レジギガス,Rejigigasu,Normal,,4,Slow Start,
+487,Giratina,ギラティナ,Giratina,Ghost,Dragon,4,Pressure,
+488,Cresselia,クレセリア,Kureseria,Psychic,,4,Levitate,
+489,Phione,フィオネ,Fione,Water,,4,Hydration,
+490,Manaphy,マナフィ,Manafi,Water,,4,Hydration,
+491,Darkrai,ダークライ,Dākurai,Dark,,4,Bad Dreams,
+492,Shaymin,シェイミ,Sheimi,Grass,,4,Natural Cure,
+493,Arceus,アルセウス,Aruseusu,Normal,,4,Multitype,
+494,Victini,ビクティニ,Bikutini,Psychic,Fire,5,Victory Star,
+495,Snivy,ツタージャ,Tsutāja,Grass,,5,Overgrow,
+496,Servine,ジャノビー,Janobī,Grass,,5,Overgrow,
+497,Serperior,ジャローダ,Jarōda,Grass,,5,Overgrow,
+498,Tepig,ポカブ,Pokabu,Fire,,5,Blaze,
+499,Pignite,チャオブー,Chaobū,Fire,Fighting,5,Blaze,
+500,Emboar,エンブオー,Enbuō,Fire,Fighting,5,Torrent,
+501,Oshawott,ミジュマル,Mijumaru,Water,,5,Torrent,
+502,Dewott,フタチマル,Futachimaru,Water,,5,Torrent,
+503,Samurott,ダイケンキ,Daikenki,Water,,5,Run Away,Keen Eye
+504,Patrat,ミネズミ,Minezumi,Normal,,5,Illuminate,Keen Eye
+505,Watchog,ミルホッグ,Miruhoggu,Normal,,5,Vital Spirit,Pickup
+506,Lillipup,ヨーテリー,Yōterī,Normal,,5,Intimidate,Sand Rush
+507,Herdier,ハーデリア,Hāderia,Normal,,5,Intimidate,Sand Rush
+508,Stoutland,ムーランド,Mūrando,Normal,,5,Limber,Unburden
+509,Purrloin,チョロネコ,Choroneko,Dark,,5,Limber,Unburden
+510,Liepard,レパルダス,Reparudasu,Dark,,5,Gluttony,
+511,Pansage,ヤナップ,Yanappu,Grass,,5,Gluttony,
+512,Simisage,ヤナッキー,Yanakkī,Grass,,5,Gluttony,
+513,Pansear,バオップ,Baoppu,Fire,,5,Gluttony,
+514,Simisear,バオッキー,Baokkī,Fire,,5,Gluttony,
+515,Panpour,ヒヤップ,Hiyappu,Water,,5,Gluttony,
+516,Simipour,ヒヤッキー,Hiyakkī,Water,,5,Forewarn,Synchronize
+517,Munna,ムンナ,Munna,Psychic,,5,Forewarn,Synchronize
+518,Musharna,ムシャーナ,Mushāna,Psychic,,5,Big Pecks,Super Luck
+519,Pidove,マメパト,Mamepato,Normal,Flying,5,Big Pecks,Super Luck
+520,Tranquill,ハトーボー,Hatōbō,Normal,Flying,5,Big Pecks,Super Luck
+521,Unfezant,ケンホロウ,Kenhorō,Normal,Flying,5,Lightning Rod,Motor Drive
+522,Blitzle,シママ,Shimama,Electric,,5,Lightning Rod,Motor Drive
+523,Zebstrika,ゼブライカ,Zeburaika,Electric,,5,Sturdy,Weak Armor
+524,Roggenrola,ダンゴロ,Dangoro,Rock,,5,Sturdy,Weak Armor
+525,Boldore,ガントル,Gantoru,Rock,,5,Sturdy,Sand Stream
+526,Gigalith,ギガイアス,Gigaiasu,Rock,,5,Unaware,Klutz
+527,Woobat,コロモリ,Koromori,Psychic,Flying,5,Unaware,Klutz
+528,Swoobat,ココロモリ,Kokoromori,Psychic,Flying,5,Sand Rush,Sand Force
+529,Drilbur,モグリュー,Moguryū,Ground,,5,Sand Rush,Sand Force
+530,Excadrill,ドリュウズ,Doryūzu,Ground,Steel,5,Healer,Regenerator
+531,Audino,タブンネ,Tabunne,Normal,,5,Guts,Sheer Force
+532,Timburr,ドッコラー,Dokkorā,Fighting,,5,Guts,Sheer Force
+533,Gurdurr,ドテッコツ,Dotekkotsu,Fighting,,5,Guts,Sheer Force
+534,Conkeldurr,ローブシン,Rōbushin,Fighting,,5,Swift Swim,Hydration
+535,Tympole,オタマロ,Otamaro,Water,,5,Swift Swim,Hydration
+536,Palpitoad,ガマガル,Gamagaru,Water,Ground,5,Swift Swim,Poison Touch
+537,Seismitoad,ガマゲロゲ,Gamageroge,Water,Ground,5,Guts,Inner Focus
+538,Throh,ナゲキ,Nageki,Fighting,,5,Sturdy,Inner Focus
+539,Sawk,ダゲキ,Dageki,Fighting,,5,Swarm,Chlorophyll
+540,Sewaddle,クルミル,Kurumiru,Bug,Grass,5,Leaf Guard,Chlorophyll
+541,Swadloon,クルマユ,Kurumayu,Bug,Grass,5,Swarm,Chlorophyll
+542,Leavanny,ハハコモリ,Hahakomori,Bug,Grass,5,Poison Point,Swarm
+543,Venipede,フシデ,Fushide,Bug,Poison,5,Poison Point,Swarm
+544,Whirlipede,ホイーガ,Hoīga,Bug,Poison,5,Prankster,Infiltrator
+545,Scolipede,ペンドラー,Pendorā,Bug,Poison,5,Prankster,Infiltrator
+546,Cottonee,モンメン,Monmen,Grass,Fairy,5,Chlorophyll,Own Tempo
+547,Whimsicott,エルフーン,Erufūn,Grass,Fairy,5,Chlorophyll,Own Tempo
+548,Petilil,チュリネ,Churine,Grass,,5,Reckless,Adaptability
+549,Lilligant,ドレディア,Doredia,Grass,,5,Rock Head,Adaptability
+550,Basculin,バスラオ,Basurao,Water,,5,Intimidate,Moxie
+551,Sandile,メグロコ,Meguroko,Ground,Dark,5,Intimidate,Moxie
+552,Krokorok,ワルビル,Warubiru,Ground,Dark,5,Intimidate,Moxie
+553,Krookodile,ワルビアル,Warubiaru,Ground,Dark,5,Hustle,
+554,Darumaka,ダルマッカ,Darumakka,Fire,,5,Sheer Force,
+555,Darmanitan,ヒヒダルマ,Hihidaruma,Fire,Psychic,5,Sheer Force,
+556,Maractus,マラカッチ,Marakatchi,Grass,,5,Water Absorb,Chlorophyll
+557,Dwebble,イシズマイ,Ishizumai,Bug,Rock,5,Sturdy,Shell Armor
+558,Crustle,イワパレス,Iwaparesu,Bug,Rock,5,Sturdy,Shell Armor
+559,Scraggy,ズルッグ,Zuruggu,Dark,Fighting,5,Shed Skin,Moxie
+560,Scrafty,ズルズキン,Zuruzukin,Dark,Fighting,5,Shed Skin,Moxie
+561,Sigilyph,シンボラー,Shinborā,Psychic,Flying,5,Wonder Skin,Magic Guard
+562,Yamask,デスマス,Desumasu,Ghost,,5,Mummy,
+563,Cofagrigus,デスカーン,Desukān,Ghost,,5,Mummy,
+564,Tirtouga,プロトーガ,Purotōga,Water,Rock,5,Solid Rock,Sturdy
+565,Carracosta,アバゴーラ,Abagōra,Water,Rock,5,Solid Rock,Sturdy
+566,Archen,アーケン,Āken,Rock,Flying,5,Defeatist,
+567,Archeops,アーケオス,Ākeosu,Rock,Flying,5,Defeatist,
+568,Trubbish,ヤブクロン,Yabukuron,Poison,,5,Stench,Sticky Hold
+569,Garbodor,ダストダス,Dasutodasu,Poison,,5,Stench,Weak Armor
+570,Zorua,ゾロア,Zoroa,Dark,,5,Illusion,
+571,Zoroark,ゾロアーク,Zoroāku,Dark,,5,Illusion,
+572,Minccino,チラーミィ,Chirāmī,Normal,,5,Cute Charm,Technician
+573,Cinccino,チラチーノ,Chirachīno,Normal,,5,Cute Charm,Technician
+574,Gothita,ゴチム,Gochimu,Psychic,,5,Frisk,Competitive
+575,Gothorita,ゴチミル,Gochimiru,Psychic,,5,Frisk,Competitive
+576,Gothitelle,ゴチルゼル,Gochiruzeru,Psychic,,5,Frisk,Competitive
+577,Solosis,ユニラン,Yuniran,Psychic,,5,Overcoat,Magic Guard
+578,Duosion,ダブラン,Daburan,Psychic,,5,Overcoat,Magic Guard
+579,Reuniclus,ランクルス,Rankurusu,Psychic,,5,Overcoat,Magic Guard
+580,Ducklett,コアルヒー,Koaruhī,Water,Flying,5,Keen Eye,Big Pecks
+581,Swanna,スワンナ,Suwanna,Water,Flying,5,Keen Eye,Big Pecks
+582,Vanillite,バニプッチ,Baniputchi,Ice,,5,Ice Body,Snow Cloak
+583,Vanillish,バニリッチ,Baniritchi,Ice,,5,Ice Body,Snow Cloak
+584,Vanilluxe,バイバニラ,Baibanira,Ice,,5,Ice Body,Snow Warning
+585,Deerling,シキジカ,Shikijika,Normal,Grass,5,Chlorophyll,Sap Sipper
+586,Sawsbuck,メブキジカ,Mebukijika,Normal,Grass,5,Chlorophyll,Sap Sipper
+587,Emolga,エモンガ,Emonga,Electric,Flying,5,Static,
+588,Karrablast,カブルモ,Kaburumo,Bug,,5,Swarm,Shed Skin
+589,Escavalier,シュバルゴ,Shubarugo,Bug,Steel,5,Swarm,Shell Armor
+590,Foongus,タマゲタケ,Tamagetake,Grass,Poison,5,Effect Spore,
+591,Amoonguss,モロバレル,Morobareru,Grass,Poison,5,Effect Spore,
+592,Frillish,プルリル,Pururiru,Water,Ghost,5,Water Absorb,Cursed Body
+593,Jellicent,ブルンゲル,Burungeru,Water,Ghost,5,Water Absorb,Cursed Body
+594,Alomomola,ママンボウ,Mamanbō,Water,,5,Healer,Hydration
+595,Joltik,バチュル,Bachuru,Bug,Electric,5,Compound Eyes,Unnerve
+596,Galvantula,デンチュラ,Denchura,Bug,Electric,5,Compound Eyes,Unnerve
+597,Ferroseed,テッシード,Tesshīdo,Grass,Steel,5,Iron Barbs,
+598,Ferrothorn,ナットレイ,Nattorei,Grass,Steel,5,Iron Barbs,
+599,Klink,ギアル,Giaru,Steel,,5,Plus,Minus
+600,Klang,ギギアル,Gigiaru,Steel,,5,Plus,Minus
+601,Klinklang,ギギギアル,Gigigiaru,Steel,,5,Plus,Minus
+602,Tynamo,シビシラス,Shibishirasu,Electric,,5,Levitate,
+603,Eelektrik,シビビール,Shibibīru,Electric,,5,Levitate,
+604,Eelektross,シビルドン,Shibirudon,Electric,,5,Levitate,
+605,Elgyem,リグレー,Rigurē,Psychic,,5,Telepathy,Synchronize
+606,Beheeyem,オーベム,Ōbemu,Psychic,,5,Telepathy,Synchronize
+607,Litwick,ヒトモシ,Hitomoshi,Ghost,Fire,5,Flash Fire,Flame Body
+608,Lampent,ランプラー,Ranpurā,Ghost,Fire,5,Flash Fire,Flame Body
+609,Chandelure,シャンデラ,Shandera,Ghost,Fire,5,Flash Fire,Flame Body
+610,Axew,キバゴ,Kibago,Dragon,,5,Rivalry,Mold Breaker
+611,Fraxure,オノンド,Onondo,Dragon,,5,Rivalry,Mold Breaker
+612,Haxorus,オノノクス,Ononokusu,Dragon,,5,Rivalry,Mold Breaker
+613,Cubchoo,クマシュン,Kumashun,Ice,,5,Snow Cloak,Slush Rush
+614,Beartic,ツンベアー,Tsunbeā,Ice,,5,Snow Cloak,Slush Rush
+615,Cryogonal,フリージオ,Furījio,Ice,,5,Levitate,
+616,Shelmet,チョボマキ,Chobomaki,Bug,,5,Hydration,Shell Armor
+617,Accelgor,アギルダー,Agirudā,Bug,,5,Hydration,Sticky Hold
+618,Stunfisk,マッギョ,Maggyo,Ground,Electric,5,Static,Limber
+619,Mienfoo,コジョフー,Kojofū,Fighting,,5,Inner Focus,Regenerator
+620,Mienshao,コジョンド,Kojondo,Fighting,,5,Inner Focus,Regenerator
+621,Druddigon,クリムガン,Kurimugan,Dragon,,5,Rough Skin,Sheer Force
+622,Golett,ゴビット,Gobitto,Ground,Ghost,5,Iron Fist,Klutz
+623,Golurk,ゴルーグ,Gorūgu,Ground,Ghost,5,Iron Fist,Klutz
+624,Pawniard,コマタナ,Komatana,Dark,Steel,5,Defiant,Inner Focus
+625,Bisharp,キリキザン,Kirikizan,Dark,Steel,5,Defiant,Inner Focus
+626,Bouffalant,バッフロン,Baffuron,Normal,,5,Reckless,Sap Sipper
+627,Rufflet,ワシボン,Washibon,Normal,Flying,5,Keen Eye,Sheer Force
+628,Braviary,ウォーグル,Wōguru,Normal,Flying,5,Keen Eye,Sheer Force
+629,Vullaby,バルチャイ,Baruchai,Dark,Flying,5,Big Pecks,Overcoat
+630,Mandibuzz,バルジーナ,Barujīna,Dark,Flying,5,Big Pecks,Overcoat
+631,Heatmor,クイタラン,Kuitaran,Fire,,5,Gluttony,Flash Fire
+632,Durant,アイアント,Aianto,Bug,Steel,5,Swarm,Hustle
+633,Deino,モノズ,Monozu,Dark,Dragon,5,Hustle,
+634,Zweilous,ジヘッド,Jiheddo,Dark,Dragon,5,Hustle,
+635,Hydreigon,サザンドラ,Sazandora,Dark,Dragon,5,Levitate,
+636,Larvesta,メラルバ,Meraruba,Bug,Fire,5,Flame Body,
+637,Volcarona,ウルガモス,Urugamosu,Bug,Fire,5,Flame Body,
+638,Cobalion,コバルオン,Kobaruon,Steel,Fighting,5,Justified,
+639,Terrakion,テラキオン,Terakion,Rock,Fighting,5,Justified,
+640,Virizion,ビリジオン,Birijion,Grass,Fighting,5,Justified,
+641,Tornadus,トルネロス,Torunerosu,Flying,,5,Prankster,
+642,Thundurus,ボルトロス,Borutorosu,Electric,Flying,5,Prankster,
+643,Reshiram,レシラム,Reshiramu,Dragon,Fire,5,Turboblaze,
+644,Zekrom,ゼクロム,Zekuromu,Dragon,Electric,5,Teravolt,
+645,Landorus,ランドロス,Randorosu,Ground,Flying,5,Sand Force,
+646,Kyurem,キュレム,Kyuremu,Dragon,Ice,5,Pressure,
+647,Keldeo,ケルディオ,Kerudio,Water,Fighting,5,Justified,
+648,Meloetta,メロエッタ,Meroetta,Normal,Psychic,5,Serene Grace,
+649,Genesect,ゲノセクト,Genosekuto,Bug,Steel,5,Download,
+650,Chespin,ハリマロン,Harimaron,Grass,,6,Overgrow,
+651,Quilladin,ハリボーグ,Haribōgu,Grass,,6,Overgrow,
+652,Chesnaught,ブリガロン,Burigaron,Grass,Fighting,6,Overgrow,
+653,Fennekin,フォッコ,Fokko,Fire,,6,Blaze,
+654,Braixen,テールナー,Tērunā,Fire,,6,Blaze,
+655,Delphox,マフォクシー,Mafokushī,Fire,Psychic,6,Blaze,
+656,Froakie,ケロマツ,Keromatsu,Water,,6,Torrent,
+657,Frogadier,ゲコガシラ,Gekogashira,Water,,6,Torrent,
+658,Greninja,ゲッコウガ,Gekkōga,Water,Dark,6,Torrent,
+659,Bunnelby,ホルビー,Horubī,Normal,,6,Pickup,Cheek Pouch
+660,Diggersby,ホルード,Horūdo,Normal,Ground,6,Pickup,Cheek Pouch
+661,Fletchling,ヤヤコマ,Yayakoma,Normal,Flying,6,Big Pecks,
+662,Fletchinder,ヒノヤコマ,Hinoyakoma,Fire,Flying,6,Flame Body,
+663,Talonflame,ファイアロー,Faiarō,Fire,Flying,6,Flame Body,
+664,Scatterbug,コフキムシ,Kofukimushi,Bug,,6,Shield Dust,Compound Eyes
+665,Spewpa,コフーライ,Kofūrai,Bug,,6,Shed Skin,
+666,Vivillon,ビビヨン,Bibiyon,Bug,Flying,6,Shield Dust,Compound Eyes
+667,Litleo,シシコ,Shishiko,Fire,Normal,6,Rivalry,Unnerve
+668,Pyroar,カエンジシ,Kaenjishi,Fire,Normal,6,Rivalry,Unnerve
+669,Flabébé,フラベベ,Furabebe,Fairy,,6,Flower Veil,
+670,Floette,フラエッテ,Furaette,Fairy,,6,Flower Veil,
+671,Florges,フラージェス,Furājesu,Fairy,,6,Flower Veil,
+672,Skiddo,メェークル,Mēkuru,Grass,,6,Sap Sipper,
+673,Gogoat,ゴーゴート,Gōgōto,Grass,,6,Sap Sipper,
+674,Pancham,ヤンチャム,Yanchamu,Fighting,,6,Iron Fist,Mold Breaker
+675,Pangoro,ゴロンダ,Goronda,Fighting,Dark,6,Iron Fist,Mold Breaker
+676,Furfrou,トリミアン,Torimian,Normal,,6,Fur Coat,
+677,Espurr,ニャスパー,Nyasupā,Psychic,,6,Keen Eye,Infiltrator
+678,Meowstic,ニャオニクス,Nyaonikusu,Psychic,,6,Keen Eye,Infiltrator
+679,Honedge,ヒトツキ,Hitotsuki,Steel,Ghost,6,No Guard,
+680,Doublade,ニダンギル,Nidangiru,Steel,Ghost,6,No Guard,
+681,Aegislash,ギルガルド,Girugarudo,Steel,Ghost,6,Stance Change,
+682,Spritzee,シュシュプ,Shushupu,Fairy,,6,Healer,
+683,Aromatisse,フレフワン,Furefuwan,Fairy,,6,Healer,
+684,Swirlix,ペロッパフ,Peroppafu,Fairy,,6,Sweet Veil,
+685,Slurpuff,ペロリーム,Perorīmu,Fairy,,6,Sweet Veil,
+686,Inkay,マーイーカ,Māīka,Dark,Psychic,6,Contrary,Suction Cups
+687,Malamar,カラマネロ,Karamanero,Dark,Psychic,6,Contrary,Suction Cups
+688,Binacle,カメテテ,Kametete,Rock,Water,6,Sniper,Tough Claws
+689,Barbaracle,ガメノデス,Gamenodesu,Rock,Water,6,Sniper,Tough Claws
+690,Skrelp,クズモー,Kuzumō,Poison,Water,6,Poison Point,Poison Touch
+691,Dragalge,ドラミドロ,Doramidoro,Poison,Dragon,6,Poison Point,Poison Touch
+692,Clauncher,ウデッポウ,Udeppō,Water,,6,Mega Launcher,
+693,Clawitzer,ブロスター,Burosutā,Water,,6,Mega Launcher,
+694,Helioptile,エリキテル,Erikiteru,Electric,Normal,6,Dry Skin,Sand Veil
+695,Heliolisk,エレザード,Erezādo,Electric,Normal,6,Dry Skin,Sand Veil
+696,Tyrunt,チゴラス,Chigorasu,Rock,Dragon,6,Strong Jaw,
+697,Tyrantrum,ガチゴラス,Gachigorasu,Rock,Dragon,6,Strong Jaw,
+698,Amaura,アマルス,Amarusu,Rock,Ice,6,Refrigerate,
+699,Aurorus,アマルルガ,Amaruruga,Rock,Ice,6,Refrigerate,
+700,Sylveon,ニンフィア,Ninfia,Fairy,,6,Cute Charm,
+701,Hawlucha,ルチャブル,Ruchaburu,Fighting,Flying,6,Limber,Unburden
+702,Dedenne,デデンネ,Dedenne,Electric,Fairy,6,Cheek Pouch,Pickup
+703,Carbink,メレシー,Mereshī,Rock,Fairy,6,Clear Body,
+704,Goomy,ヌメラ,Numera,Dragon,,6,Sap Sipper,Hydration
+705,Sliggoo,ヌメイル,Numeiru,Dragon,,6,Sap Sipper,Hydration
+706,Goodra,ヌメルゴン,Numerugon,Dragon,,6,Sap Sipper,Hydration
+707,Klefki,クレッフィ,Kureffi,Steel,Fairy,6,Prankster,
+708,Phantump,ボクレー,Bokurē,Ghost,Grass,6,Natural Cure,Frisk
+709,Trevenant,オーロット,Ōrotto,Ghost,Grass,6,Natural Cure,Frisk
+710,Pumpkaboo,バケッチャ,Baketcha,Ghost,Grass,6,Pickup,Frisk
+711,Gourgeist,パンプジン,Panpujin,Ghost,Grass,6,Pickup,Frisk
+712,Bergmite,カチコール,Kachikōru,Ice,,6,Own Tempo,Ice Body
+713,Avalugg,クレベース,Kurebēsu,Ice,,6,Own Tempo,Ice Body
+714,Noibat,オンバット,Onbatto,Flying,Dragon,6,Frisk,Infiltrator
+715,Noivern,オンバーン,Onbān,Flying,Dragon,6,Frisk,Infiltrator
+716,Xerneas,ゼルネアス,Zeruneasu,Fairy,,6,Fairy Aura,
+717,Yveltal,イベルタル,Iberutaru,Dark,Flying,6,Dark Aura,
+718,Zygarde,ジガルデ,Jigarude,Dragon,Ground,6,Aura Break,Power Construct
+719,Diancie,ディアンシー,Dianshī,Rock,Fairy,6,Clear Body,
+720,Hoopa,フーパ,Fūpa,Psychic,Ghost,6,Magician,
+721,Volcanion,ボルケニオン,Borukenion,Fire,Water,6,Water Absorb,
+722,Rowlet,モクロー,Mokurō,Grass,Flying,7,Overgrow,
+723,Dartrix,フクスロー,Fukusurō,Grass,Flying,7,Overgrow,
+724,Decidueye,ジュナイパー,Junaipā,Grass,Ghost,7,Overgrow,
+725,Litten,ニャビー,Nyabī,Fire,,7,Blaze,
+726,Torracat,ニャヒート,Nyahīto,Fire,,7,Blaze,
+727,Incineroar,ガオガエン,Gaogaen,Fire,Dark,7,Blaze,
+728,Popplio,アシマリ,Ashimari,Water,,7,Torrent,
+729,Brionne,オシャマリ,Oshamari,Water,,7,Torrent,
+730,Primarina,アシレーヌ,Ashirēnu,Water,Fairy,7,Torrent,
+731,Pikipek,ツツケラ,Tsutsukera,Normal,Flying,7,Keen Eye,Skill Link
+732,Trumbeak,ケララッパ,Kerarappa,Normal,Flying,7,Keen Eye,Skill Link
+733,Toucannon,ドデカバシ,Dodekabashi,Normal,Flying,7,Keen Eye,Skill Link
+734,Yungoos,ヤングース,Yangūsu,Normal,,7,Strong Jaw,Stakeout
+735,Gumshoos,デカグース,Dekagūsu,Normal,,7,Strong Jaw,Stakeout
+736,Grubbin,アゴジムシ,Agojimushi,Bug,,7,Swarm,
+737,Charjabug,デンヂムシ,Denjimushi,Bug,Electric,7,Battery,
+738,Vikavolt,クワガノン,Kuwaganon,Bug,Electric,7,Levitate,
+739,Crabrawler,マケンカニ,Makenkani,Fighting,,7,Hyper Cutter,Iron Fist
+740,Crabominable,ケケンカニ,Kekenkani,Fighting,Ice,7,Hyper Cutter,Iron Fist
+741,Oricorio,オドリドリ,Odoridori,Fire,Flying,7,Dancer,
+742,Cutiefly,アブリー,Aburī,Bug,Fairy,7,Honey Gather,Shield Dust
+743,Ribombee,アブリボン,Aburibon,Bug,Fairy,7,Honey Gather,Shield Dust
+744,Rockruff,イワンコ,Iwanko,Rock,,7,Keen Eye,Vital Spirit
+745,Lycanroc,ルガルガン,Rugarugan,Rock,,7,Keen Eye,Sand Rush
+746,Wishiwashi,ヨワシ,Yowashi,Water,,7,Schooling,
+747,Mareanie,ヒドイデ,Hidoide,Poison,Water,7,Merciless,Limber
+748,Toxapex,ドヒドイデ,Dohidoide,Poison,Water,7,Merciless,Limber
+749,Mudbray,ドロバンコ,Dorobanko,Ground,,7,Own Tempo,Stamina
+750,Mudsdale,バンバドロ,Banbadoro,Ground,,7,Own Tempo,Stamina
+751,Dewpider,シズクモ,Shizukumo,Water,Bug,7,Water Bubble,
+752,Araquanid,オニシズクモ,Onishizukumo,Water,Bug,7,Water Bubble,
+753,Fomantis,カリキリ,Karikiri,Grass,,7,Leaf Guard,
+754,Lurantis,ラランテス,Rarantesu,Grass,,7,Leaf Guard,
+755,Morelull,ネマシュ,Nemashu,Grass,Fairy,7,Illuminate,Effect Spore
+756,Shiinotic,マシェード,Mashēdo,Grass,Fairy,7,Illuminate,Effect Spore
+757,Salandit,ヤトウモリ,Yatōmori,Poison,Fire,7,Corrosion,
+758,Salazzle,エンニュート,Ennyūto,Poison,Fire,7,Corrosion,
+759,Stufful,ヌイコグマ,Nuikoguma,Normal,Fighting,7,Fluffy,Klutz
+760,Bewear,キテルグマ,Kiteruguma,Normal,Fighting,7,Fluffy,Klutz
+761,Bounsweet,アマカジ,Amakaji,Grass,,7,Leaf Guard,Oblivious
+762,Steenee,アママイコ,Amamaiko,Grass,,7,Leaf Guard,Oblivious
+763,Tsareena,アマージョ,Amājo,Grass,,7,Leaf Guard,Queenly Majesty
+764,Comfey,キュワワー,Kyuwawā,Fairy,,7,Flower Veil,Triage
+765,Oranguru,ヤレユータン,Yareyūtan,Normal,Psychic,7,Inner Focus,Telepathy
+766,Passimian,ナゲツケサル,Nagetsukesaru,Fighting,,7,Receiver,
+767,Wimpod,コソクムシ,Kosokumushi,Bug,Water,7,Wimp Out,
+768,Golisopod,グソクムシャ,Gusokumusha,Bug,Water,7,Emergency Exit,
+769,Sandygast,スナバァ,Sunabā,Ghost,Ground,7,Water Compaction,
+770,Palossand,シロデスナ,Shirodesuna,Ghost,Ground,7,Water Compaction,
+771,Pyukumuku,ナマコブシ,Namakobushi,Water,,7,Innards Out,
+772,Type:Null,タイプ：ヌル,Taipu:Nuru,Normal,,7,Battle Armor,
+773,Silvally,シルヴァディ,Shiruvadi,Normal,,7,RKS System,
+774,Minior,メテノ,Meteno,Rock,Flying,7,Shields Down,
+775,Komala,ネッコアラ,Nekkoara,Normal,,7,Comatose,
+776,Turtonator,バクガメス,Bakugamesu,Fire,Dragon,7,Shell Armor,
+777,Togedemaru,トゲデマル,Togedemaru,Electric,Steel,7,Iron Barbs,Lightning Rod
+778,Mimikyu,ミミッキュ,Mimikkyu,Ghost,Fairy,7,Disguise,
+779,Bruxish,ハギギシリ,Hagigishiri,Water,Psychic,7,Dazzling,Strong Jaw
+780,Drampa,ジジーロン,Jijīron,Normal,Dragon,7,Berserk,Sap Sipper
+781,Dhelmise,ダダリン,Dadarin,Ghost,Grass,7,Steelworker,
+782,Jangmo-o,ジャラコ,Jarako,Dragon,,7,Bulletproof,Soundproof
+783,Hakamo-o,ジャランゴ,Jarango,Dragon,Fighting,7,Bulletproof,Soundproof
+784,Kommo-o,ジャラランガ,Jararanga,Dragon,Fighting,7,Bulletproof,Soundproof
+785,TapuKoko,カプ・コケコ,KapuKokeko,Electric,Fairy,7,Electric Surge,
+786,TapuLele,カプ・テテフ,KapuTetefu,Psychic,Fairy,7,Psychic Surge,
+787,TapuBulu,カプ・ブルル,KapuBururu,Grass,Fairy,7,Grassy Surge,
+788,TapuFini,カプ・レヒレ,KapuRehire,Water,Fairy,7,Misty Surge,
+789,Cosmog,コスモッグ,Kosumoggu,Psychic,,7,Unaware,
+790,Cosmoem,コスモウム,Kosumoumu,Psychic,,7,Sturdy,
+791,Solgaleo,ソルガレオ,Sorugareo,Psychic,Steel,7,Full Metal Body,
+792,Lunala,ルナアーラ,Runaāra,Psychic,Ghost,7,Shadow Shield,
+793,Nihilego,ウツロイド,Utsuroido,Rock,Poison,7,Beast Boost,
+794,Buzzwole,マッシブーン,Masshibūn,Bug,Fighting,7,Beast Boost,
+795,Pheromosa,フェローチェ,Ferōche,Bug,Fighting,7,Beast Boost,
+796,Xurkitree,デンジュモク,Denjumoku,Electric,,7,Beast Boost,
+797,Celesteela,テッカグヤ,Tekkaguya,Steel,Flying,7,Beast Boost,
+798,Kartana,カミツルギ,Kamitsurugi,Grass,Steel,7,Beast Boost,
+799,Guzzlord,アクジキング,Akujikingu,Dark,Dragon,7,Beast Boost,
+800,Necrozma,ネクロズマ,Nekurozuma,Psychic,,7,Prism Armor,
+801,Magearna,マギアナ,Magiana,Steel,Fairy,7,Soul-Heart,
+802,Marshadow,マーシャドー,Māshadō,Fighting,Ghost,7,Technician,
+803,Poipole,ベベノム,Bebenomu,Poison,,7,Beast Boost,
+804,Naganadel,アーゴヨン,Āgoyon,Poison,Dragon,7,Beast Boost,
+805,Stakataka,ツンデツンデ,Tsundetsunde,Rock,Steel,7,Beast Boost,
+806,Blacephalon,ズガドーン,Zugadōn,Fire,Ghost,7,Beast Boost,
+807,Zeraora,ゼラオラ,Zeraora,Electric,,7,Volt Absorb,
+808,Meltan,メルタン,Merutan,Steel,,7,Magnet Pull,
+809,Melmetal,メルメタル,Merumetaru,Steel,,7,Iron Fist,
+810,Grookey,サルノリ,Sarunori,Grass,,8,Overgrow,
+811,Thwackey,バチンキー,Bachinkī,Grass,,8,Overgrow,
+812,Rillaboom,ゴリランダー,Gorirandā,Grass,,8,Overgrow,
+813,Scorbunny,ヒバニー,Hibanī,Fire,,8,Blaze,
+814,Raboot,ラビフット,Rabifutto,Fire,,8,Blaze,
+815,Cinderace,エースバーン,Ēsubān,Fire,,8,Blaze,
+816,Sobble,メッソン,Messon,Water,,8,Torrent,
+817,Drizzile,ジメレオン,Jimereon,Water,,8,Torrent,
+818,Inteleon,インテレオン,Intereon,Water,,8,Torrent,
+819,Skwovet,ホシガリス,Hoshigarisu,Normal,,8,Cheek Pouch,
+820,Greedent,ヨクバリス,Yokubarisu,Normal,,8,Cheek Pouch,
+821,Rookidee,ココガラ,Kokogara,Flying,,8,Keen Eye,Unnerve
+822,Corvisquire,アオガラス,Aogarasu,Flying,,8,Keen Eye,Unnerve
+823,Corviknight,アーマーガア,Āmāgā,Flying,Steel,8,Pressure,Unnerve
+824,Blipbug,サッチムシ,Satchimushi,Bug,,8,Swarm,Compound Eyes
+825,Dottler,レドームシ,Redōmushi,Bug,Psychic,8,Swarm,Compound Eyes
+826,Orbeetle,イオルブ,Iorubu,Bug,Psychic,8,Swarm,Frisk
+827,Nickit,クスネ,Kusune,Dark,,8,Run Away,Unburden
+828,Thievul,フォクスライ,Fokusurai,Dark,,8,Run Away,Unburden
+829,Gossifleur,ヒメンカ,Himenka,Grass,,8,Cotton Down,Regenerator
+830,Eldegoss,ワタシラガ,Watashiraga,Grass,,8,Cotton Down,Regenerator
+831,Wooloo,ウールー,Ūrū,Normal,,8,Fluffy,Run Away
+832,Dubwool,バイウールー,Baiūrū,Normal,,8,Fluffy,Steadfast
+833,Chewtle,カムカメ,Kamukame,Water,,8,Strong Jaw,Shell Armor
+834,Drednaw,カジリガメ,Kajirigame,Water,Rock,8,Strong Jaw,Shell Armor
+835,Yamper,ワンパチ,Wanpachi,Electric,,8,Ball Fetch,
+836,Boltund,パルスワン,Parusuwan,Electric,,8,Strong Jaw,
+837,Rolycoly,タンドン,Tandon,Rock,,8,Steam Engine,Heatproof
+838,Carkol,トロッゴン,Toroggon,Rock,Fire,8,Steam Engine,Flame Body
+839,Coalossal,セキタンザン,Sekitanzan,Rock,Fire,8,Steam Engine,Flame Body
+840,Applin,カジッチュ,Kajitchu,Grass,Dragon,8,Ripen,Gluttony
+841,Flapple,アップリュー,Appuryū,Grass,Dragon,8,Ripen,Gluttony
+842,Appletun,タルップル,Taruppuru,Grass,Dragon,8,Ripen,Gluttony
+843,Silicobra,スナヘビ,Sunahebi,Ground,,8,Sand Spit,Shed Skin
+844,Sandaconda,サダイジャ,Sadaija,Ground,,8,Sand Spit,Shed Skin
+845,Cramorant,ウッウ,U'u,Flying,Water,8,Gulp Missile,
+846,Arrokuda,サシカマス,Sashikamasu,Water,,8,Swift Swim,
+847,Barraskewda,カマスジョー,Kamasujō,Water,,8,Swift Swim,
+848,Toxel,エレズン,Erezun,Electric,Poison,8,Rattled,Static
+849,Toxtricity,ストリンダー,Sutorindā,Electric,Poison,8,Punk Rock,Minus
+850,Sizzlipede,ヤクデ,Yakude,Fire,Bug,8,Flash Fire,White Smoke
+851,Centiskorch,マルヤクデ,Maruyakude,Fire,Bug,8,Flash Fire,White Smoke
+852,Clobbopus,タタッコ,Tatakko,Fighting,,8,Limber,
+853,Grapploct,オトスパス,Otosupasu,Fighting,,8,Limber,
+854,Sinistea,ヤバチャ,Yabacha,Ghost,,8,Weak Armor,
+855,Polteageist,ポットデス,Pottodesu,Ghost,,8,Weak Armor,
+856,Hatenna,ミブリム,Miburimu,Psychic,,8,Healer,Anticipation
+857,Hattrem,テブリム,Teburimu,Psychic,,8,Healer,Anticipation
+858,Hatterene,ブリムオン,Burimuon,Psychic,Fairy,8,Healer,Anticipation
+859,Impidimp,ベロバー,Berobā,Dark,Fairy,8,Prankster,Frisk
+860,Morgrem,ギモー,Gimō,Dark,Fairy,8,Prankster,Frisk
+861,Grimmsnarl,オーロンゲ,Ōronge,Dark,Fairy,8,Prankster,Frisk
+862,Obstagoon,タチフサグマ,Tachifusaguma,Dark,Normal,8,Reckless,Guts
+863,Perrserker,ニャイキング,Nyaikingu,Steel,,8,Battle Armor,Tough Claws
+864,Cursola,サニゴーン,Sanigōn,Ghost,,8,Weak Armor,
+865,Sirfetch'd,ネギガナイト,Negiganaito,Fighting,,8,Steadfast,
+866,Mr.Rime,バリコオル,Barikōru,Psychic,Ice,8,Tangled Feet,Screen Cleaner
+867,Runerigus,デスバーン,Desubān,Ground,Ghost,8,Wandering Spirit,
+868,Milcery,マホミル,Mahomiru,Fairy,,8,Sweet Veil,
+869,Alcremie,マホイップ,Mahoippu,Fairy,,8,Sweet Veil,
+870,Falinks,タイレーツ,Tairētsu,Fighting,,8,Battle Armor,
+871,Pincurchin,バチンウニ,Bachin'uni,Electric,,8,Lightning Rod,
+872,Snom,ユキハミ,Yukihami,Ice,Bug,8,Shield Dust,
+873,Frosmoth,モスノウ,Mosunō,Ice,Bug,8,Shield Dust,
+874,Stonjourner,イシヘンジン,Ishihenjin,Rock,,8,Power Spot,
+875,Eiscue,コオリッポ,Kōrippo,Ice,,8,Ice Face,
+876,Indeedee,イエッサン,Iessan,Psychic,Normal,8,Inner Focus,Synchronize
+877,Morpeko,モルペコ,Morupeko,Electric,Dark,8,Hunger Switch,
+878,Cufant,ゾウドウ,Zōdō,Steel,,8,Sheer Force,
+879,Copperajah,ダイオウドウ,Daiōdō,Steel,,8,Sheer Force,
+880,Dracozolt,パッチラゴン,Patchiragon,Electric,Dragon,8,Volt Absorb,Hustle
+881,Arctozolt,パッチルドン,Patchirudon,Electric,Ice,8,Volt Absorb,Static
+882,Dracovish,ウオノラゴン,Uonoragon,Water,Dragon,8,Water Absorb,Strong Jaw
+883,Arctovish,ウオチルドン,Uochirudon,Water,Ice,8,Water Absorb,Ice Body
+884,Duraludon,ジュラルドン,Jurarudon,Steel,Dragon,8,Light Metal,Heavy Metal
+885,Dreepy,ドラメシヤ,Dorameshiya,Dragon,Ghost,8,Clear Body,Infiltrator
+886,Drakloak,ドロンチ,Doronchi,Dragon,Ghost,8,Clear Body,Infiltrator
+887,Dragapult,ドラパルト,Doraparuto,Dragon,Ghost,8,Clear Body,Infiltrator
+888,Zacian,ザシアン,Zashian,Fairy,Steel,8,Intrepid Sword,
+889,Zamazenta,ザマゼンタ,Zamazenta,Fighting,Steel,8,Dauntless Shield,
+890,Eternatus,ムゲンダイナ,Mugendaina,Poison,Dragon,8,Pressure,
