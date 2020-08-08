@@ -2,7 +2,7 @@ div.row
   - @pokemon_list.each do |pokemon|
     div.col-md-6.col-xl-4.mb-2
       a.simple-anchor.text-dark href= url_for(action: :show, id: pokemon.id)
-        div.media.pokemon-card.bg-white-hover.shadow.my-lg-2.my-1
+        div.media.pokemon-card.bg-white-hover.border.shadow.my-lg-2.my-1
           img.pokemon-image.ml-4.ml-sm-5.ml-md-2.ml-lg-5.ml-xl-3.mr-sm-0.mr-3.py-1 src= pokemon_thumbnail_image_url(pokemon.id)
           div.vertical-line.align-self-center.mx-2
           div.media-body.pt-sm-3.pt-2.pb-1.px-1
