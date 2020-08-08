@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_03_123719) do
+ActiveRecord::Schema.define(version: 2020_08_08_201124) do
+
+  create_table "abilities", force: :cascade do |t|
+    t.string "english"
+    t.string "description_english"
+    t.string "japanese"
+    t.string "description_japanese"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "generations", force: :cascade do |t|
     t.string "region_english"
