@@ -35,6 +35,7 @@ ja:
     romaji: "ローマ字："
     types: "タイプ："
     region: "地方："
+    abilities: "特性"
   generation:
     region: "地方"
   pagination:

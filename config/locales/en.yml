@@ -35,6 +35,7 @@ en:
     romaji: "Rōmaji: "
     types: "Type(s): "
     region: "Region: "
+    abilities: "Abilities"
   generation:
     region: "region"
   pagination:
