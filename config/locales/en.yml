@@ -36,6 +36,7 @@ en:
     types: "Type(s): "
     region: "Region: "
     abilities: "Abilities"
+    name_origins: "Name origins"
   generation:
     region: "region"
   pagination:

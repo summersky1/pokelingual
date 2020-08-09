@@ -36,6 +36,7 @@ ja:
     types: "タイプ："
     region: "地方："
     abilities: "特性"
+    name_origins: "名前の由来"
   generation:
     region: "地方"
   pagination:
