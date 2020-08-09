@@ -18,15 +18,11 @@ div.row.mt-1
       tr
         td.attribute-name = t('show.types')
         td
-          figure.figure.text-center.mb-0
-            img.show-pokemon-type src= type_image_url(@pokemon.types[0].id)
-            div.show-text-small = @pokemon.types[0].english
-            div.show-text-small.mt-n1 = @pokemon.types[0].japanese
-          - if @pokemon.types[1].present?
-            figure.figure.text-center.mb-0.ml-3
-              img.show-pokemon-type src= type_image_url(@pokemon.types[1].id)
-              div.show-text-small = @pokemon.types[1].english
-              div.show-text-small.mt-n1 = @pokemon.types[1].japanese
+          - @pokemon.types.each do |type|
+            figure.figure.text-center.mb-0.mr-3
+              img.show-pokemon-type src= type_image_url(type.id)
+              div.show-text-small = type.english
+              div.show-text-small.mt-n1 = type.japanese
       tr
         td.attribute-name = t('show.region')
         - gen = @pokemon.generation
