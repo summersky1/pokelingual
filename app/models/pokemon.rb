@@ -16,6 +16,9 @@ class Pokemon < ApplicationRecord
       include: {
         types: {
           only: [:id, :english, :japanese]
+        },
+        abilities: {
+          only: [:english, :japanese]
         }
       }
     )
