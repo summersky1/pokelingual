@@ -1,11 +1,11 @@
-div.row.mt-2
+div.row
   div.col-lg-6.text-center.mb-2
     img.show-pokemon-image src= pokemon_large_image_url(@pokemon.id)
   div.col-lg-6
-    table.table.border-bottom.table-hover.mb-0
+    table.table.table-hover.mb-0
       tr
-        td.attribute-name = t('show.national_dex')
-        td = "##{@pokemon.id}"
+        td.border-top-0.attribute-name = t('show.national_dex')
+        td.border-top-0 = "##{@pokemon.id}"
       tr
         td.attribute-name = t('show.english')
         td.show-text-large = @pokemon.name_english
@@ -32,13 +32,24 @@ div.row.mt-2
         - gen = @pokemon.generation
         td = "#{gen.region_english} | #{gen.region_japanese}"
 
-table.table.border-bottom.table-hover
+table.table.border-bottom.table-hover.mt-lg-2
+  tr
+    td
+      div.text-center.font-weight-bold
+        u = t('show.abilities')
+      - @pokemon.abilities.each do |ability|
+        div.pt-1
+          span.font-weight-bold = ability.english + ": "
+          = ability.description_english
+        div.pt-1
+          span.font-weight-bold = ability.japanese + "："
+          = ability.description_japanese
   tr
     td
       span.font-weight-bold = "English name origin: "
       = @pokemon.name_origin_english
   tr
-    td 
+    td
       div
         span.font-weight-bold = "日本語名の由来："
         = @pokemon.name_origin_japanese

@@ -1,9 +1,11 @@
 require 'elasticsearch/model'
 
 class Pokemon < ApplicationRecord
+  belongs_to :generation
   has_many :pokemon_types
   has_many :types, :through => :pokemon_types
-  belongs_to :generation
+  has_many :pokemon_abilities
+  has_many :abilities, :through => :pokemon_abilities
 
   include Elasticsearch::Model
   include Elasticsearch::Model::Callbacks
