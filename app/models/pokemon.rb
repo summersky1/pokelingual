@@ -16,6 +16,9 @@ class Pokemon < ApplicationRecord
       include: {
         types: {
           only: [:id, :english, :japanese]
+        },
+        abilities: {
+          only: [:english, :japanese]
         }
       }
     )
@@ -43,7 +46,7 @@ class Pokemon < ApplicationRecord
             {
               multi_match: {
                 query: query,
-                fields: ['types.english', 'types.japanese']
+                fields: ['types.english', 'types.japanese', 'abilities.english', 'abilities.japanese']
               }
             }
           ]

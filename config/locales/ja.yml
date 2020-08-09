@@ -27,6 +27,8 @@ ja:
     incorrect_search_explanation: "(誤字でも一致)"
     type_search: "みず こおり"
     type_search_explanation: "(タイプで検索)"
+    ability_search: "メロメロボディ"
+    ability_search_explanation: "(特性で検索)"
     random_pokemon: "ランダムポケモン"
   show:
     national_dex: "全国図鑑："

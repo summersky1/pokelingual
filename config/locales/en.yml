@@ -27,6 +27,8 @@ en:
     incorrect_search_explanation: "(matches incorrect spelling)"
     type_search: "water ice"
     type_search_explanation: "(search by type)"
+    ability_search: "cute charm"
+    ability_search_explanation: "(search by ability)"
     random_pokemon: "Random Pokemon"
   show:
     national_dex: "National dex: "

@@ -27,7 +27,9 @@ form method="get" action= url_for(action: :search)
       a href=url_for(query: t('search.incorrect_search')) = t('search.incorrect_search')
       = " #{t('search.incorrect_search_explanation')}, "
       a href=url_for(query: t('search.type_search')) = t('search.type_search')
-      = " #{t('search.type_search_explanation')} "
+      = " #{t('search.type_search_explanation')}, "
+      a href=url_for(query: t('search.ability_search')) = t('search.ability_search')
+      = " #{t('search.ability_search_explanation')} "
 hr.my-sm-3.my-2
 h5.mb-1
   - if @search_success == true
