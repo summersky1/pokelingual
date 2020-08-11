@@ -1,8 +1,10 @@
 require 'csv'
 
+filepath = 'lib/datasets/'
+
 Generation.delete_all
 generations = []
-CSV.foreach('lib/datasets/generations.csv', headers: true) do |row|
+CSV.foreach(filepath + 'generations.csv', headers: true) do |row|
   generations << Generation.new({
     id: row[0],
     region_english: row[1],
@@ -13,7 +15,7 @@ Generation.bulk_import(generations)
 
 Type.delete_all
 types = []
-CSV.foreach('lib/datasets/types.csv', headers: true) do |row|
+CSV.foreach(filepath + 'types.csv', headers: true) do |row|
   types << Type.new({
     id: row[0],
     english: row[1],
@@ -25,7 +27,7 @@ Type.bulk_import(types)
 Ability.delete_all
 abilities = []
 abilities_hash = {} # used to save database calls when creating PokemonAbility records
-CSV.foreach('lib/datasets/abilities.csv', headers: true) do |row|
+CSV.foreach(filepath + 'abilities.csv', headers: true) do |row|
   abilities << Ability.new({
     id: row[0],
     english: row[1],
@@ -39,7 +41,7 @@ Ability.bulk_import(abilities)
 
 previous_id = 0
 pokemon_name_origins = []
-CSV.foreach('lib/datasets/pokemon_name_origins_jp.csv') do |row|
+CSV.foreach(filepath + 'pokemon_name_origins_jp.csv') do |row|
   # ignore alternate pokemon forms etc.
   if row[0].to_i != previous_id
     pokemon_name_origins[row[0].to_i] = { japanese: row[3], japanese_for_english: row[4] }
@@ -47,7 +49,7 @@ CSV.foreach('lib/datasets/pokemon_name_origins_jp.csv') do |row|
   end
 end
 
-CSV.foreach('lib/datasets/pokemon_name_origins_en.csv', headers: true) do |row|
+CSV.foreach(filepath + 'pokemon_name_origins_en.csv', headers: true) do |row|
   pokemon_name_origins[row[0].to_i].merge!(english: row[2])
 end
 
@@ -57,7 +59,7 @@ Pokemon.delete_all
 pokemon_list = []
 pokemon_types = []
 pokemon_abilities = []
-CSV.foreach('lib/datasets/pokemon.csv', headers: true) do |row|
+CSV.foreach(filepath + 'pokemon.csv', headers: true) do |row|
   pokemon_list << Pokemon.new({
     id: row[0],
     name_english: row[1],
