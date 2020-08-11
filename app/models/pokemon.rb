@@ -46,7 +46,7 @@ class Pokemon < ApplicationRecord
             {
               multi_match: {
                 query: query,
-                fields: ['types.english', 'types.japanese', 'abilities.english', 'abilities.japanese']
+                fields: ['types.english^2', 'types.japanese^2', 'abilities.english', 'abilities.japanese']
               }
             }
           ]
