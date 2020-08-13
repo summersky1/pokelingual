@@ -14,7 +14,7 @@ class PokemonController < ApplicationController
     pokemon_list = []
     if params[:query].present?
       if contains_kana(params[:query])
-        pokemon_list = Pokemon.autocomplete(params[:query], true)
+        pokemon_list = Pokemon.autocomplete(to_katakana(params[:query]), true)
       elsif params[:query].length >= 2
         pokemon_list = Pokemon.autocomplete(params[:query], false)
       end
@@ -44,5 +44,10 @@ class PokemonController < ApplicationController
 
     def contains_kana(string)
       string =~ /\p{Katakana}|\p{Hiragana}/
+    end
+
+    # convert hiragana to katakana (only for autocomplete suggestions)
+    def to_katakana(query)
+      query.tr('ぁ-ん','ァ-ン')
     end
 end

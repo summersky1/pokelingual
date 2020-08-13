@@ -11,10 +11,6 @@ $(document).on('turbolinks:load',
                 onChooseEvent: function() {
                     var url = $input.getSelectedItemData().url
                     Turbolinks.visit(url)
-                },
-                // only show results matching current query
-                match: {
-                    enabled: true
                 }
             },
             // keep search box full width
