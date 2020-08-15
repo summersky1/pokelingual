@@ -8,14 +8,13 @@ html
     = csrf_meta_tags
     = csp_meta_tag
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
-    = stylesheet_link_tag 'application', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'
     = stylesheet_link_tag 'application', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
 
   body.sticky-footer.bg-edges
     = render 'layouts/navbar'
 
-    div.container.animated.fadeIn.faster.mt-5.pt-sm-1.pb-sm-3.pb-2
+    div.container.animate__animated.animate__fadeIn.animate__fast.mt-5.pt-sm-1.pb-sm-3.pb-2
       = yield
 
     footer.footer.mt-auto.py-2.bg-danger.text-center
