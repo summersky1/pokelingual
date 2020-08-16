@@ -12,20 +12,20 @@ h4 = t('search.title')
   div.text-secondary.mt-md-n3.mt-n2
     span = t('search.example_searches')
     div
-      a href=url_for(query: 'pikachu') pikachu
+      = link_to("pikachu", url_for(query: 'pikachu'), remote: true)
       = " #{t('search.english')}, "
-      a href=url_for(query: 'ピカチュウ') ピカチュウ
+      = link_to("ピカチュウ", url_for(query: 'ピカチュウ'), remote: true)
       = " #{t('search.japanese')}, "
-      a href=url_for(query: 'rizadon') rizadon
+      = link_to("rizadon", url_for(query: 'rizadon'), remote: true)
       = " #{t('search.romaji')} "
     div
-      a href=url_for(query: t('search.prefix_search')) = t('search.prefix_search')
+      = link_to(t('search.prefix_search'), url_for(query: t('search.prefix_search')), remote: true)
       = " #{t('search.prefix_search_explanation')}, "
-      a href=url_for(query: t('search.incorrect_search')) = t('search.incorrect_search')
+      = link_to(t('search.incorrect_search'), url_for(query: t('search.incorrect_search')), remote: true)
       = " #{t('search.incorrect_search_explanation')}, "
-      a href=url_for(query: t('search.type_search')) = t('search.type_search')
+      = link_to(t('search.type_search'), url_for(query: t('search.type_search')), remote: true)
       = " #{t('search.type_search_explanation')}, "
-      a href=url_for(query: t('search.ability_search')) = t('search.ability_search')
+      = link_to(t('search.ability_search'), url_for(query: t('search.ability_search')), remote: true)
       = " #{t('search.ability_search_explanation')} "
 hr.my-sm-3.my-2
 
