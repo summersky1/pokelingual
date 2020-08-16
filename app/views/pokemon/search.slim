@@ -27,12 +27,8 @@ h4 = t('search.title')
       = " #{t('search.type_search_explanation')}, "
       a href=url_for(query: t('search.ability_search')) = t('search.ability_search')
       = " #{t('search.ability_search_explanation')} "
-
 hr.my-sm-3.my-2
 
 / id used for ajax
 div#search-results
   = render 'layouts/search_results'
-
-- if @search_success == true && @pokemon_list.total_pages > 1
-  = render 'layouts/pagination'

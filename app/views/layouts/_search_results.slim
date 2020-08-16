@@ -9,3 +9,6 @@ div.animate__animated.animate__fadeIn.animate__fast
       = t('search.random_pokemon')
 
   = render 'layouts/pokemon_cards'
+
+  - if @search_success == true && @pokemon_list.total_pages > 1
+    = render 'layouts/pagination'
