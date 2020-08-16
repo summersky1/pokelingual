@@ -1,6 +1,6 @@
 h4 = t('search.title')
 
-form method="get" action= url_for(action: :search)
+= form_tag("search", method: "get", remote: true)
   div.input-group
     input.form-control[ type="search" name="query" placeholder=t('search.placeholder') minlength="2" 
       value=params[:query] data-behavior="autocomplete" ]
@@ -9,9 +9,6 @@ form method="get" action= url_for(action: :search)
   div.text-right
     span.text-secondary.small powered by
     img style="width: 108px" src=image_path("misc/elasticsearch.png")
-  - if params[:query].present? && @search_success == false
-    div.text-center.mb-3
-      h6.text-danger = t('search.no_results')
   div.text-secondary.mt-md-n3.mt-n2
     span = t('search.example_searches')
     div
@@ -30,14 +27,12 @@ form method="get" action= url_for(action: :search)
       = " #{t('search.type_search_explanation')}, "
       a href=url_for(query: t('search.ability_search')) = t('search.ability_search')
       = " #{t('search.ability_search_explanation')} "
-hr.my-sm-3.my-2
-h5.mb-1
-  - if @search_success == true
-    = t('search.results')
-  - else
-    = t('search.random_pokemon')
 
-= render 'layouts/pokemon_cards'
+hr.my-sm-3.my-2
+
+/ id used for ajax
+div#search-results
+  = render 'layouts/search_results'
 
 - if @search_success == true && @pokemon_list.total_pages > 1
   = render 'layouts/pagination'

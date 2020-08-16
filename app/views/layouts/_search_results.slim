@@ -1,0 +1,11 @@
+div.animate__animated.animate__fadeIn.animate__fast
+  h5.mb-1
+    - if @search_success == true
+      = t('search.results')
+    - else
+      - if params[:query].present?
+        div.text-center.mb-2
+          h6.text-danger = t('search.no_results')
+      = t('search.random_pokemon')
+
+  = render 'layouts/pokemon_cards'

@@ -8,6 +8,11 @@ class PokemonController < ApplicationController
       @search_success = true if !@pokemon_list.empty?
     end
     @pokemon_list = Pokemon.get_random_pokemon(9) if @search_success == false
+    
+    respond_to do |format|
+      format.html
+      format.js { render partial: 'layouts/update_results' }
+    end
   end
 
   def autocomplete
