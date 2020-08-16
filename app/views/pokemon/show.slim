@@ -1,57 +1,58 @@
-div.row.mt-1
-  div.col-lg-6.text-center.mb-2
-    img.show-pokemon-image src= pokemon_large_image_url(@pokemon.id)
-  div.col-lg-6
-    table.table.table-hover.mb-0
-      tr
-        td.border-top-0.attribute-name = t('show.national_dex')
-        td.border-top-0 = "##{@pokemon.id}"
-      tr
-        td.attribute-name = t('show.english')
-        td.show-text-large = @pokemon.name_english
-      tr
-        td.attribute-name = t('show.japanese')
-        td.show-text-large = @pokemon.name_japanese
-      tr
-        td.attribute-name = t('show.romaji')
-        td = @pokemon.name_romaji
-      tr
-        td.attribute-name = t('show.types')
-        td
-          - @pokemon.types.each do |type|
-            figure.figure.text-center.mb-0.mr-3
-              img.show-pokemon-type src= type_image_url(type.id)
-              div.show-text-small = type.english
-              div.show-text-small.mt-n1 = type.japanese
-      tr
-        td.attribute-name = t('show.region')
-        - gen = @pokemon.generation
-        td = "#{gen.region_english} | #{gen.region_japanese}"
+div.animate__animated.animate__fadeIn.animate__fast
+  div.row.mt-1
+    div.col-lg-6.text-center.mb-2
+      img.show-pokemon-image src= pokemon_large_image_url(@pokemon.id)
+    div.col-lg-6
+      table.table.table-hover.mb-0
+        tr
+          td.border-top-0.attribute-name = t('show.national_dex')
+          td.border-top-0 = "##{@pokemon.id}"
+        tr
+          td.attribute-name = t('show.english')
+          td.show-text-large = @pokemon.name_english
+        tr
+          td.attribute-name = t('show.japanese')
+          td.show-text-large = @pokemon.name_japanese
+        tr
+          td.attribute-name = t('show.romaji')
+          td = @pokemon.name_romaji
+        tr
+          td.attribute-name = t('show.types')
+          td
+            - @pokemon.types.each do |type|
+              figure.figure.text-center.mb-0.mr-3
+                img.show-pokemon-type src= type_image_url(type.id)
+                div.show-text-small = type.english
+                div.show-text-small.mt-n1 = type.japanese
+        tr
+          td.attribute-name = t('show.region')
+          - gen = @pokemon.generation
+          td = "#{gen.region_english} | #{gen.region_japanese}"
 
-table.table.border-bottom.table-hover.mt-lg-2
-  tr
-    td
-      div.text-center.font-weight-bold
-        u = t('show.abilities')
-      - @pokemon.abilities.each do |ability|
+  table.table.border-bottom.table-hover.mt-lg-2
+    tr
+      td
+        div.text-center.font-weight-bold
+          u = t('show.abilities')
+        - @pokemon.abilities.each do |ability|
+          div.pt-1
+            span.font-weight-bold = ability.english + ": "
+            = ability.description_english
+          div.pt-1
+            span.font-weight-bold = ability.japanese + "："
+            = ability.description_japanese
+    tr
+      td
+        div.text-center.font-weight-bold
+          u = t('show.name_origins')
         div.pt-1
-          span.font-weight-bold = ability.english + ": "
-          = ability.description_english
+          span.font-weight-bold = "English name: "
+          = @pokemon.name_origin_english
         div.pt-1
-          span.font-weight-bold = ability.japanese + "："
-          = ability.description_japanese
-  tr
-    td
-      div.text-center.font-weight-bold
-        u = t('show.name_origins')
-      div.pt-1
-        span.font-weight-bold = "English name: "
-        = @pokemon.name_origin_english
-      div.pt-1
-        span.font-weight-bold = "日本語名："
-        = @pokemon.name_origin_japanese
-      div.pt-1
-        span.font-weight-bold = "英語名："
-        = @pokemon.name_origin_japanese_for_english
+          span.font-weight-bold = "日本語名："
+          = @pokemon.name_origin_japanese
+        div.pt-1
+          span.font-weight-bold = "英語名："
+          = @pokemon.name_origin_japanese_for_english
 
-= render 'layouts/show_navigation'
+  = render 'layouts/show_navigation'
