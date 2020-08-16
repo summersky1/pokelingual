@@ -39,6 +39,11 @@ class PokemonController < ApplicationController
     @first_pokemon_id = @pokemon_list[0].id
     @last_pokemon_id = @pokemon_list[-1].id
     @pokemon_list = @pokemon_list.page(params[:page]).per(12)
+
+    respond_to do |format|
+      format.html
+      format.js { render partial: 'layouts/generation' }
+    end
   end
 
   private

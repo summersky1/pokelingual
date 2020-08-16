@@ -1,6 +1,6 @@
 div
   h4 style="display: inline" = t("app.generation#{params[:id]}") + " " + t('generation.region')
   span.text-secondary = " (##{@first_pokemon_id} ~ ##{@last_pokemon_id})"
-  
-= render 'layouts/pokemon_cards'
-= render 'layouts/pagination'
+
+div#regional-pokemon
+  = render 'layouts/regional_pokemon'
