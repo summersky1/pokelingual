@@ -1,6 +1,6 @@
 h4 = t('search.title')
 
-form method="get" action= url_for(action: :search)
+= form_tag("search", method: "get", remote: true)
   div.input-group
     input.form-control[ type="search" name="query" placeholder=t('search.placeholder') minlength="2" 
       value=params[:query] data-behavior="autocomplete" ]
@@ -9,35 +9,26 @@ form method="get" action= url_for(action: :search)
   div.text-right
     span.text-secondary.small powered by
     img style="width: 108px" src=image_path("misc/elasticsearch.png")
-  - if params[:query].present? && @search_success == false
-    div.text-center.mb-3
-      h6.text-danger = t('search.no_results')
   div.text-secondary.mt-md-n3.mt-n2
     span = t('search.example_searches')
     div
-      a href=url_for(query: 'pikachu') pikachu
+      = link_to("pikachu", url_for(query: 'pikachu'), remote: true)
       = " #{t('search.english')}, "
-      a href=url_for(query: 'ピカチュウ') ピカチュウ
+      = link_to("ピカチュウ", url_for(query: 'ピカチュウ'), remote: true)
       = " #{t('search.japanese')}, "
-      a href=url_for(query: 'rizadon') rizadon
+      = link_to("rizadon", url_for(query: 'rizadon'), remote: true)
       = " #{t('search.romaji')} "
     div
-      a href=url_for(query: t('search.prefix_search')) = t('search.prefix_search')
+      = link_to(t('search.prefix_search'), url_for(query: t('search.prefix_search')), remote: true)
       = " #{t('search.prefix_search_explanation')}, "
-      a href=url_for(query: t('search.incorrect_search')) = t('search.incorrect_search')
+      = link_to(t('search.incorrect_search'), url_for(query: t('search.incorrect_search')), remote: true)
       = " #{t('search.incorrect_search_explanation')}, "
-      a href=url_for(query: t('search.type_search')) = t('search.type_search')
+      = link_to(t('search.type_search'), url_for(query: t('search.type_search')), remote: true)
       = " #{t('search.type_search_explanation')}, "
-      a href=url_for(query: t('search.ability_search')) = t('search.ability_search')
+      = link_to(t('search.ability_search'), url_for(query: t('search.ability_search')), remote: true)
       = " #{t('search.ability_search_explanation')} "
 hr.my-sm-3.my-2
-h5.mb-1
-  - if @search_success == true
-    = t('search.results')
-  - else
-    = t('search.random_pokemon')
 
-= render 'layouts/pokemon_cards'
-
-- if @search_success == true && @pokemon_list.total_pages > 1
-  = render 'layouts/pagination'
+/ id used for ajax
+div#search-results
+  = render 'layouts/search_results'

@@ -1,8 +1,8 @@
 nav.mt-2
   ul.pagination.justify-content-center
     - if params[:page].to_i > 1
-      a.page-link.text-danger href="#{path_to_first_page}" = t('pagination.first')
-      a.page-link.text-danger href="#{path_to_prev_page(@pokemon_list)}" = t('pagination.prev')
+      = link_to(t('pagination.first'), path_to_first_page, remote: true, class: "page-link text-danger")
+      = link_to(t('pagination.prev'), path_to_prev_page(@pokemon_list), remote: true, class: "page-link text-danger")
     - else
       li.page-item.disabled
         a.page-link = t('pagination.first')
@@ -10,8 +10,8 @@ nav.mt-2
         a.page-link = t('pagination.prev')
     span.page-link.text-danger = params[:page].present? ? params[:page] : 1
     - if params[:page].to_i < @pokemon_list.total_pages
-      a.page-link.text-danger href="#{path_to_next_page(@pokemon_list)}" = t('pagination.next')
-      a.page-link.text-danger href="#{path_to_last_page(@pokemon_list)}" = t('pagination.last')
+      = link_to(t('pagination.next'), path_to_next_page(@pokemon_list), remote: true, class: "page-link text-danger")
+      = link_to(t('pagination.last'), path_to_last_page(@pokemon_list), remote: true, class: "page-link text-danger")
     - else
       li.page-item.disabled
         a.page-link = t('pagination.next')
