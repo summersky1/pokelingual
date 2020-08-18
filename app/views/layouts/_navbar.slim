@@ -14,8 +14,7 @@ nav.navbar.fixed-top.navbar-expand-sm.navbar-dark.bg-danger.p-0.pr-sm-3
           - (1..8).each do |gen|
             a.dropdown-item href="#{url_for(action: :generation, id: gen)}" = "#{gen} | " + t("app.generation#{gen}")
     div.navbar-nav
-      div.nav-item.dropdown
-        a.nav-link.text-white.px-3.dropdown-toggle href="#" data-toggle="dropdown" = t('app.language')
-        div.dropdown-menu.bg-danger
-          = link_to('🇬🇧 English', params.permit(:locale).merge(locale: :en), { class: "dropdown-item" })
-          = link_to('🇯🇵 日本語', params.permit(:locale).merge(locale: :ja), { class: "dropdown-item" })
+      - if I18n.locale == :en
+        a.nav-item.nav-link.text-white.px-3 href= url_for(locale: :ja) 🇯🇵 日本語
+      - else
+        a.nav-item.nav-link.text-white.px-3 href= url_for(locale: :en) 🇬🇧 English
