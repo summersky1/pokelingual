@@ -10,10 +10,12 @@ nav.navbar.fixed-top.navbar-expand-sm.navbar-dark.bg-danger.p-0.pr-sm-3
         span.fa.fa-search.pr-1
         = t('app.search_link')
       div.nav-item.dropdown
-        a.nav-link.text-white.px-3.dropdown-toggle href="#" data-toggle="dropdown" = t('app.generation')
+        a.nav-link.text-white.px-3.dropdown-toggle href="#" data-toggle="dropdown"
+          span.fa.fa-sitemap.pr-1
+          = t('app.region')
         div.dropdown-menu.bg-danger
           - (1..8).each do |gen|
-            a.dropdown-item href="#{url_for(action: :generation, id: gen)}" = "#{gen} | " + t("app.generation#{gen}")
+            a.dropdown-item href="#{url_for(action: :generation, id: gen)}" = t("app.region#{gen}")
     div.navbar-nav
       - if I18n.locale == :en
         a.nav-item.nav-link.text-white.px-3 href= url_for(locale: :ja) 🇯🇵 日本語
