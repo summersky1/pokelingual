@@ -7,6 +7,7 @@ nav.navbar.fixed-top.navbar-expand-sm.navbar-dark.bg-danger.p-0.pr-sm-3
   #navbarNavAltMarkup.collapse.navbar-collapse
     div.navbar-nav.mx-auto
       a.nav-item.nav-link.text-white.px-3 href= url_for(action: :search)
+        span.fa.fa-search.pr-1
         = t('app.search_link')
       div.nav-item.dropdown
         a.nav-link.text-white.px-3.dropdown-toggle href="#" data-toggle="dropdown" = t('app.generation')
