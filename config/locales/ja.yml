@@ -39,6 +39,13 @@ ja:
     region: "地方："
     abilities: "特性"
     name_origins: "名前の由来"
+    base_stats: "種族値"
+    hp: "HP"
+    attack: "攻撃"
+    defence: "防御"
+    special_attack: "特攻"
+    special_defence: "特防"
+    speed: "素早さ"
   generation:
     region: "地方"
   pagination:

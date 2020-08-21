@@ -69,6 +69,12 @@ CSV.foreach(filepath + 'pokemon.csv', headers: true) do |row|
     name_origin_japanese: pokemon_name_origins[row[0].to_i][:japanese],
     name_origin_japanese_for_english: pokemon_name_origins[row[0].to_i][:japanese_for_english],
     name_origin_english: pokemon_name_origins[row[0].to_i][:english],
+    hp: row[13],
+    attack: row[14],
+    defence: row[15],
+    special_attack: row[16],
+    special_defence: row[17],
+    speed: row[18]
   })
   pokemon_types << PokemonType.new({
     pokemon_id: row[0],
