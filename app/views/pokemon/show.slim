@@ -60,11 +60,11 @@ div.animate__animated.animate__fadeIn.animate__fast
       td
         div.text-center.font-weight-bold
           span.fa.fa-bar-chart.pr-1
-          u Base stats
+          u = t('show.base_stats')
         div.row.pt-1
           - @normalized_stats.each do | key, value |
             div.col-sm-4.col-6.mb-2
-              span.font-weight-bold = key
+              span.font-weight-bold = t("show.#{key}")
               div.progress
                 div.progress-bar.stat-color style= "width: #{value}%"
 

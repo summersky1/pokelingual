@@ -39,6 +39,13 @@ en:
     region: "Region: "
     abilities: "Abilities"
     name_origins: "Name origins"
+    base_stats: "Base stats"
+    hp: "HP"
+    attack: "Attack"
+    defence: "Defence"
+    special_attack: "Special attack"
+    special_defence: "Special defence"
+    speed: "Speed"
   generation:
     region: "region"
   pagination:
