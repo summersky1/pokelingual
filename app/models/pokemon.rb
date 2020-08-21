@@ -100,4 +100,16 @@ class Pokemon < ApplicationRecord
     end
     Pokemon.find(pokemon_id)
   end
+
+  # normalize stat using the maximum value in that column as a value out of 100
+  def self.get_normalized_pokemon_stats(pokemon)
+    normalized_stats = {}
+    normalized_stats["hp"] = (pokemon.hp.to_f / 255 * 100).round
+    normalized_stats["attack"] = (pokemon.attack.to_f / 181 * 100).round
+    normalized_stats["defence"] = (pokemon.defence.to_f / 230 * 100).round
+    normalized_stats["special_attack"] = (pokemon.special_attack.to_f / 173 * 100).round
+    normalized_stats["special_defence"] = (pokemon.special_defence.to_f / 230 * 100).round
+    normalized_stats["speed"] = (pokemon.speed.to_f / 160 * 100).round
+    normalized_stats
+  end
 end

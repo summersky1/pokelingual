@@ -32,6 +32,7 @@ class PokemonController < ApplicationController
     @pokemon = Pokemon.find(pokemon_id)
     @prev_pokemon = Pokemon.get_previous_pokemon(pokemon_id)
     @next_pokemon = Pokemon.get_next_pokemon(pokemon_id)
+    @normalized_stats = Pokemon.get_normalized_pokemon_stats(@pokemon)
   end
 
   def generation
