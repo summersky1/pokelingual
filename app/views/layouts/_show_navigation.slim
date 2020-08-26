@@ -1,7 +1,7 @@
 div.d-flex.justify-content-between.mb-3
   a.simple-anchor.text-dark href= url_for(action: :show, id: @prev_pokemon.id)
     div.media.d-flex.align-items-center.bg-white-hover.px-sm-1
-      span.show-text-large «
+      span.fa.fa-chevron-left
       img.pokemon-icon.mx-1 src= pokemon_thumbnail_image_url(@prev_pokemon.id)
       div.media-body.text-center
         div.show-text-small = "##{@prev_pokemon.id}"
@@ -14,4 +14,4 @@ div.d-flex.justify-content-between.mb-3
         div.show-text-small = @next_pokemon.name_english
         div.show-text-small = @next_pokemon.name_japanese
       img.pokemon-icon.mx-1 src= pokemon_thumbnail_image_url(@next_pokemon.id)
-      span.show-text-large »
+      span.fa.fa-chevron-right
