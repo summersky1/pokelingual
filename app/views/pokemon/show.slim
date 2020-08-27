@@ -17,8 +17,8 @@ div.animate__animated.animate__fadeIn.animate__fast
           td.attribute-name = t('show.romaji')
           td = @pokemon.name_romaji
         tr
-          td.attribute-name = t('show.types')
-          td
+          td.attribute-name.pb-2 = t('show.types')
+          td.pb-2
             - @pokemon.types.each do |type|
               figure.figure.text-center.mb-0.mr-3
                 img.show-pokemon-type src= type_image_url(type.id)
