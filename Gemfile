@@ -31,6 +31,8 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Easily load environment variables 
   gem 'dotenv-rails'
+  # RSpec test framework
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -53,8 +55,6 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
-  # Use 'assert-template' in integration tests
-  gem 'rails-controller-testing'
 end
 
 group :production do
