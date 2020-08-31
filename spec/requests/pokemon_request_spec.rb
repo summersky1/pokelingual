@@ -12,12 +12,14 @@ RSpec.describe "Pokemon", type: :request do
     charmander = pokemons(:charmander)
     get "/en/pokemon/#{charmander.id}"
     expect(response).to be_successful
+    expect(response.body).to include("Charmander")
   end
 
   it "should get generation" do
     gen1 = generations(:gen1)
     get "/en/generation/#{gen1.id}"
     expect(response).to be_successful
+    expect(response.body).to include("Kanto")
   end
 
   it "should get autocomplete" do
@@ -29,6 +31,7 @@ RSpec.describe "Pokemon", type: :request do
   it "should load Japanese locale" do
     get '/ja/search'
     expect(response).to be_successful
+    expect(response.body).to include("検索")
   end
 
   it "should redirect no locale to :en" do
