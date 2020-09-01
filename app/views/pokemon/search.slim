@@ -5,7 +5,7 @@ h4 = t('search.title')
     input.form-control[ type="search" name="query" placeholder=t('search.placeholder') minlength="2" 
       value=params[:query] data-behavior="autocomplete" ]
     div.input-group-append
-      button.btn.btn-primary.fa.fa-search.bg-danger.border.border-danger type="submit"
+      button.btn.btn-primary.fa.fa-search.bg-danger.border.border-danger name="search_button" type="submit"
   div.text-right
     span.text-secondary.small powered by
     img style="width: 108px" src=image_path("misc/elasticsearch.png")

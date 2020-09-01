@@ -23,4 +23,15 @@ RSpec.describe "Pokelingual", type: :system do
     end
   end
 
+  describe "search" do
+    it "enables user to search for Pokemon" do
+      visit '/en/search'
+      expect(page).to have_css("div.pokemon-card")
+
+      fill_in "query", with: "pikachu"
+      click_button "search_button"
+      expect(page).to have_css("div.card-text-large", text: "Pikachu")
+    end
+  end
+
 end
