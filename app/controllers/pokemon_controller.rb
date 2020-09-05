@@ -1,5 +1,4 @@
 class PokemonController < ApplicationController
-  around_action :switch_locale
 
   def search
     @search_success = false
@@ -48,11 +47,6 @@ class PokemonController < ApplicationController
   end
 
   private
-    def switch_locale(&action)
-      locale = params[:locale] || I18n.default_locale
-      I18n.with_locale(locale, &action)
-    end
-
     def contains_kana(string)
       string =~ /\p{Katakana}|\p{Hiragana}/
     end
