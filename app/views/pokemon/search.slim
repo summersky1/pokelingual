@@ -2,7 +2,7 @@ h4 = t('search.title')
 
 = form_tag("search", method: "get", remote: true)
   div.input-group
-    input.form-control[ type="search" name="query" placeholder=t('search.placeholder') minlength="2" 
+    input.form-control[ type="search" name="query" id="search_box" placeholder=t('search.placeholder') minlength="2" 
       value=params[:query] data-behavior="autocomplete" ]
     div.input-group-append
       button.btn.btn-primary.fa.fa-search.bg-danger.border.border-danger name="search_button" type="submit"
