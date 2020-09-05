@@ -23,6 +23,8 @@ gem 'activerecord-import'
 gem 'kaminari'
 # Elasticsearch
 gem 'elasticsearch-model'
+# Plugin to help automatically set locale
+gem 'http_accept_language'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
