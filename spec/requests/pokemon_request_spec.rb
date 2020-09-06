@@ -34,9 +34,9 @@ RSpec.describe "Pokemon", type: :request do
     expect(response.body).to include("検索")
   end
 
-  it "should redirect no locale to :en" do
+  it "should redirect no locale to root" do
     get '/search'
-    expect(response).to redirect_to('/en/search')
+    expect(response).to redirect_to('/')
   end
   
   it "should redirect invalid location to root" do
