@@ -10,7 +10,7 @@ class PokemonController < ApplicationController
     
     respond_to do |format|
       format.html
-      format.js { render partial: 'layouts/update_results' }
+      format.js { render partial: 'layouts/javascript/get_results' }
     end
   end
 
@@ -42,7 +42,7 @@ class PokemonController < ApplicationController
 
     respond_to do |format|
       format.html
-      format.js { render partial: 'layouts/generation' }
+      format.js { render partial: 'layouts/javascript/get_generation' }
     end
   end
 
