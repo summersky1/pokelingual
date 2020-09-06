@@ -1,0 +1,29 @@
+div.row.mt-1
+  div.col-lg-6.text-center.mb-1
+    img.show-pokemon-image.ml-xl-3 src= pokemon_large_image_url(@pokemon.id)
+  div.col-lg-6
+    table.table.table-hover.mb-0
+      tr
+        td.border-top-0.attribute-name = t('show.national_dex')
+        td.border-top-0 = "##{@pokemon.id}"
+      tr
+        td.attribute-name = t('show.english')
+        td.show-text-large = @pokemon.name_english
+      tr
+        td.attribute-name = t('show.japanese')
+        td.show-text-large = @pokemon.name_japanese
+      tr
+        td.attribute-name = t('show.romaji')
+        td = @pokemon.name_romaji
+      tr
+        td.attribute-name.pb-2 = t('show.types')
+        td.pb-2
+          - @pokemon.types.each do |type|
+            figure.figure.text-center.mb-0.mr-3
+              img.show-pokemon-type src= type_image_url(type.id)
+              div.show-text-small = type.english
+              div.show-text-small.mt-n1 = type.japanese
+      tr
+        td.attribute-name = t('show.region')
+        - gen = @pokemon.generation
+        td = "#{gen.region_english} | #{gen.region_japanese}"
