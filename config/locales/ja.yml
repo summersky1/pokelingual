@@ -12,6 +12,7 @@ ja:
     region7: "アローラ"
     region8: "ガラル"
     language: "表示言語"
+    footer: "制作：アジェイ｜v0.9-beta｜GPL-3.0ライセンス"
   search:
     title: "ポケモン検索"
     placeholder: "検索ワードを入力..."

@@ -12,6 +12,7 @@ en:
     region7: "Alola"
     region8: "Galar"
     language: "Language"
+    footer: "Developed by AJ | v0.9-beta | GPL-3.0 License"
   search:
     title: "Pokemon search"
     placeholder: "Enter search term..."
