@@ -10,7 +10,7 @@ module PokemonHelper
   end
 
   def type_image_url(type_id)
-    url = image_path("type_#{type_id}.svg")
+    url = image_path("types/type_#{type_id}.svg")
   end
 
   def path_to_first_page
