@@ -46,6 +46,9 @@ class PokemonController < ApplicationController
     end
   end
 
+  def about
+  end
+
   private
     def contains_kana(string)
       string =~ /\p{Katakana}|\p{Hiragana}/
