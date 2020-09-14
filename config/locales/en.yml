@@ -54,3 +54,6 @@ en:
     prev: "‹Prev"
     next: "Next›"
     last: "Last»"
+  about:
+    heading: "About"
+    description: "Learn Japanese through Pokemon!"

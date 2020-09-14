@@ -54,3 +54,6 @@ ja:
     prev: "‹前"
     next: "次›"
     last: "最後»"
+  about:
+    heading: "概要"
+    description: "ポケモンと通して英語を勉強しよう！"
