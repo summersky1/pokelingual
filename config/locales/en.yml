@@ -57,4 +57,5 @@ en:
     last: "Last»"
   about:
     heading: "About"
-    description: "Learn Japanese through Pokemon!"
+    description1: "Learn Japanese through Pokemon! Not only are the names of Pokemon different across languages, but abilities, moves, items, towns, cities and more all have unique names."
+    description2: "Pokelingual is designed to let you easily find the Japanese terms from the English (and vice-versa). Use your existing Pokemon knowledge and enjoy learning Japanese!"
