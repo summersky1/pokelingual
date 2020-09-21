@@ -22,6 +22,11 @@ RSpec.describe "Pokemon", type: :request do
     expect(response.body).to include("Kanto")
   end
 
+  it "should get about" do
+    get "/en/about"
+    expect(response).to be_successful
+  end
+
   it "should get autocomplete" do
     get '/en/autocomplete'
     expect(response).to be_successful
