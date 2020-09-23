@@ -11,8 +11,10 @@ ja:
     region6: "カロス"
     region7: "アローラ"
     region8: "ガラル"
+    about_link: "概要"
     language: "表示言語"
     footer: "制作：アジェイ｜v0.9-beta｜GPL-3.0ライセンス"
+    released: "v0.9-beta リリース：2020年9月8日 21:05 UTC"
   search:
     title: "ポケモン検索"
     placeholder: "検索ワードを入力..."
@@ -54,3 +56,8 @@ ja:
     prev: "‹前"
     next: "次›"
     last: "最後»"
+  about:
+    heading: "概要"
+    description1: "ポケモンを通して英語を勉強しましょう！ポケモンの名前だけではなく、特性、技、アイテム、町など全ての固有名詞は言語によって異なります。"
+    description2: "ポケリンガルは日本語の用語から簡単に英語が調べられる仕様になっています。自分のポケモンの知識を使って英語を楽しく！"
+    technology: "技術スタック："

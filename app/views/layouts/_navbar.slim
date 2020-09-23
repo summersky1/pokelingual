@@ -15,7 +15,11 @@ nav.navbar.fixed-top.navbar-expand-sm.navbar-dark.bg-danger.p-0.pr-sm-3
           = t('app.region')
         div.dropdown-menu.bg-danger
           - (1..8).each do |gen|
-            a.dropdown-item href="#{url_for(action: :generation, id: gen)}" = t("app.region#{gen}")
+            - region = I18n.locale == :en ? " " + t("app.region#{gen}") : t("app.region#{gen}")
+            a.dropdown-item href="#{url_for(action: :generation, id: gen)}" = region
+      a.nav-item.nav-link.text-white.px-3 href= url_for(action: :about)
+        span.fa.fa-info-circle.pr-1
+        = t('app.about_link')
     div.navbar-nav
       - if I18n.locale == :en
         a.nav-item.nav-link.text-white.px-3 href= url_for(locale: :ja) 🇯🇵 日本語

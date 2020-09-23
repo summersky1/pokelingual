@@ -11,8 +11,10 @@ en:
     region6: "Kalos"
     region7: "Alola"
     region8: "Galar"
+    about_link: "About"
     language: "Language"
     footer: "Developed by AJ | v0.9-beta | GPL-3.0 License"
+    released: "v0.9-beta released: 2020/09/08 9:05pm UTC"
   search:
     title: "Pokemon search"
     placeholder: "Enter search term..."
@@ -54,3 +56,8 @@ en:
     prev: "‹Prev"
     next: "Next›"
     last: "Last»"
+  about:
+    heading: "About"
+    description1: "Learn Japanese through Pokemon! Not only are the names of Pokemon different across languages, but abilities, moves, items, towns, cities and more all have unique names."
+    description2: "Pokelingual is designed to let you easily find the Japanese terms from the English (and vice-versa). Use your existing Pokemon knowledge and enjoy learning Japanese!"
+    technology: "Technology stack:"
