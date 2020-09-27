@@ -59,8 +59,8 @@ Setup Elasticsearch index
     Pokemon.import(force: true)
     exit
 
-Run tests
-Note: Autocomplete test uses selenium driver and will fail without Google Chrome installed.
+Run tests  
+Note: Autocomplete test uses selenium driver and will fail without Google Chrome installed.  
 注意：自動補完のテストは selenium 仕様によって Google Chrome がインストールされていないと失敗します。
 
     bundle exec rspec
