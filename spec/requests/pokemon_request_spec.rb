@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe "Pokemon", type: :request do
-  fixtures :pokemons, :generations
+  fixtures :pokemons, :generations, :types, :pokemon_types
 
   it "should get search" do
     get '/en/search'
