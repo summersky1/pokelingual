@@ -3,7 +3,13 @@
 Pokélingual is a English/Japanese Pokedex to designed to help learn Japanese.  
 ポケリンガルは英語の勉強を支援するために開発した日英ポケモン図鑑です。
 
-## Installation instructions / インストール方法 (Ubuntu 18.04, 20.04)
+## Features | 機能
+- Advanced search with autocomplete suggestions via Elasticsearch | 検索時に Elasticsearch による自動補完
+- Clean interface with mobile support | シンプルなデザインでスマホ対応
+- View list of Pokemon by region | 地方ごとにポケモンを閲覧
+- Switch between English and Japanese at any time | いつでも言語を切り替え
+
+## Installation instructions | インストール方法 (Ubuntu 18.04, 20.04)
 
 Install rbenv
 
