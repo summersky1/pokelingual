@@ -1,11 +1,15 @@
 div.animate__animated.animate__fadeIn.animate__fast
-  div.row.bg-white-hover.py-2.mx-sm-1
-    div.col-lg-6.text-center
-      img src=image_path("misc/pokedex.gif") style="max-width: 60%"
+  div.row.py-2.mx-sm-1
+    div.col-lg-6.text-center.align-self-center
+      img src=image_path("misc/pokedex.gif") style="max-width: 65%"
     div.col-lg-6
       h3 = t('about.heading')
       h5 = t('about.description1')
       h5 = t('about.description2')
+      hr
+      h5 = t('about.description3')
+  div
+    h5 = t('about.description4')
   hr
   h4 = t('about.technology')
   div.text-center

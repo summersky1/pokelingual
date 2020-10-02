@@ -60,4 +60,6 @@ en:
     heading: "About"
     description1: "Learn Japanese through Pokemon! Not only are the names of Pokemon different across languages, but abilities, moves, items, towns, cities and more all have unique names."
     description2: "Pokelingual is designed to let you easily find the Japanese terms from the English (and vice-versa). Use your existing Pokemon knowledge and enjoy learning Japanese!"
+    description3: "Learning languages can be quite difficult, especially a language like Japanese which is very different. From personal experience, enjoyment is very important factor in motivating you to keep going and reaching higher levels of proficiency."
+    description4: "The idea to create a bilingual Pokedex came about when I was finding it difficult to talk about Pokemon with a Japanese friend after realizing just how much of the series had been localized. I couldn't find an existing website that offered what I was looking for and so decided to build my own."
     technology: "Technology stack:"
