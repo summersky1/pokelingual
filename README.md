@@ -1,7 +1,8 @@
 # Pokélingual
 
 Pokélingual is a English/Japanese Pokedex to designed to help learn Japanese.  
-ポケリンガルは英語の勉強を支援するために開発した日英ポケモン図鑑です。
+ポケリンガルは英語の勉強を支援するために開発した日英ポケモン図鑑です。  
+https://pokelingual.herokuapp.com/
 
 ### Features | 機能
 - Advanced search with autocomplete suggestions via Elasticsearch | 検索時に Elasticsearch による自動補完
