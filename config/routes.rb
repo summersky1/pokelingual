@@ -9,7 +9,7 @@ Rails.application.routes.draw do
     get 'autocomplete', to: 'pokemon#autocomplete'
   end
 
-  root to: "pokemon#search"
+  root to: "pokemon#about"
   # redirect invalid locations to root
   get "/*path", to: redirect("/", status: 302)
   
