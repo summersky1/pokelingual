@@ -13,8 +13,8 @@ en:
     region8: "Galar"
     about_link: "About"
     language: "Language"
-    footer: "Developed by AJ | v0.9-beta | GPL-3.0 License"
-    released: "v0.9-beta released: 2020/09/08 9:05pm UTC"
+    footer: "Developed by AJ | v1.0 | GPL-3.0 License"
+    released: "v1.0 released: 2020/10/03 17:00 UTC"
   search:
     title: "Pokemon search"
     placeholder: "Enter search term..."
