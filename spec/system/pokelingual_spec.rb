@@ -8,8 +8,9 @@ RSpec.describe "Pokelingual", type: :system do
   describe "navbar" do
     it "contains links" do
       visit '/'
+      expect(page).to have_link("About", href: "/en/about")
+      expect(page).to have_link("日本語", href: "/ja/about")
       expect(page).to have_link("Search", href: "/en/search")
-      expect(page).to have_link("日本語", href: "/ja/search")
       (1..8).each do |gen|
         expect(page).to have_link(href: "/en/generation/#{gen}")
       end
