@@ -14,7 +14,7 @@ ja:
     about_link: "概要"
     language: "表示言語"
     footer: "制作：アジェイ｜v1.0｜GPL-3.0ライセンス"
-    released: "v1.0 リリース：2020年10月3日 17:00 UTC"
+    version: "v1.0、最終更新：2021年5月2日 13:00 UTC"
   search:
     title: "ポケモン検索"
     placeholder: "検索ワードを入力..."

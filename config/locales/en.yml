@@ -14,7 +14,7 @@ en:
     about_link: "About"
     language: "Language"
     footer: "Developed by AJ | v1.0 | GPL-3.0 License"
-    released: "v1.0 released: 2020/10/03 17:00 UTC"
+    version: "v1.0, last updated: 2021/05/02 13:00 UTC"
   search:
     title: "Pokemon search"
     placeholder: "Enter search term..."
